@@ -13,7 +13,7 @@ In addition to Gmail, there are a number of other services that can leverage aut
 If you use an app like Google Authenticator, you should be sure you have some way to recover access to your account if your phone is lost or destroyed. Most Lullabot-run accounts can be reset by an admin, but it can be problematic for personal accounts or smaller services without group or company features. An easy way to think about it is to think about how you would recover from a (local) disaster like a fire or flood. If you lost every piece of technology you owned, could you recover your accounts? Some strategies include:
 
 * Setting up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. Google lets you specify multiple recovery phone numbers, and as long as that person doesn't know your passwords they can't get into your account.
-* Printing out 2FA recovery codes and storing them outside of your house.
+* Printing out 2FA recovery codes and storing them outside of your house. If you use a password manager that is accessible from multiple devices, one option is to store them in your password manager.
 * Verifying each service with 2FA will let you recover an account with proper government ID. For example, Linode will do this, while Github will not.
 * Ensuring an account can be reset by an account admin - Google Apps accounts can do this, while Github and others can not.
 
