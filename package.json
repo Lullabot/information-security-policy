@@ -1,0 +1,14 @@
+{
+    "name": "information-security-policy",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Lullabot/information-security-policy.git"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "scripts": {
+        "install": "gitbook install && gitbook build"
+    },
+    "dependencies": {
+        "gitbook-cli": "^1.0.1"
+    }
+}
