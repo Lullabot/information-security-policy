@@ -4,7 +4,7 @@
 Two-factor authentication is required for any service that supports it, if that service contains Lullabot or client information. This includes, but is not limited to, Gmail, Github, Dropbox, and Slack.
 
 ### Scope
-This policy applies to all Lullabot employees and contractors.
+This policy applies to all services and accounts that contain Lullabot or client information.
 
 ### Compliance
 At least once a year each account or service that contains Lullabot or client information will be reviewed to determine if 2FA is available, and, if so, ensure it has been configured to require 2FA.
