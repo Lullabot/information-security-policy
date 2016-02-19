@@ -1,7 +1,7 @@
 ## Two-factor Authentication (2FA)
 
 ### Policy
-Any third party service that contains Lullabot or Lullabot client information should be configured to require two factor authentication, if two factor authentication is available for that service. This includes, but is not limited to, Gmail, Github, Dropbox, and Slack.
+Two-factor authentication is required for any service that supports it, if that service contains Lullabot or client information. This includes, but is not limited to, Gmail, Github, Dropbox, and Slack.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
@@ -22,11 +22,9 @@ once every minute. Using an app is great for those moments where your laptop has
 Two-factor authentication is significantly more secure than single-factor (username and password only). If someone figures out your single-factor authentication credentials, they can access your account indefinitely without you knowing, or worse, log in and change your password to lock you out. With two-factor
 authentication, there is a time-based token that they would need to know, too, and it continuously changes. This keeps your account much more secure.
 
-You are required to enable two-factor authentication for any service that supports it, if that service contains Lullabot or client information.
-
 If you use an authenticator app, you should be sure you have some way to recover access to your account if your phone is lost or destroyed. Most Lullabot-run accounts can be reset by an admin, but it can be problematic for personal accounts or smaller services without group or company features. An easy way to think about it is to think about how you would recover from a (local) disaster like a fire or flood. If you lost every piece of technology you owned, could you recover your accounts? Some strategies include:
 
-* Set up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. Google lets you specify multiple recovery phone numbers, and as long as that person doesn't know your passwords they can't get into your account.
+* Set up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. Google lets you specify multiple recovery phone numbers. PINs sent to other numbers won't compromise your accounts unless they also know your logins and passwords.
 * The Authy app provides an option to share codes across devices. This would allow you to retrieve your code from some other device that has the app installed.
 * Print out 2FA recovery codes and store them outside of your house. If you use a password manager that is accessible from other devices, you could store the recovery codes in your password manager in secure notes.
 * Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while Github will not.
