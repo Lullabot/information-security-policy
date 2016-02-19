@@ -26,7 +26,7 @@ If you use an authenticator app, you should be sure you have some way to recover
 
 * Set up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. Google lets you specify multiple recovery phone numbers. PINs sent to other numbers won't compromise your accounts unless they also know your logins and passwords.
 * The Authy app provides an option to share codes across devices. This would allow you to retrieve your code from some other device that has the app installed.
-* Print out 2FA recovery codes and store them outside of your house. If you use a password manager that is accessible from other devices, you could store the recovery codes in your password manager in secure notes.
+* Print out 2FA recovery codes and store them outside of your house. If you use a password manager that is accessible from multiple devices, you could store the recovery codes in your password manager in secure notes and access them from another device.
 * Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while Github will not.
 * Determine if an account can be reset by an account admin - Google Apps accounts can do this, while Github and others can not.
 
