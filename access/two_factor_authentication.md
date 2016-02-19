@@ -7,7 +7,7 @@ Two-factor authentication is required for any service that supports it, if that 
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-All Lullabot-controlled accounts that allow two factor authentication will be configured to require it.
+At least once a year each account or service that contains Lullabot or client information will be reviewed to determine if 2FA is available, and, if so, ensure it has been configured to require 2FA.
 
 ### Explanation and Implementation
 
