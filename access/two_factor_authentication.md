@@ -27,7 +27,7 @@ You are required to enable two-factor authentication for any service that suppor
 If you use an authenticator app, you should be sure you have some way to recover access to your account if your phone is lost or destroyed. Most Lullabot-run accounts can be reset by an admin, but it can be problematic for personal accounts or smaller services without group or company features. An easy way to think about it is to think about how you would recover from a (local) disaster like a fire or flood. If you lost every piece of technology you owned, could you recover your accounts? Some strategies include:
 
 * Set up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. Google lets you specify multiple recovery phone numbers, and as long as that person doesn't know your passwords they can't get into your account.
-* The Authy app provides an option to share codes across devices. This would allow you to retrieve your code from some other location.
+* The Authy app provides an option to share codes across devices. This would allow you to retrieve your code from some other device that has the app installed.
 * Print out 2FA recovery codes and store them outside of your house. If you use a password manager that is accessible from other devices, you could store the recovery codes in your password manager in secure notes.
 * Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while Github will not.
 * Determine if an account can be reset by an account admin - Google Apps accounts can do this, while Github and others can not.
