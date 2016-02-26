@@ -17,7 +17,7 @@ Traditional authentication consists of a username and password. However, there i
 
 When logging into an account that has been set up with two factor authentication, you will be asked for your username and password as usual, but you will also be asked for the _current_ PIN. 
 
-There are several ways to generate this PIN. It could be sent to the phone as a text message or email. Or you could install an authentication app. Examples of authentication apps are Google Authenticator or [Authy](https://www.authy.com/).
+There are several ways to generate this PIN. It could be sent to the phone as a text message or email. Or you could install an authentication app. Examples of authentication apps are [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) or [Authy](https://www.authy.com/).
 When an authentication app is linked to your account, the app will display a six digit PIN that changes 
 once every minute. Using an app is great for those moments where your laptop has internet access but your phone doesn't have a signal to get a text message.
 
