@@ -1,7 +1,7 @@
 # Lullabot VPN
 
 ### Policy
-
+The use of the virtual private network (VPN) is required when accessing Lullabot accounts and servers from unknown or untrusted locations.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
