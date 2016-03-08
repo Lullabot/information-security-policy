@@ -10,8 +10,6 @@ This policy applies to all Lullabot employees and contractors.
 1. Critical assets will only be available via the VPN, like the Daily Report and edit.lullabot.com.
 2. Since employees and contractors must use the VPN to access some assets, their devices will  be VPN-enabled. This will make it easy to use the VPN when they are working from any untrusted location.
 
-
-
 ### Explanation and Implementation
 
 Lullabot provides a VPN that provides a secure internet connection from your computer directly to one of our servers, which then forwards your traffic out to the internet. Instructions on how to connect can be found at https://www.dropbox.com/work/Lullabot/VPN. The VPN protects your traffic from being intercepted and viewed by any local network device, or even by your ISP, which means that you are protected from the creepy guy in the corner of Starbucks that looks like he is up to no good. (Yes, Dave Anjerad, we see you.)
