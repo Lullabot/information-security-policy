@@ -1,2 +1,0 @@
-# Lullabot VPN
-
