@@ -1,6 +1,6 @@
-# Virtual Private Network (VPN)
+# Lullabot VPN
 
-Lullabot provides a VPN that provides a secure internet connection from your computer directly to one of our servers, which then forwards your traffic out to the internet. Instructions on how to connect can be found at https://www.dropbox.com/work/Lullabot/VPN. The VPN protects your traffic
+Lullabot provides a virtual private network (VPN) that provides a secure internet connection from your computer directly to one of our servers, which then forwards your traffic out to the internet. Instructions on how to connect can be found at https://www.dropbox.com/work/Lullabot/VPN. The VPN protects your traffic
 from being intercepted and viewed by any local network device, or even by your ISP, which means that you are protected from the creepy guy in the corner of Starbucks that looks like he is up to no good. (Yes, Dave Anjerad, we see you.)
 
 It is important to understand that this only protects your traffic as it moves from your computer to our server. This means that once your traffic leaves our server, it is not any more secure than it would have been anyway. The protection is from other users or devices on your local network.
