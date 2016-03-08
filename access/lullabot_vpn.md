@@ -1,13 +1,13 @@
 # Lullabot VPN
 
 ### Policy
-The use of the virtual private network (VPN) is required when accessing Lullabot accounts and servers from unknown or untrusted locations.
+The use of the virtual private network (VPN) is required when accessing Lullabot servers and strongly recommended when accessing any accounts and servers from unknown or untrusted locations.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-
+Critical assets are only available via the VPN, like the Daily Report and edit.lullabot.com. Since users need to use the VPN to access some assets, they are configured to use the VPN and are likely used to doing so.
 
 ### Explanation and Implementation
 
