@@ -1,6 +1,15 @@
 # Lullabot VPN
 
-## Explanation and Implementation
+### Policy
+
+
+### Scope
+This policy applies to all Lullabot employees and contractors.
+
+### Compliance
+
+
+### Explanation and Implementation
 
 Lullabot provides a VPN that provides a secure internet connection from your computer directly to one of our servers, which then forwards your traffic out to the internet. Instructions on how to connect can be found at https://www.dropbox.com/work/Lullabot/VPN. The VPN protects your traffic from being intercepted and viewed by any local network device, or even by your ISP, which means that you are protected from the creepy guy in the corner of Starbucks that looks like he is up to no good. (Yes, Dave Anjerad, we see you.)
 
@@ -10,8 +19,7 @@ Using the VPN connection also makes all of your internet traffic appear to be co
 
 Finally, your VPN connection bypasses any local network restrictions. For example, it is not uncommon for public wifi hotspots to block services like IRC. If you don't know what IRC is, don't worry about it. By connecting to the VPN, you will automatically bypass any of these network-level restrictions.
 
-In general, the VPN is only for work-related use, because Lullabot is billed for the bandwidth used. That said, you should not stress out over whether something is using VPN bandwidth or not. For example, if you are connected for client work, it is fine if you visit reddit while you are taking a quick break,
-or if you listen to Pandora while you work, or if you want to participate in Dance Music Friday with your coworkers. It is also highly encouraged to use the VPN any time you are using public wifi at a coffee shop, airport, hotel, etc. This is especially true if you are using the same computer or other
+In general, the VPN is only for work-related use, because Lullabot is billed for the bandwidth used. That said, you should not stress out over whether something is using VPN bandwidth or not. For example, if you are connected for client work, it is fine if you visit reddit while you are taking a quick break, or if you listen to Pandora while you work, or if you want to participate in Dance Music Friday with your coworkers. It is also highly encouraged to use the VPN any time you are using public wifi at a coffee shop, airport, hotel, etc. This is especially true if you are using the same computer or other
 device that you use for work.
 
 If in doubt, err on the side of caution and use the VPN. Your protection is worth the price of the bandwidth.
