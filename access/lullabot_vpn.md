@@ -8,7 +8,7 @@ This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
 1. Critical assets are only available via the VPN, like the Daily Report and edit.lullabot.com.
-2. Since employees and contractors must use the VPN to access some assets, they will be configured to use the VPN, so it should be easy to use.
+2. Since employees and contractors must use the VPN to access some assets, they will be configured to use the VPN, making it easier to use.
 
 
 
