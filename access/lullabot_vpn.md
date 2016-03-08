@@ -7,7 +7,7 @@ The use of the virtual private network (VPN) is required when accessing Lullabot
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-Critical assets are only available via the VPN, like the Daily Report and edit.lullabot.com. Since employees and contractors must use the VPN to access some assets, they should already have their devices configured to use the VPN, and will be more likely to use it.
+Critical assets are only available via the VPN, like the Daily Report and edit.lullabot.com. Since employees and contractors must use the VPN to access some assets, they should already have their devices configured to use the VPN, and will hopefully be more likely to use it.
 
 ### Explanation and Implementation
 
