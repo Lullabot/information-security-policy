@@ -4,5 +4,5 @@
 * [Access Control](access/access_control.md)
    * [Two Factor Authentication](access/two_factor_authentication.md)
    * [Lullabot VPN](access/lullabot_vpn.md)
-   * Password Managers
+   * [Password Managers](access/password_managers.md)
 
