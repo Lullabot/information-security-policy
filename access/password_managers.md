@@ -1,7 +1,7 @@
 # Password Managers
 
 ### Policy
-The use of the a password manager is strongly recommended.
+The use of a password manager is strongly encouraged.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
