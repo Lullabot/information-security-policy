@@ -5,4 +5,5 @@
    * [Lullabot VPN](access/lullabot_vpn.md)
    * [Password Managers](access/password_managers.md)
    * [Two Factor Authentication](access/two_factor_authentication.md)
+   * [Passwords, PINs, and Passcodes] (access/passwords.md)
 
