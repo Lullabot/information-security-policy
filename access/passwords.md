@@ -1,8 +1,18 @@
 ## PINs, Passcodes and Passwords
 
+### Policy
+Strong passwords should be used for access to any company accounts and services. We recommend creating passwords with a minimum of 16 characters and a combination of alpabetic, numeric and special characters.
+
+### Scope
+This policy applies to all Lullabot employees and contractors.
+
+### Compliance
+The company uses a password manager for shared passwords and recommends its use for all passwords. The password manager will have tools to make it easier to create and manage strong passwords.
+
+### Explanation and Implementation
 The first layer of defense that we have for our online accounts is the PIN, passcode, or password. As such, it is extremely important to use good, unique passwords, and keep them well protected. A good password consists of a fully random string, the longer the better. Contrary to popular belief, the inclusion of numbers, characters, or mixed case does not matter nearly as much as the length of the password itself.
 
-Because the human brain is not capable of remembering long random passwords, we need the help of some sort of tool. Two popular tools for storing passwords are [Lastpass](https://lastpass.com/) and [1password](https://agilebits.com/onepassword). Both attempt to solve the same problem of letting you store all of your passwords in a convenient location for copy/paste operation, or even web form autofills with a browser plugin.
+Because the human brain is not capable of remembering long random passwords, we need the help of some sort of tool, like a [Password Manager](../../content/access/password_managers.html).
 
 Now that you are using one of these tools (right?), it is important to make sure that you are not using the same password on multiple services. Consider the event that one of these sites has its security compromised, and your username/password are discovered. Now, how many other places use that same combination? Are some of those important? Like maybe your email or bank accounts? This is why it is so important to use different passwords for different services.
 
