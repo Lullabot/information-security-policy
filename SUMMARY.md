@@ -8,4 +8,8 @@
    * [Passwords, PINs, and Passcodes](access/passwords.md)
    * [Password Managers](access/password_managers.md)
    * [Two Factor Authentication](access/two_factor_authentication.md)
-
+* [Physical and Environmental Security](physical/physical.md)
+   * [Backups](physical/backups.md)
+   * [Device Checklist](physical/device-checklist.md)
+   * [Lost or Stolen Devices](physical/lost-devices.md)
+   * [Hard Drive Encryption](physical/hard-drive-encryption.md)
