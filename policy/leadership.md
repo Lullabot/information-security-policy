@@ -1,7 +1,7 @@
 # Policy and Leadership
 
 ### Policy
-Lullabot will create a security team to manage and oversee its information security policy. This team should include members of management and representation from across all the functional areas of the company.
+Lullabot will create a security team to manage and oversee its information security policy. This team should include members of management and representation from across functional areas of the company.
 
 ### Scope
 This policy applies to Lullabot management.

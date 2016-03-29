@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Policy](policy/policy.md)
-* [Leadership](policy/leadership.md)
+   * [Leadership](policy/leadership.md)
 * [Access Control](access/access_control.md)
    * [Lullabot VPN](access/lullabot_vpn.md)
    * [Passwords, PINs, and Passcodes](access/passwords.md)
