@@ -1,16 +1,5 @@
 # Device Checklist
 
-### Policy
-All devices in the possession of Lullabot employees and contractors must be protected.
-
-### Scope
-This policy applies to all Lullabot employees and contractors.
-
-### Compliance
-This checklist provides a way for employees to self-evaluate their device security.
-
-### Explanation and Implementation
-
 Before starting, gather a list of all devices to audit:
 
 * Computers
