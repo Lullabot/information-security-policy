@@ -10,6 +10,7 @@
    * [Two Factor Authentication](access/two_factor_authentication.md)
 * [Physical Security](physical/physical.md)
    * [Backups](physical/backups.md)
-   * [Device Checklist](physical/device-checklist.md)
    * [Lost or Stolen Devices](physical/lost-devices.md)
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
+* [Appendix](appendix/appendix.md)
+   * [Device Checklist](appendix/device-checklist.md)
