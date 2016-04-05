@@ -1,5 +1,5 @@
 {
-    "title": "Lullabot Information Security Policy",
+    "title": "Security Policy",
     "plugins": ["-sharing", "typekit@0.0.2", "collapsible-menu", "todo"],
     "links": {
         "gitbook": false,
