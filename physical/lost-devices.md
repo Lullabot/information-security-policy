@@ -1,21 +1,25 @@
 # Lost or Stolen Devices
 
 ### Policy
-Reasonable steps should be taken to ensure that devices that contain or provide access to Lullabot information can be recovered if lost or stolen.
+Reasonable steps should be taken to ensure that devices that contain or provide access to Lullabot information won't be compromised if lost or stolen.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-Enabling 'Find my [phone|computer]' features may help ensure that phones and computers can be recovered if lost or stolen.
+Encryption and secure screen lock pins are the first line of defense against compromised security from lost or stolen devices. 'Find my [phone|computer]', and remote wipe features can also be enabled for additional protection.
 
 ### Explanation and Implementation
 
-What happens if your device is lost or stolen? The best scenario is where you can recover it and ensure that no one else could have accessed data on it, since you have a screen lock and encrypted your disk. The next best is where you can recover your device, but you have no way of knowing if anyone accessed or changed files on it. For example, if your disk isn't encrypted, someone could have easily installed a keylogger to siphon off passwords. They could steal GitHub tokens and start committing code (or handbook!) changes as you. The worst scenario is where you completely lost an unencrypted device. In that case, you should assume everything is compromised and start resetting and recovering accounts.
+What happens if your device is lost or stolen? The best scenario is where you can recover it and ensure that no one else could have accessed data on it, since you have a screen lock and encrypted your disk. The next best is where you can recover your device, without knowing if anyone accessed or changed files on it. For example, if your disk isn't encrypted, someone could have easily installed a keylogger to siphon off passwords. The worst scenario is where you completely lose an unencrypted device. In that case, you should assume everything is compromised and start resetting and recovering accounts.
 
-Finding your lost device is the first step to figuring out how much you need to do to make sure everything remains secure.
+To prevent problems:
 
-Make sure that you have strong passwords for any accounts that can remotely wipe devices. [Individuals have been targeted by remote wiping their devices through weak iCloud passwords](http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/), making it very difficult to recover accounts.
+[ ] Make sure all computers and phones have [ecryption](physical/hard-drive-encryption.md) enabled.
+[ ] Create secure [pins and passwords](access/passwords.md) for device screen locks.
+[ ] Enable Find My Phone|Computer features, where available. For Apple devices, at least, this includes options to remotely wipe a lost or stolen device.
+
+Also make sure that you have strong passwords for any accounts that can remotely wipe devices. [Individuals have been targeted by remote wiping their devices through weak iCloud passwords](http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/), making it very difficult to recover accounts.
 
 ### Android Devices
 
@@ -25,15 +29,21 @@ It's also a good idea to put contact information on your phone's lock screen. In
 
 ### iOS and Mac Devices
 
-For an Apple device, there's a handy tracking utility that can help you either locate the lost device, or, in the event of a theft, wipe the device's memory so that your data is safe. Part of the iCloud services offered by Apple includes the "Find My iPhone" app available for iOS devices and on MacOS. On iOS, visit Settings -> iCloud and make sure you turn on "Find My iPhone". Next, download the Find iPhone app that's free from the app store so you can view your devices on a map. This app will also allow you to remotely wipe a device that is no longer safely in your possession. If your device is stolen, you may also be able to see where the thief has taken it.
+For an Apple device, there's a handy tracking utility that can help you either locate the lost device, or, in the event of a theft, wipe the device's memory so that your data is safe. Part of the iCloud services offered by Apple includes the "Find My iPhone" app available for iOS devices and on MacOS.
+
+On iOS, visit Settings -> iCloud and make sure you turn on "Find My iPhone". Next, download the Find iPhone app that's free from the app store so you can view your devices on a map. This app will also allow you to remotely wipe a device that is no longer safely in your possession. If your device is stolen, you may also be able to see where the thief has taken it.
 
 On the Mac, go to System Preferences -> iCloud and make sure you enable the "Find my Mac" option so that your desktop machine will also be protected in this manner.
+
+The Apple support site has more information about how to use [Find My Phone and Find My Mac](https://support.apple.com/en-us/HT205362) features.
 
 On both iOS and OS X you can put contact info on the lock screen. On iOS, you need to either use a provisioning profile, jailbreak, or [use an app to burn info into an image](http://www.cnet.com/how-to/how-to-add-emergency-contact-info-to-your-iphone-lock-screen/). For OS X, it's under "Security & Privacy" in System Preferences. Make sure your phone number or email isn't only accessible on your phone!
 
 ### What to do when you've lost a device
 
 Figuring out appropriate next steps for this can be pretty complicated. As well, being distributed makes us an easier target for impersonation attacks. We should assume we are not concerned about nation-state level attacks; if Chinese sponsored attackers try to get into a client (think Sony and North Korea) through us, we're probably subject to zero-days and the like.
+
+Finding your lost device is the first step to figuring out how much you need to do to make sure everything remains secure.
 
 #### Is there a realistic security issue, or just a lost device?
 

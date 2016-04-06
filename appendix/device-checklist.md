@@ -32,11 +32,15 @@ After you've finished reading the above, run through these fun scenarios to make
 
 ### Backups and Restores
 
+Make sure you'd be safe in the following circumstances:
+
 [ ] For my primary work computer, I put it in my microwave and cook popcorn on it. Once I purchase a new computer, I restore from a local backup without losing any data. This includes work data stored in my home directory (`/Users/myname`) that isn't already in the cloud like Dropbox or Google Docs.
 [ ] While myself, my family, and any pets and loved ones are on a wilderness no-technology retreat, a meteor incinerates my house (#rightnow), destroying every computer, phone, tablet, and hard drive I own. After purchasing new devices, I'm able to regain access to my off-site backups and cloud accounts like Google or Dropbox.
 [ ] At the Lullabot Retreat, I decide to take my laptop fishing. After running into town to replace it, I'm able to restore my data even though I'm not home.
 
 ### Security and Encryption
+
+Make sure you'd be safe in the following circumstances:
 
 [ ] I place catnip on my laptop keyboard because I love my cat. My screen lock prevents Kitty from viewing or changing sensitive information.
 [ ] A client puts very important credentials in a Word document I download. I'm not worried about securely erasing the file because my hard drive is encrypted.
