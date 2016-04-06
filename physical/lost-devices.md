@@ -15,9 +15,9 @@ What happens if your device is lost or stolen? The best scenario is where you ca
 
 To prevent problems:
 
-- [ ] Make sure all computers and phones have [ecryption](../physical/hard-drive-encryption.md) enabled.
-- [ ] Create secure [pins and passwords](../access/passwords.md) for device screen locks.
-- [ ] Enable Find My Phone|Computer features, where available. For Apple devices, at least, this includes options to remotely wipe a lost or stolen device.
+- Make sure all computers and phones have [ecryption](../physical/hard-drive-encryption.md) enabled.
+- Create secure [pins and passwords](../access/passwords.md) for device screen locks.
+- Enable Find My Phone|Computer features, where available. For Apple devices, at least, this includes options to remotely wipe a lost or stolen device.
 
 Also make sure that you have strong passwords for any accounts that can remotely wipe devices. [Individuals have been targeted by remote wiping their devices through weak iCloud passwords](http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/), making it very difficult to recover accounts.
 
