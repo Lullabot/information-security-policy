@@ -24,4 +24,4 @@ The pins or passwords used to unlock a device deserve special mention. They are 
 
 On Android, choose a more unpredictable pattern or create a longer PIN (up to 16 digits).
 
-On iOS you can go beyond the standard four-digit PIN by going into Settings >> Touch ID & Passcode >> Change Passcode. When setting the new passcode you will see a link called "Passcode Options". You can select that to choose either an alphanmeric passcode or a longer numeric passcode.
+On iOS you can go beyond the standard four-digit PIN by going into Settings >> Touch ID & Passcode >> Change Passcode. When setting the new passcode you will see a link called "Passcode Options". You can select that to choose either an alphanumeric passcode or a longer numeric passcode.
