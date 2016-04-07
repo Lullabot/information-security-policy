@@ -9,6 +9,7 @@
    * [Password Managers](access/password_managers.md)
    * [Two Factor Authentication](access/two_factor_authentication.md)
 * [Physical Security](physical/physical.md)
+   * [Device Lock Screens](physical/locking.md)
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
    * [Backups](physical/backups.md)
    * [Lost or Stolen Devices](physical/lost-devices.md)

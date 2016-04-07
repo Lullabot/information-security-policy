@@ -19,9 +19,3 @@ Now that you are using one of these tools (right?), it is important to make sure
 Also, because you are now using one of these convenient tools, and would not be able to remember your passwords if you wanted to anyway, you might as well make them all super-secure. The length of a password is its primary strength. The longer it is, the stronger it is. These days, most security experts suggest passwords of 12-16 characters, minimum. But what does it matter to you if you are using copy/paste anyway? Crank those suckers up to 32 characters and be safe for the next millennia.
 
 Finally, you should be wary of services that impose password limits, especially if they limit the length of the password. Any service that cares even a little about your security will store passwords using a well salted, secure hash which makes any password, regardless of length fit into a common length string. There is no excuse for a service to tell you that your password cannot be longer than 16 characters. If they do, they are most likely storing passwords insecurely, and if that is true, what other security protocols might they be skimping on?
-
-The pins or passwords used to unlock a device deserve special mention. They are literally the "keys to the kingdom". The password used used to unlock a computer should be a strong, alphanumeric, password. Phones often default to a simple 4-digit pin. That is really too weak to be effective, so a longer, stronger pin should be used.
-
-On Android, choose a more unpredictable pattern or create a longer PIN (up to 16 digits).
-
-On iOS you can go beyond the standard four-digit PIN by going into Settings >> Touch ID & Passcode >> Change Passcode. When setting the new passcode you will see a link called "Passcode Options". You can select that to choose either an alphanumeric passcode or a longer numeric passcode.
