@@ -7,7 +7,7 @@ All computer hard drives should be encrypted.
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-
+All Lullabot employees and contractors are responsible for encrypting any machines in their possession.
 
 ### Explanation and Implementation
 

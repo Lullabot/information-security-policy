@@ -31,9 +31,9 @@ It's also a good idea to put contact information on your phone's lock screen. In
 
 For an Apple device, there's a handy tracking utility that can help you either locate the lost device, or, in the event of a theft, wipe the device's memory so that your data is safe. Part of the iCloud services offered by Apple includes the "Find My iPhone" app available for iOS devices and on MacOS.
 
-On iOS, visit Settings -> iCloud and make sure you turn on "Find My iPhone". Next, download the Find iPhone app that's free from the app store so you can view your devices on a map. This app will also allow you to remotely wipe a device that is no longer safely in your possession. If your device is stolen, you may also be able to see where the thief has taken it.
+On iOS, visit Settings >> iCloud and make sure you turn on "Find My iPhone". Next, download the Find iPhone app that's free from the app store so you can view your devices on a map. This app will also allow you to remotely wipe a device that is no longer safely in your possession. If your device is stolen, you may also be able to see where the thief has taken it.
 
-On the Mac, go to System Preferences -> iCloud and make sure you enable the "Find my Mac" option so that your desktop machine will also be protected in this manner.
+On the Mac, go to System Preferences >> iCloud and make sure you enable the "Find my Mac" option so that your desktop machine will also be protected in this manner.
 
 The Apple support site has more information about how to use [Find My Phone and Find My Mac](https://support.apple.com/en-us/HT205362) features.
 

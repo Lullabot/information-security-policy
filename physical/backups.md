@@ -7,6 +7,7 @@ All computers must be backed up regularly.
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
+All Lullabot employees and contractors are responsible for backing up any machines in their possession.
 
 ### Explanation and Implementation
 
@@ -21,7 +22,7 @@ For many of us at Lullabot, much of our work lives on GitHub, Google Drive, Hack
 Time Machine on OS X makes automated backups very easy, especially if you have a network device like a Time Capsule, Airport Extreme, or even a server that can host a time machine volume. This should really be considered the baseline backup level for your computer. Turn on Time Machine, and for the
 most part just forget about it and let it run. Remember, it’s important to enable encryption for your Time Machine backups, just as you do with your hard drive. To do this:
 
-* Go to System Preferences ⟶ Time Machine
+* Go to System Preferences >> Time Machine
 * Select “Stop using <disk name> for backups”
 * Then “re-add” and when you do, select “encrypt backups”
 
