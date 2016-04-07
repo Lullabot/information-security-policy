@@ -8,6 +8,7 @@
    * [Passwords, PINs, and Passcodes](access/passwords.md)
    * [Password Managers](access/password_managers.md)
    * [Two Factor Authentication](access/two_factor_authentication.md)
+   * [Shared Passwords](access/shared_passwords.md)
 * [Physical Security](physical/physical.md)
    * [Device Lock Screens](physical/locking.md)
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
