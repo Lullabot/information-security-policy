@@ -7,7 +7,7 @@ Email related to client projects may contain sensitive information, and should b
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-- Project or account managers will notify administrative staff that when projects are initiated and when the projects end so the email groups can be created and decommissioned.
+- Project or account managers will notify administrative staff when projects are initiated and when the projects end so the email groups can be created and decommissioned.
 - Administrative staff will periodically review email groups to identify any that should be decommissioned, and do so.
 
 ### Explanation and Implementation
