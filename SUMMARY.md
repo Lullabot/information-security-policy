@@ -12,5 +12,7 @@
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
    * [Backups](physical/backups.md)
    * [Lost or Stolen Devices](physical/lost-devices.md)
+* [Communications](communications/communications.md)
+   * [Email Groups](communications/email_groups.md)
 * [Appendix](appendix/appendix.md)
    * [Device Checklist](appendix/device-checklist.md)
