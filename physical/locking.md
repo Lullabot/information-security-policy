@@ -13,7 +13,7 @@ All Lullabot employees and contractors are required to protect all devices in th
 
 The pins or passwords used to unlock devices deserve special mention. They are literally the "keys to the kingdom", especially for mobile devices that are easily lost or stolen.
 
-The [password](access/passwords.md) used used to unlock a computer should be a strong, alphanumeric, password.
+The [password](../access/passwords.md) used used to unlock a computer should be a strong, alphanumeric, password.
 
 Phones often default to a simple 4-digit pin. That is too weak to be effective, so a longer, stronger pin should be used.
 
