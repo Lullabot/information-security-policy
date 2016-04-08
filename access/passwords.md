@@ -7,7 +7,7 @@ Strong passwords should be used for access to any company accounts and services.
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
-The company uses a password manager for shared passwords and recommends its use for all passwords. The password manager will have tools to make it easier to create and manage strong passwords.
+All employees and contractors are expected to create strong passwords for access to all Lullabot and client accounts.
 
 ### Explanation and Implementation
 The first layer of defense that we have for our online accounts is the PIN, passcode, or password. As such, it is extremely important to use good, unique passwords, and keep them well protected. A good password consists of a fully random string, the longer the better. Contrary to popular belief, the inclusion of numbers, characters, or mixed case does not matter nearly as much as the length of the password itself.
