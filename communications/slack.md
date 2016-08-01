@@ -7,6 +7,10 @@
 This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
+- The person who created the Slack channel will also be responsible for archiving it when no longer needed. 
+- Admin staff will perform a periodic review of Slack channels to identify channels that have no activity as potential candidates for archival, and contact the channel creator to confirm the course of action.
+
+### Explanation and Implementation
 Slack channels can be created for specific projects and clients. These channels keep a lot of noise out of the general channel and also provide a place to talk specifically about a topic or client. Non-Lullabots may be invited to these channels as well, allowing clients and contractors to communicate about a specific project without allowing them access to the general Lullabot channel. 
 
 The sheer number of channels makes it hard for anyone to see all the available channels and choose to join the right ones. Therefore it's useful to remove channels once the client project is finished or the topic is no longer a priority. Unneeded Slack channels can either be deleted or archived. If deleted, all communication from that channel will be lost. If archived, the communication is preserved, but the channel drops out of the list of active channels. Another advantage of archiving is that it is easy to re-activate the channel in Slack and immediately have access to the history.
