@@ -16,5 +16,6 @@
    * [Lost or Stolen Devices](physical/lost-devices.md)
 * [Communications](communications/communications.md)
    * [Client Email Groups](communications/email_groups.md)
+   * [Slack Channels](communications/slack.md)
 * [Appendix](appendix/appendix.md)
    * [Device Checklist](appendix/device-checklist.md)
