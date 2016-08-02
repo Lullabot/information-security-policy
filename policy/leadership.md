@@ -15,7 +15,7 @@ This policy applies to Lullabot management.
 
 The current members of the Security team include:
 
-- [Seth Brown, CEO](https://www.lullabot.com/who-we-are/seth-brown)
+- [Seth Brown, COO](https://www.lullabot.com/who-we-are/seth-brown)
 - [Karen Stevenson, Director of Technology](https://www.lullabot.com/who-we-are/karen-stevenson)
 - [Ben Chavet, Systems Administrator](https://www.lullabot.com/who-we-are/ben-chavet)
 - [Tim McDorman, Administrative Manager](https://www.lullabot.com/who-we-are/tim-mcdorman)
