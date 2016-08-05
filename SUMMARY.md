@@ -19,4 +19,4 @@
    * [Slack Channels](communications/slack.md)
 * [Appendix](appendix/appendix.md)
    * [Device Checklist](appendix/device-checklist.md)
-   * [ISO 127001 Cross-Reference](appendix/iso-127001.md)
+   * [ISO 27001 Cross-Reference](appendix/iso-27001.md)
