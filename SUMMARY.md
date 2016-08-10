@@ -10,6 +10,7 @@
    * [Two Factor Authentication](access/two_factor_authentication.md)
    * [Shared Passwords](access/shared_passwords.md)
 * [Physical Security](physical/physical.md)
+   * [Asset Inventory](physical/inventory.md)
    * [Device Lock Screens](physical/locking.md)
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
    * [Backups](physical/backups.md)
