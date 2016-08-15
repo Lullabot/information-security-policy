@@ -15,6 +15,7 @@
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
    * [Backups](physical/backups.md)
    * [Lost or Stolen Devices](physical/lost-devices.md)
+   * [Acceptable Use Policy](physical/acceptable_use.md)
 * [Communications](communications/communications.md)
    * [Client Email Groups](communications/email_groups.md)
    * [Slack Channels](communications/slack.md)
