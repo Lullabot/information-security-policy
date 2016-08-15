@@ -48,7 +48,7 @@ All employees should use their own judgment regarding what is unacceptable use o
 
 - All illegal activities. These include theft, computer hacking, malware distribution, contravening copyrights and patents, and using illegal or unlicensed software or services.  These also include activities that contravene data protection regulations.
 - All activities detrimental to the success of Lullabot.  These include sharing sensitive information outside the company, such as research and development information and customer lists, as well as defamation of the company.
--	All activities that are inappropriate for Lullabot to be associated with and/or are detrimental to the company’s reputation. This includes pornography, gambling, inciting hate, bullying and harassment.
--	Circumventing the IT security systems and protocols which Lullabot has put in place.
+- All activities that are inappropriate for Lullabot to be associated with and/or are detrimental to the company’s reputation. This includes pornography, gambling, inciting hate, bullying and harassment.
+- Circumventing the IT security systems and protocols which Lullabot has put in place.
 
 
