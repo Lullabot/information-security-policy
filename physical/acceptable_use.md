@@ -20,7 +20,7 @@ Use of any of Lullabot’s resources for any illegal activity will usually be gr
 
 Lullabot’s systems exist to support and enable the business. Personal use is allowed. However it must not be in any way detrimental to users own or their colleagues productivity and nor should it result in any direct costs being borne by Lullabot other than for trivial amounts.
 
-Any information that is particularly sensitive or vulnerable must be encrypted and/or securely stored so that unauthorised access is prevented (or at least made extremely difficult). However this must be done in a way that does not prevent–or risk preventing–legitimate access by all properly-authorized parties.
+Any information that is particularly sensitive or vulnerable must be encrypted and/or securely stored so that unauthorized access is prevented (or at least made extremely difficult). However this must be done in a way that does not prevent–or risk preventing–legitimate access by all properly-authorized parties.
 
 Lullabot can monitor the use of its IT systems and the data on it at any time. This may include (except where precluded by local privacy laws) examination of the content stored within the email and data files of any user, and examination of the access history of any users.
 
@@ -40,7 +40,7 @@ All workstations (desktops and laptops) should be secured with a lock-on-idle po
 
 Users who have been charged with the management of those systems are responsible for ensuring that they are at all times properly protected against known threats and vulnerabilities as far as is reasonably practicable and compatible with the designated purpose of those systems.
 
-Users must at all times guard against the risk of malware (e.g., viruses, spyware, Trojan horses, rootkits, worms, backdoors) being imported into Lullabot’s systems by whatever means and must report any actual or suspected malware infection immediately.
+Users must at all times guard against the risk of malware (e.g., viruses, spyware, Trojan horses, rootkits, worms, backdoors) being imported into Lullabot’s systems using best practices for the operating system in use, and must report any actual or suspected malware infection immediately.
 
 ###Unacceptable Use
 
