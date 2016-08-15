@@ -1,7 +1,7 @@
 # Backups
 
 ### Policy
-All computers must be backed up regularly.
+All computers must be backed up regularly, and backups must be encrypted.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
