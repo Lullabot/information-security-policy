@@ -1,4 +1,4 @@
-# Lost or Stolen Devices
+## Lost or Stolen Devices
 
 ### Policy
 Reasonable steps should be taken to ensure that devices that contain or provide access to Lullabot information won't be compromised if lost or stolen.

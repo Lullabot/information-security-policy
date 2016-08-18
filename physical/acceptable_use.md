@@ -1,4 +1,4 @@
-# Acceptable Use Policy
+## Acceptable Use Policy
 
 ### Policy
 This Acceptable Use Policy (AUP) for information systems is designed to protect Lullabot, our employees, customers and other partners from harm caused by the misuse of our information systems and our data. Misuse includes both deliberate and inadvertent actions.

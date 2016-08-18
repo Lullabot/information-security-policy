@@ -4,7 +4,7 @@
 Email related to client projects may contain sensitive information, and should be carefully controlled. Email groups shall be used to manage communications related to individual client projects. They shall be created when a project begins and archived when it ends. Employees and contractors will be encouraged to use the email lists for all client communications. Employees and contractors will remove copies of the emails contained on their computers at the end of a project, so that the archived emails under the control of the company serve as the only remaining copies of those messages.
 
 ### Scope
-This policy applies to all Lullabot employees and contractors.
+This policy applies to all Lullabot employees and management.
 
 ### Compliance
 - Project or account managers will notify administrative staff when projects are initiated and when the projects end so the email groups can be created and decommissioned.

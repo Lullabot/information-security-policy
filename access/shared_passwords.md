@@ -4,7 +4,7 @@
 Shared passwords shall be managed in a central application, where access can be monitored and passwords can be easily changed.
 
 ### Scope
-This policy applies to all Lullabot employees and contractors.
+This policy applies to all Lullabot employees.
 
 ### Compliance
 - Shared passwords will be managed using LastPass Enterprise shared folders.

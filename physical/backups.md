@@ -1,4 +1,4 @@
-# Backups
+## Backups
 
 ### Policy
 All computers must be backed up regularly, and backups must be encrypted.

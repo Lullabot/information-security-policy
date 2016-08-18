@@ -1,4 +1,4 @@
-# Device Lock Screens
+## Device Lock Screens
 
 ### Policy
 Device lock screens should be configured to prevent access by unauthorized users, or when lost or stolen.

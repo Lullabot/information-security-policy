@@ -1,4 +1,4 @@
-# Password Managers
+## Password Managers
 
 ### Policy
 The use of a password manager is strongly encouraged.

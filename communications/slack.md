@@ -4,7 +4,7 @@
 [Slack](https://lullabot.slack.com/messages/general/) is an application used for everyday communications in Lullabot. Slack consists of a collection of channels that include a general channel and channels specific to a topic, project, or client. When these channels are no longer required, they should be archived, but not deleted.
 
 ### Scope
-This policy applies to all Lullabot employees and contractors.
+This policy applies to all Lullabot employees and management.
 
 ### Compliance
 - The person who created the Slack channel will also be responsible for archiving it when no longer needed. 

@@ -1,10 +1,10 @@
-# Asset Inventory
+## Asset Inventory
 
 ### Policy
 All computers and cell phones will be tracked in an inventory management system. 
 
 ### Scope
-This policy applies to all Lullabot employees and contractors.
+This policy applies to all Lullabot employees and management.
 
 ### Compliance
 - Whenever a new computer or cell phone is purchased, details about the asset will be entered into Asset Panda.

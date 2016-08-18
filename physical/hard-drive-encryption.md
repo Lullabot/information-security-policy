@@ -1,4 +1,4 @@
-# Hard Drive Encryption
+## Hard Drive Encryption
 
 ### Policy
 All computer hard drives should be encrypted.
