@@ -17,4 +17,6 @@ Best practices for maintenance of electronic equipment includes, but is not limi
 - Procuring insurance to cover potential equipment loss or damage.
 - Maintaining a regular backup schedule.
 
+Unlicensed software, pirated music, video, software are not permitted on Lullabot laptops, these can be a vector for malware. They can introduce vulnerabilities and lead to information leakage, loss of integrity and other information security incidents, or to violation of intellectual property rights.
+
 
