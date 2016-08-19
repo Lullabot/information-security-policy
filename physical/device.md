@@ -13,10 +13,8 @@ Each employee will be responsible for their own equipment.
 
 Best practices for maintenance of electronic equipment includes, but is not limited to:
 
-* Protecting devices from malware and viruses.
-* Using surge protectors.
-* Staying current on software security updates.
-* Avoiding unlicensed or questionable software.
-* Procuring insurance to cover potential equipment loss or damage.
-* Maintaining a regular backup schedule.
+- Using surge protectors.
+- Procuring insurance to cover potential equipment loss or damage.
+- Maintaining a regular backup schedule.
+
 

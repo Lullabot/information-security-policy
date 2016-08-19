@@ -14,6 +14,7 @@
    * [Hard Drive Encryption](physical/hard-drive-encryption.md)
    * [Backups](physical/backups.md)
    * [Lost or Stolen Devices](physical/lost-devices.md)
+   * [Malware and Viruses](physical/malware.md)
    * [Device Maintenance](physical/device.md)
    * [Asset Inventory](physical/inventory.md)
 * [Communications](communications/communications.md)
