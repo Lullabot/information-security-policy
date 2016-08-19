@@ -21,3 +21,4 @@
 * [Appendix](appendix/appendix.md)
    * [Device Checklist](appendix/device-checklist.md)
    * [ISO 27001 Cross-Reference](appendix/iso-27001.md)
+* [Acknowledgement and Signature](policy/signature.md)
