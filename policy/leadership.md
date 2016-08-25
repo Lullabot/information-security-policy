@@ -15,10 +15,10 @@ This policy applies to Lullabot management.
 
 The current members of the Security team include:
 
-- [Seth Brown, COO](https://www.lullabot.com/who-we-are/seth-brown)
-- [Karen Stevenson, Director of Technology](https://www.lullabot.com/who-we-are/karen-stevenson)
-- [Ben Chavet, Systems Administrator](https://www.lullabot.com/who-we-are/ben-chavet)
-- [Tim McDorman, Administrative Manager](https://www.lullabot.com/who-we-are/tim-mcdorman)
-- [Andrew Berry, Senior Architect](https://www.lullabot.com/who-we-are/andrew-berry)
+- [Seth Brown, COO](https://www.lullabot.com/about/seth-brown)
+- [Karen Stevenson, Director of Technology](https://www.lullabot.com/about/karen-stevenson)
+- [Ben Chavet, Senior Systems Administrator](https://www.lullabot.com/about/ben-chavet)
+- [Tim McDorman, Administrative Manager](https://www.lullabot.com/about/tim-mcdorman)
+- [Andrew Berry, Senior Architect](https://www.lullabot.com/about/andrew-berry)
 
 This team is currently meeting weekly to discuss and assess security concerns. The team can be contacted at any time by sending an email to security@lullabot.com.
