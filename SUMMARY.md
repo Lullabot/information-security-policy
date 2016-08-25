@@ -18,6 +18,7 @@
    * [Device Maintenance](physical/device.md)
    * [Asset Inventory](physical/inventory.md)
 * [Communications](communications/communications.md)
+   * [Email Security](../communications/email.md)
    * [Client Email Groups](communications/email_groups.md)
    * [Slack Channels](communications/slack.md)
 * [Appendix](appendix/appendix.md)
