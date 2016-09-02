@@ -1,7 +1,7 @@
 ## Email Security
 
 ### Policy
-Employees and contractors should be aware of the security implications of email communication, for instance: 
+Employees and contractors should be aware of the security implications of email communication, for instance:
 
 - Users should be aware that email may not originate from the person it purports to come from and use care in responding to it.
 - Sensitive information like passwords and IDs should not be communicated by email.
@@ -26,12 +26,15 @@ Avoid sending sensitive information in email, including:
 
 Secure methods for communicating sensitive credentials or information include:
 
-- Create an initial password that must be changed immediately, enforced by the system.
 - Verbally exchange information on video or phone.
 - Use a private message (PM) in Slack.
-- Use private/public key pairs to send sensitive data that requires regular transmission.
-- Share information using Dropbox.
+- Share files using Dropbox.
 
-Don’t attach sensitive files to emails or share links to Dropbox via email. Instead use Dropbox sharing features directly. Use the principle of minimum required access and only offer write access if required. Note that Dropbox allows things to be shared ‘read-only’.
+Be conscious of the fact that email might be intercepted or viewed by people other than the intended recipients, so don’t attach sensitive files to emails.
+
+Dropbox is a secure way to share information, but be aware of the best ways to use it:
+
+- Dropbox links may be accessible by anyone who has the link, so use Dropbox's [file sharing process](https://www.dropbox.com/help/topics/sharing_files_and_folders) rather than copy/pasting Dropbox links in email.
+- Note that Dropbox allows things to be shared ‘read-only’. Use the principle of minimum required access and only offer write access if required. 
 
 Everyone should be aware that email they receive may not originate from the source it purports to come from. A common threat is phishing, an attempt to obtain sensitive information such as usernames, passwords, and credit card details by masquerading as a trustworthy entity. All email requests for sensitive information should be verified independently, not by using links or phone numbers included in the email, but instead using previously-vetted contact information to call or contact the person to confirm the request.
