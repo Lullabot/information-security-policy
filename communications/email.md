@@ -6,7 +6,7 @@ Employees and contractors should be aware of the security implications of email 
 - Users should be aware that email may not originate from the person it purports to come from and use care in responding to it.
 - Sensitive information like passwords and IDs should not be communicated by email.
 - Avoid sending sensitive files as email attachments.
-- Share links to Dropbox should not be sent via email.
+- Share Dropbox files using Dropbox's recommended protocols.
 
 ### Scope
 This policy applies to Lullabot employees and contractors.
