@@ -15,15 +15,15 @@ This policy applies to all Lullabot employees and management.
 - The system will create labels that can be attached to each asset.
 
 ### Explanation and Implementation
-Lullabot uses Asset Panda to track assets and equipment. All computers and cell phones used for Lullabot business will be tracked in this system, regardless of who purchased them or when they were purchased. 
+Lullabot tracks assets and equipment in an inventory tracking system. All computers and cell phones used for Lullabot business will be tracked in this system, regardless of who purchased them or when they were purchased. 
 
 #### PEX and Other Purchases
-Whenever a computer or cell phone is purchased with PEX or Lullabot funds, details about the asset will be entered into Asset Panda by administrative staff when they process the receipt. The purchaser can add the serial number and other information as a comment to the purchase in the PEX system. 
+Whenever a computer or cell phone is purchased with PEX or Lullabot funds, details about the asset will be entered into the inventory tracking system by administrative staff when they process the receipt. The purchaser can add the serial number and other information as a comment to the purchase in the PEX system. 
 
 If the asset is replacing an older piece of equipment, the older equipment should be removed from service at that time. The administrative staff will be responsible for determining when this should be done and following up with the person who has control of the older asset.
 
 #### Classification
-Assets in Asset Panda will be classified into one of the following categories:
+Assets in the inventory tracking system will be classified into one of the following categories:
 
 - Confidential (top confidentiality level)
 - Restricted (medium confidentiality level)
@@ -31,7 +31,7 @@ Assets in Asset Panda will be classified into one of the following categories:
 - Public (everyone can see the information or the asset provides no access to any information)
 
 #### Labeling
-A label will be created for each asset that is tracked in Asset Panda. That label should be attached to the asset.
+A label will be created for each asset that is tracked in the inventory tracking system. That label should be attached to the asset.
 
 #### Removing Assets From Service
 Computers and cell phones that have been replaced, or those which are being sold to employees, should be properly removed from service.
