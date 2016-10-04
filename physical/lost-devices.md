@@ -18,6 +18,8 @@ To prevent problems:
 - Make sure all computers and phones have [ecryption](../physical/hard-drive-encryption.md) enabled.
 - Create secure [pins and passwords](../physical/locking.md) for device screen locks.
 - Enable Find My Phone|Computer features, where available. For Apple devices, at least, this includes options to remotely wipe a lost or stolen device.
+- Consider adding contact information to your lock screen to make it easier for someone who finds your device to return it.
+- Consider enabling the emergency contact to your phone. 
 
 Also make sure that you have strong passwords for any accounts that can remotely wipe devices. [Individuals have been targeted by remote wiping their devices through weak iCloud passwords](http://www.wired.com/2012/08/apple-amazon-mat-honan-hacking/), making it very difficult to recover accounts.
 
@@ -37,7 +39,13 @@ On the Mac, go to System Preferences >> iCloud and make sure you enable the "Fin
 
 The Apple support site has more information about how to use [Find My Phone and Find My Mac](https://support.apple.com/en-us/HT205362) features.
 
-On both iOS and OS X you can put contact info on the lock screen. On iOS, you need to either use a provisioning profile, jailbreak, or [use an app to burn info into an image](http://www.cnet.com/how-to/how-to-add-emergency-contact-info-to-your-iphone-lock-screen/). For OS X, it's under "Security & Privacy" in System Preferences. Make sure your phone number or email isn't only accessible on your phone!
+On both iOS and OS X you can put contact info on the lock screen. For OS X, it's under "Security & Privacy" in System Preferences. Make sure your phone number or email isn't only accessible on your phone!
+
+On iOS you can [use an app to burn info into an image](http://www.cnet.com/how-to/how-to-add-emergency-contact-info-to-your-iphone-lock-screen/). If the phone is lost you can also display contact information on the lock screen of the lost device using the "Find My iPhone" screen in iCloud. 
+
+### Add emergency contact info to your phone
+
+Finally, you can add [emergency contact information](http://www.pcmag.com/article2/0,2817,2489237,00.asp) to your phone. Emergency information is accessible on a locked device, and will provide an additional way for someone to find the owner of a device.
 
 ### What to do when you've lost a device
 
