@@ -7,7 +7,7 @@ All computers and cell phones will be tracked in an inventory management system.
 This policy applies to all Lullabot employees and management.
 
 ### Compliance
-- Whenever a new computer or cell phone is purchased, details about the asset will be entered into Asset Panda.
+- Whenever a new computer or cell phone is purchased, details about the asset will be entered into an inventory tracking system.
 - Whenever a computer or cell phone is taken out of service it will be removed from the asset tracking system.
 - The system will track identifying information, including make, model, and serial number.
 - The system will track the location of the item and identify the person who has possession of it.
