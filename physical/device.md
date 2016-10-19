@@ -13,9 +13,13 @@ Each employee will be responsible for their own equipment.
 
 Best practices for maintenance of electronic equipment includes, but is not limited to:
 
-- Using surge protectors.
-- Procuring insurance to cover potential equipment loss or damage.
-- Maintaining a regular backup schedule.
+- Use surge protectors.
+- Enable the firewall.
+- Procure insurance to cover potential equipment loss or damage.
+- Maintain a regular backup schedule.
+- Remove or disable the guest account on a laptop.
+- Disable options to share the hard drive.
+- Consider using a separate router and SSID for personal and IoT network connections.
 
 Unlicensed software, pirated music, video, software are not permitted on Lullabot laptops, these can be a vector for malware. They can introduce vulnerabilities and lead to information leakage, loss of integrity and other information security incidents, or to violation of intellectual property rights.
 
