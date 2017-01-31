@@ -1,15 +1,15 @@
 PGP (Pretty Good Privacy) is a system that lets people communicate with each other securely online. PGP lets you **sign** emails and files so others can be sure they haven't been modified and are actually from you. You can also use **PGP** to encrypt emails and files so only the intended recipients can view them. Why would you want a PGP (Pretty Good Privacy) key?
 
-*   You can sign emails you send and receive encrypted email without needing to pay for a certificate. Great for passing around passwords and credentials.
-*   You can sign and encrypt files that can be decrypted on any computer (unlike encrypted disk images that are tied to OS X). You could use GPG to encrypt a PDF of a sensitive HR form, and then the filled-out version could have a real digital signature on the returned copy.
-*   If you're writing code, you can use git to sign commits and tags. That lets others verify not only that the code hasn't been modified, but that the commit by Sally Young is _actually_ from Sally Young and not James Sansbury.
+* You can sign emails you send and receive encrypted email without needing to pay for a certificate. Great for passing around passwords and credentials.
+* You can sign and encrypt files that can be decrypted on any computer (unlike encrypted disk images that are tied to OS X). You could use GPG to encrypt a PDF of a sensitive HR form, and then the filled-out version could have a real digital signature on the returned copy.
+* If you're writing code, you can use git to sign commits and tags. That lets others verify not only that the code hasn't been modified, but that the commit by Sally Young is _actually_ from Sally Young and not James Sansbury.
 
 What are the limitations of PGP?
 
-*   Many email programs don't support any encryption systems at all, and some that do only support the centrialized S/MIME standard. Most desktop email clients have plugins to add GPG support, but mobile devices usually don't support plugins in their apps.
-*   Using any sort of encryption or signing is difficult in webmail. GMail can't search the contents of encrypted emails since GMail doesn't have your decryption keys. There are browser plugins to add PGP support to GMail on the web, but GMail on Android and iOS don't support those plugins.
-*   When signing (and not encrypting) emails, recipients can get confused by the signature attachment added to the message. In general, **don't sign emails to clients** unless you know they are aware of PGP.
-*   For someone to decrypt a file, they have to be set up with PGP. You can't just call them and give them a password. However, PGP is pretty much the only secure solution for file encryption that works on all operating systems.
+* Many email programs don't support any encryption systems at all, and some that do only support the centrialized S/MIME standard. Most desktop email clients have plugins to add GPG support, but mobile devices usually don't support plugins in their apps.
+* Using any sort of encryption or signing is difficult in webmail. GMail can't search the contents of encrypted emails since GMail doesn't have your decryption keys. There are browser plugins to add PGP support to GMail on the web, but GMail on Android and iOS don't support those plugins.
+* When signing (and not encrypting) emails, recipients can get confused by the signature attachment added to the message. In general, **don't sign emails to clients** unless you know they are aware of PGP.
+* For someone to decrypt a file, they have to be set up with PGP. You can't just call them and give them a password. However, PGP is pretty much the only secure solution for file encryption that works on all operating systems.
 
 PGP uses a _web of trust_ to help us validate keys and their owners. In the SSL certificate world, you pay Verisign or some other company to validate your identity. Often it's a basic email or phone call check. With PGP, Andrew can say "I validated that PGP key ASDFXYZ belongs to Matt, because I saw him in person and looked at his drivers license". If you then decide to trust Andrew's key, you'll automatically be able to trust Matt's key. This model works really well for companies like Lullabot, where we work mostly online but see each other in person a few times a year.
 
@@ -52,7 +52,7 @@ A gaggle of 'bots are getting together in the real world. It's a great chance to
 1.  Each person should create a key using the above steps.
 2.  After, they should give the organizer the email attached to the key and the fingerprint of their key.![Copy fingerprint](https://dailyreport.lullabot.com/system/files/6_copy_fingerprint_2015-05-06_13-03-51.jpg)
 3.  The organizer should import the key from the public server.
-    *   For the organizer, it's useful to create a separate keyring for the party to simplify creating a key list. `gpg --keyring ~/Desktop/party.gpg --no-default-keyring --recv-keys [KEY-ID]`
+  * For the organizer, it's useful to create a separate keyring for the party to simplify creating a key list. `gpg --keyring ~/Desktop/party.gpg --no-default-keyring --recv-keys [KEY-ID]`
 4.  The organizer should then provide each person with a table of keys they can use to mark the ones they have validated.
 
 ### Signing a key
