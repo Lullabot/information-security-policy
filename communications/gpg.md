@@ -6,7 +6,7 @@ PGP (Pretty Good Privacy) is a system that lets people communicate with each oth
 
 What are the limitations of PGP?
 
-* Many email programs don't support any encryption systems at all, and some that do only support the centrialized S/MIME standard. Most desktop email clients have plugins to add GPG support, but mobile devices usually don't support plugins in their apps.
+* Many email programs don't support any encryption systems at all, and some that do only support the centrialized [S/MIME standard](https://en.wikipedia.org/wiki/S/MIME). Most desktop email clients have plugins to add GPG support, but mobile devices usually don't support plugins in their apps.
 * Using any sort of encryption or signing is difficult in webmail. GMail can't search the contents of encrypted emails since GMail doesn't have your decryption keys. There are browser plugins to add PGP support to GMail on the web, but GMail on Android and iOS don't support those plugins.
 * When signing (and not encrypting) emails, recipients can get confused by the signature attachment added to the message. In general, **don't sign emails to clients** unless you know they are aware of PGP.
 * For someone to decrypt a file, they have to be set up with PGP. You can't just call them and give them a password. However, PGP is pretty much the only secure solution for file encryption that works on all operating systems.
