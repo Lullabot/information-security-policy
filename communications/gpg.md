@@ -21,19 +21,19 @@ These steps use [GPG Tools](https://gpgtools.org/) for OS X. GPG also has a [Win
 
 ### Create a new key with GPG Keychain
 
-Open GPG Keychain, and click the "New" button to create a key. ![New key button](https://dailyreport.lullabot.com/system/files/1_new_key_button_2015-05-04_16-36-06.jpg) Enter your full name, and the email address you'd like to use. You can add additional email addresses later to the same key. Change the **expiration date** to one year from today. This value can be changed later, so set a calendar reminder to extend the expiration date of your key before that expiry date. If you lose your key, then this date will eventually kick in telling others not to use this key anymore. Enter a **strong passphrase** for the key. This should be one of the complicated passwords you do remember and commit to memory. Your computer login password isn't a bad idea, given that your passphrase will probably be stored in the OS X keychain. You can change this password later. ![Key configuration](https://dailyreport.lullabot.com/system/files/2_key_configuration_2015-05-04_16-39-20.jpg) Click **Generate key**, have fun spamming your mouse or keyboard, and you will have a new PGP key!
+Open GPG Keychain, and click the "New" button to create a key. ![New key button](images/1_new_key_button_2015-05-04_16-36-06.jpg) Enter your full name, and the email address you'd like to use. You can add additional email addresses later to the same key. Change the **expiration date** to one year from today. This value can be changed later, so set a calendar reminder to extend the expiration date of your key before that expiry date. If you lose your key, then this date will eventually kick in telling others not to use this key anymore. Enter a **strong passphrase** for the key. This should be one of the complicated passwords you do remember and commit to memory. Your computer login password isn't a bad idea, given that your passphrase will probably be stored in the OS X keychain. You can change this password later. ![Key configuration](images/2_key_configuration_2015-05-04_16-39-20.jpg) Click **Generate key**, have fun spamming your mouse or keyboard, and you will have a new PGP key!
 
 ### Add additional emails to your key
 
-To add more email addresses to your key, click **Details**, and then **User IDs**. If you have a different legal name from your given name, you can add those in here as well. ![More emails](https://dailyreport.lullabot.com/system/files/3_adding_additional_emails_2015-05-04_16-56-02.jpg)
+To add more email addresses to your key, click **Details**, and then **User IDs**. If you have a different legal name from your given name, you can add those in here as well. ![More emails](images/3_adding_additional_emails_2015-05-04_16-56-02.jpg)
 
 ### Adding your picture to your key
 
-Adding a picture to your key gives yet another way to help validate your identity. PGP keys are shared as small text files, so you don't want to attach a 10MB JPEG to your key. For 'bots, you can grab a pre-sized thumbnail from your user account edit form on lullabot.com. ![Photo thumbnail](https://dailyreport.lullabot.com/system/files/4_picture_thumbnail_2015-05-04_20-32-40.jpg) Save this file, and then drag it in to the "Photos" tab on your key.
+Adding a picture to your key gives yet another way to help validate your identity. PGP keys are shared as small text files, so you don't want to attach a 10MB JPEG to your key. For 'bots, you can grab a pre-sized thumbnail from your user account edit form on lullabot.com. ![Photo thumbnail](images/4_picture_thumbnail_2015-05-04_20-32-40.jpg) Save this file, and then drag it in to the "Photos" tab on your key.
 
 ### Uploading your public key
 
-Now that your key has been created, upload it to the public key directory. **Any time you update your key's public data, remember to upload it again!** ![Key upload](https://dailyreport.lullabot.com/system/files/5_upload_to_key_server_2015-05-06_13-04-29.jpg)
+Now that your key has been created, upload it to the public key directory. **Any time you update your key's public data, remember to upload it again!** ![Key upload](images/5_upload_to_key_server_2015-05-06_13-04-29.jpg)
 
 ### Generating a revocation certificate
 
@@ -41,7 +41,7 @@ Sometimes you might find yourself in a situation where you've lost control of yo
 
 ## Encrypting a file
 
-On OS X, right click a file, and "OpenPGP: Encrypt" will show up under the Services menu. ![Encrypting a file](https://dailyreport.lullabot.com/system/files/8_encrypt_file_2015-05-06_16-47-45.jpg) Choose who you want to be able to decrypt the file. In general, you will want to sign the file as well so the recipient knows it was **you** that sent it. ![Encrypt dialog](https://dailyreport.lullabot.com/system/files/9_encrypt_dialog_2015-05-06_16-52-09.jpg) If you chose to sign the file or let yourself decrypt it, you will be asked for your passphrase and a ".gpg" file will be created. This file can be emailed, shared on Dropbox, and so on, and it will be secure. There's a new "Encrypt with password" checkbox as well. That is useful for anyone who hasn't set up a public key yet. **However**, it still leaves you having to communicate that passphrase somehow. **Try to use public keys instead** because they are much easier to use once they are set up.
+On OS X, right click a file, and "OpenPGP: Encrypt" will show up under the Services menu. ![Encrypting a file](images/8_encrypt_file_2015-05-06_16-47-45.jpg) Choose who you want to be able to decrypt the file. In general, you will want to sign the file as well so the recipient knows it was **you** that sent it. ![Encrypt dialog](images/9_encrypt_dialog_2015-05-06_16-52-09.jpg) If you chose to sign the file or let yourself decrypt it, you will be asked for your passphrase and a ".gpg" file will be created. This file can be emailed, shared on Dropbox, and so on, and it will be secure. There's a new "Encrypt with password" checkbox as well. That is useful for anyone who hasn't set up a public key yet. **However**, it still leaves you having to communicate that passphrase somehow. **Try to use public keys instead** because they are much easier to use once they are set up.
 
 ## Decrypting a file
 
@@ -52,11 +52,11 @@ Double click the .gpg file, and enter your passphrase. You might not be asked fo
 A gaggle of 'bots are getting together in the real world. It's a great chance to sign any new keys! Here's a condensed set of steps taken from [The Keysigning Party HOWTO](http://www.cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html).
 
 1.  Each person should create a key using the above steps.
-2.  After, they should give the organizer the email attached to the key and the fingerprint of their key.![Copy fingerprint](https://dailyreport.lullabot.com/system/files/6_copy_fingerprint_2015-05-06_13-03-51.jpg)
+2.  After, they should give the organizer the email attached to the key and the fingerprint of their key.![Copy fingerprint](images/6_copy_fingerprint_2015-05-06_13-03-51.jpg)
 3.  The organizer should import the key from the public server.
   * For the organizer, it's useful to create a separate keyring for the party to simplify creating a key list. `gpg --keyring ~/Desktop/party.gpg --no-default-keyring --recv-keys [KEY-ID]`
 4.  The organizer should then provide each person with a table of keys they can use to mark the ones they have validated.
 
 ### Signing a key
 
-Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone who's identify you are very confident in. For Lullabot's, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](https://dailyreport.lullabot.com/system/files/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
+Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone who's identify you are very confident in. For Lullabot's, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](images/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
