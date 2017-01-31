@@ -1,4 +1,4 @@
-PGP (Pretty Good Privacy) is a system that lets people communicate with each other securely online. PGP lets you **sign** emails and files so others can be sure they haven't been modified and are actually from you. You can also use **PGP** to encrypt emails and files so only the intended recipients can view them. Why would you want a PGP (Pretty Good Privacy) key?
+PGP (Pretty Good Privacy) is a system that lets people communicate with each other securely online. PGP lets you **sign** emails and files so others can be sure they haven't been modified and are actually from you. You can also use **PGP** to encrypt emails and files so only the intended recipients can view them. Why would you want a PGP key?
 
 * You can sign emails you send and receive encrypted email without needing to pay for a certificate. Great for passing around passwords and credentials.
 * You can sign and encrypt files that can be decrypted on any computer (unlike encrypted disk images that are tied to OS X). You could use GPG to encrypt a PDF of a sensitive HR form, and then the filled-out version could have a real digital signature on the returned copy.
