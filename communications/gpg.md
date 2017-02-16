@@ -1,5 +1,7 @@
 # Using PGP/GPG for Secure Communications
 
+<aside>The original program, Pretty Good Privacy, eventually became a standard called OpenPGP. GNU PGP, or "GPG", is the most widely used PGP implementation, but for simplicity this document refers to to "PGP".</aside>
+
 PGP (Pretty Good Privacy) is a system that lets people communicate with each other securely online. PGP lets you **sign** emails and files so others can be sure they haven't been modified and are actually from you. You can also use **PGP** to encrypt emails and files so only the intended recipients can view them. Why would you want a PGP key?
 
 * You can sign emails you send and receive encrypted email without needing to pay for a certificate. Great for passing around passwords and credentials.
@@ -14,8 +16,6 @@ What are the limitations of PGP?
 * For someone to decrypt a file, they have to be set up with PGP. You can't just call them and give them a password. However, PGP is pretty much the only secure solution for file encryption that works on all operating systems.
 
 PGP uses a _web of trust_ to help us validate keys and their owners. In the SSL certificate world, you pay Verisign or some other company to validate your identity. Often it's a basic email or phone call check. With PGP, Andrew can say "I validated that PGP key ASDFXYZ belongs to Matt, because I saw him in person and looked at his drivers license". If you then decide to trust Andrew's key, you'll automatically be able to trust Matt's key. This model works really well for companies like Lullabot, where we work mostly online but see each other in person a few times a year.
-
-The original program, Pretty Good Privacy, eventually became a standard called OpenPGP. GNU PGP, or "GPG", is the most widely used PGP implementation, but for simplicity this document refers to to "PGP".
 
 ## Creating a PGP Key
 
