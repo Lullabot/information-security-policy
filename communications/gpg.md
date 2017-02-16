@@ -51,7 +51,7 @@ Double click the .gpg file, and enter your passphrase. You might not be asked fo
 
 ## Key Party!
 
-A gaggle of 'bots are getting together in the real world. It's a great chance to sign any new keys! Here's a condensed set of steps taken from [The Keysigning Party HOWTO](http://www.cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html).
+If a gaggle of 'bots are getting together in the real world, it's a great chance to sign any new keys! Here's a condensed set of steps taken from [The Keysigning Party HOWTO](http://www.cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html).
 
 1.  Each person should create a key using the above steps.
 2.  After, they should give the organizer the email attached to the key and the fingerprint of their key.![Copy fingerprint](images/6_copy_fingerprint_2015-05-06_13-03-51.jpg)
@@ -61,4 +61,4 @@ A gaggle of 'bots are getting together in the real world. It's a great chance to
 
 ### Signing a key
 
-Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone who's identify you are very confident in. For Lullabot's, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](images/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
+Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone whose identity you are very confident in. For Lullabots, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](images/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
