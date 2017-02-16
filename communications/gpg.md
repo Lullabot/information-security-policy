@@ -15,7 +15,7 @@ What are the limitations of PGP?
 
 PGP uses a _web of trust_ to help us validate keys and their owners. In the SSL certificate world, you pay Verisign or some other company to validate your identity. Often it's a basic email or phone call check. With PGP, Andrew can say "I validated that PGP key ASDFXYZ belongs to Matt, because I saw him in person and looked at his drivers license". If you then decide to trust Andrew's key, you'll automatically be able to trust Matt's key. This model works really well for companies like Lullabot, where we work mostly online but see each other in person a few times a year.
 
-The original program, Pretty Good Privacy, eventually became a standard called OpenPGP. GNU PGP, or "gpg", is the most widely used PGP implementation, but for simplicity this document refers to to "PGP".
+The original program, Pretty Good Privacy, eventually became a standard called OpenPGP. GNU PGP, or "GPG", is the most widely used PGP implementation, but for simplicity this document refers to to "PGP".
 
 ## Creating a PGP Key
 
