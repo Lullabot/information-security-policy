@@ -21,6 +21,7 @@
    * [Email Security](communications/email.md)
    * [Client Email Groups](communications/email_groups.md)
    * [Slack Channels](communications/slack.md)
+   * [Using PGP/GPG for Secure Communications](communications/gpg.md)
 * [Appendix](appendix/appendix.md)
    * [Security Scams and Hacks](appendix/links.md)
    * [Device Checklist](appendix/device-checklist.md)
