@@ -69,5 +69,6 @@ The [algorithm for the "Validity" field](https://www.gnupg.org/gph/en/manual.htm
 
 * Keys you personally sign will show as valid
 * At least three "marginally trusted" keys need to sign a key for it to be fully trusted
+* The "ownertrust" setting or dropdown on a person's key describes how much you trust that person to validate other keys in your keyring.
 
 GPG tries to be very flexible, and allows you to configure how it determines if keys are trusted or not. For our purposes, we recommend that you leave the GPG settings at their defaults. If your key isn't showing up as valid to others, then the best solution is to get more 'bots to sign your key. If other keys aren't showing up as valid for you, then you should find 'bots who's keys you can sign to bring them in to your Web of Trust.
