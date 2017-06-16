@@ -49,7 +49,7 @@ On OS X, right click a file, and "OpenPGP: Encrypt" will show up under the Servi
 
 Double click the .gpg file, and enter your passphrase. You might not be asked for your passphrase if you recently provided it. If the file was signed, and you have their public key in your keyring, GPG will tell you if it could validate who sent the file as well.
 
-## Key Party!
+## Key Parties and the Web of Trust
 
 If a gaggle of 'bots are getting together in the real world, it's a great chance to sign any new keys! Here's a condensed set of steps taken from [The Keysigning Party HOWTO](http://www.cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html).
 
@@ -62,3 +62,13 @@ If a gaggle of 'bots are getting together in the real world, it's a great chance
 ### Signing a key
 
 Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone whose identity you are very confident in. For Lullabots, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](images/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
+
+### Validating keys
+
+The [algorithm for the "Validity" field](https://www.gnupg.org/gph/en/manual.html#AEN385) is somewhat complex. You might wonder why GPG isn't showing a key you think should be "valid" as valid. To paraphrase the GPG manual:
+
+* Keys you personally sign will show as valid
+* At least three "marginally trusted" keys need to sign a key for it to be fully trusted
+* The "ownertrust" setting or dropdown on a person's key describes how much you trust that person to validate other keys in your keyring.
+
+GPG tries to be very flexible, and allows you to configure how it determines if keys are trusted or not. For our purposes, we recommend that you leave the GPG settings at their defaults. If your key isn't showing up as valid to others, then the best solution is to get more 'bots to sign your key. If other keys aren't showing up as valid for you, then you should find 'bots who's keys you can sign to bring them in to your Web of Trust.
