@@ -31,7 +31,7 @@ To add more email addresses to your key, click **Details**, and then **User IDs*
 
 ### Adding your picture to your key
 
-Adding a picture to your key gives yet another way to help validate your identity. PGP keys are shared as small text files, so you don't want to attach a 10MB JPEG to your key. For 'bots, you can grab a pre-sized thumbnail from your user account edit form on lullabot.com. ![Photo thumbnail](images/4_picture_thumbnail_2015-05-04_20-32-40.jpg) Save this file, and then drag it in to the "Photos" tab on your key.
+Adding a picture to your key gives yet another way to help validate your identity. PGP keys are shared as small text files, so you don't want to attach a 10MB JPEG to your key. For Lullabots, you can grab a pre-sized thumbnail from your user account edit form on lullabot.com. ![Photo thumbnail](images/4_picture_thumbnail_2015-05-04_20-32-40.jpg) Save this file, and then drag it in to the "Photos" tab on your key.
 
 ### Uploading your public key
 
