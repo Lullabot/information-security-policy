@@ -32,3 +32,4 @@ You should be sure you have some way to recover access to your account if your p
 * Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while Github will not.
 * Determine if an account can be reset by an account admin - Google Apps accounts can do this, while Github and others can not.
 
+It can be tricky to store recovery codes digitally in a secure but functional manner. For example, if you store tokens in LastPass, and then need to reset LastPass credentials, you'll be unable to access your recovery codes to get into LastPass itself. Do not store tokens in a cloud service like Dropbox or iCloud, or anywhere digitally without encryption. For recovery codes, hard copies stored safely are best.
