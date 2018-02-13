@@ -19,6 +19,7 @@
    * [Asset Inventory](physical/inventory.md)
 * [Communications](communications/communications.md)
    * [Email Security](communications/email.md)
+   * [Security in the Cloud](communications/cloud.md)
    * [Client Email Groups](communications/email_groups.md)
    * [Slack Channels](communications/slack.md)
    * [Using PGP/GPG for Secure Communications](communications/gpg.md)
