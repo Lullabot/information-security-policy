@@ -20,5 +20,6 @@ The current members of the Security team include:
 - [Ben Chavet, Senior Systems Administrator](https://www.lullabot.com/about/ben-chavet)
 - [Tim McDorman, Administrative Manager](https://www.lullabot.com/about/tim-mcdorman)
 - [Andrew Berry, Senior Architect](https://www.lullabot.com/about/andrew-berry)
+- [Ezequiel Vázquez, Developer](https://www.lullabot.com/about/ezequiel-vazquez)
 
 This team is currently meeting weekly to discuss and assess security concerns. The team can be contacted at any time by sending an email to security@lullabot.com.
