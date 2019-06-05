@@ -15,12 +15,16 @@
     "scripts": {
         "install": "cross-var gitbook install --gitbook=$npm_package_config_gitbook",
         "build": "cross-var gitbook build --gitbook=$npm_package_config_gitbook",
-        "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook"
+        "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook",
+        "test": "blcl -re ./_book"
     },
     "dependencies": {
         "cross-var": "^1.1.0",
-        "gitbook": "^3.2.3",
+        "gitbook-cli": "^2.3.2",
         "highlight.js": "^9.15.8",
         "html-escape": "^2.0.0"
+    },
+    "devDependencies": {
+        "broken-link-checker-local": "^0.2.0"
     }
 }
