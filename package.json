@@ -1,14 +1,31 @@
 {
     "name": "information-security-policy",
+    "author": {
+        "name": "Lullabot",
+        "email": "security@lullabot.com"
+    },
+    "config": {
+        "gitbook": "3.2.3"
+    },
     "repository": {
         "type": "git",
         "url": "git@github.com:Lullabot/information-security-policy.git"
     },
     "license": "SEE LICENSE IN LICENSE",
     "scripts": {
-        "install": "gitbook install --gitbook=2.5.2 && gitbook build --gitbook=2.5.2"
+        "install": "cross-var gitbook install --gitbook=$npm_package_config_gitbook",
+        "build": "cross-var gitbook build --gitbook=$npm_package_config_gitbook",
+        "pdf": "cross-var gitbook pdf --gitbook=$npm_package_config_gitbook ./ ./security-handbook.pdf",
+        "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook",
+        "test": "blcl -re ./_book"
     },
     "dependencies": {
-        "gitbook-cli": "^1.0.1"
+        "cross-var": "^1.1.0",
+        "gitbook-cli": "^2.3.2",
+        "highlight.js": "^9.15.8",
+        "html-escape": "^2.0.0"
+    },
+    "devDependencies": {
+        "broken-link-checker-local": "^0.2.0"
     }
 }
