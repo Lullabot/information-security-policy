@@ -15,7 +15,7 @@
     "scripts": {
         "install": "cross-var gitbook install --gitbook=$npm_package_config_gitbook",
         "build": "cross-var gitbook build --gitbook=$npm_package_config_gitbook",
-        "pdf": "cross-var gitbook pdf --gitbook=$npm_package_config_gitbook ./ ./security-handbook.pdf",
+        "pdf": "cross-var gitbook pdf --gitbook=$npm_package_config_gitbook ./",
         "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook",
         "test": "blcl -re ./_book"
     },
