@@ -17,7 +17,7 @@
         "build": "cross-var gitbook build --gitbook=$npm_package_config_gitbook",
         "pdf": "cross-var gitbook pdf --gitbook=$npm_package_config_gitbook ./",
         "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook",
-        "test": "blcl -re ./_book"
+        "test": "blcl -re --exclude /security.pdf ./_book"
     },
     "dependencies": {
         "cross-var": "^1.1.0",
