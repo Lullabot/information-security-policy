@@ -1,5 +1,11 @@
 {
     "title": "Security Policy",
+    "links": {
+        "sidebar": {
+            "Download": "/security.pdf",
+            "GitHub": "https://github.com/Lullabot/information-security-policy"
+        }
+    },
     "plugins": ["-sharing", "typekit@0.0.2", "collapsible-menu", "todo"],
     "styles": {
         "website": "_styles/website.css"
