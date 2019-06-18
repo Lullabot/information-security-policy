@@ -12,4 +12,5 @@ services:
       build:
         - yarn install
         - yarn build
+        - yarn pdf _book/security.pdf
         - ln -snf "${TUGBOAT_ROOT}/_book" "${DOCROOT}"
