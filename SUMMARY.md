@@ -16,7 +16,7 @@
    * [Lost or Stolen Devices](physical/lost-devices.md)
    * [Malware and Viruses](physical/malware.md)
    * [Device Maintenance](physical/device.md)
-   * [Asset Inventory](physical/inventory.md)
+   * [Device Inventory](physical/inventory.md)
 * [Communications](communications/communications.md)
    * [Email Security](communications/email.md)
    * [Security in the Cloud](communications/cloud.md)
