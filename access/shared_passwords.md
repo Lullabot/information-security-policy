@@ -36,7 +36,7 @@ Users of other password managers probably want to make a few adjustments if they
 
 ### Recommendations for users
 
-Don’t put non-shared passwords in your Lullabot vault, create a personal account and link it to the shared acccount.
+Don’t put non-shared passwords in your Lullabot vault, create a personal account and link it to the shared account.
 
 - This is even LastPass’s official recommendation.
 - There is a policy where we can officially recommend/require this.
