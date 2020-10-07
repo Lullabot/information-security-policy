@@ -26,7 +26,7 @@ Lullabot can monitor the use of its IT systems and the data on it at any time. T
 
 Lullabot reserves the right to regularly audit networks and systems to ensure compliance with this policy.
 
-Users must take all necessary steps to prevent unauthorized access to confidential information. Users are expected to exercise reasonable personal judgement when deciding which information is confidential.
+Users must take all necessary steps to prevent unauthorized access to confidential information. Users are expected to exercise reasonable personal judgment when deciding which information is confidential.
 
 Users must not send, upload, remove on portable media or otherwise transfer to a non-Lullabot system any information that is designated as confidential, or that they should reasonably regard as being confidential to Lullabot, except where explicitly authorized to do so in the performance of their regular duties.
 

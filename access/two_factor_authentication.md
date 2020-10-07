@@ -1,7 +1,7 @@
 ## Two-factor Authentication (2FA)
 
 ### Policy
-Two-factor authentication (2FA) is required for any account or service that supports it, if that service provides access to Lullabot or client information. This includes, but is not limited to, Gmail, Github, Dropbox, and Slack. Lullabot employees and contractors will need to set up 2FA to log into these accounts.
+Two-factor authentication (2FA) is required for any account or service that supports it, if that service provides access to Lullabot or client information. This includes, but is not limited to, Gmail, GitHub, Dropbox, and Slack. Lullabot employees and contractors will need to set up 2FA to log into these accounts.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
@@ -29,7 +29,7 @@ You should be sure you have some way to recover access to your account if your p
 * Google lets you specify multiple recovery phone numbers. Set up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. PINs sent to other numbers won't compromise your accounts unless they also know your logins and passwords.
 * The Authy app provides an option to share codes across devices. This would allow you to retrieve your code from some other device that has the app installed.
 * Print out 2FA recovery codes and store them outside of your house. If you use a password manager that is accessible from multiple devices, you could store the recovery codes in your password manager in secure notes and access them from another device.
-* Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while Github will not.
-* Determine if an account can be reset by an account admin - Google Apps accounts can do this, while Github and others can not.
+* Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while GitHub will not.
+* Determine if an account can be reset by an account admin - Google Apps accounts can do this, while GitHub and others can not.
 
 It can be tricky to store recovery codes digitally in a secure but functional manner. For example, if you store tokens in LastPass, and then need to reset LastPass credentials, you'll be unable to access your recovery codes to get into LastPass itself. Do not store tokens in a cloud service like Dropbox or iCloud, or anywhere digitally without encryption. For recovery codes, hard copies stored safely are best.

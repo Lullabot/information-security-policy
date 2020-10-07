@@ -17,7 +17,8 @@
         "build": "cross-var gitbook build --gitbook=$npm_package_config_gitbook",
         "pdf": "cross-var gitbook pdf --gitbook=$npm_package_config_gitbook ./",
         "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook",
-        "test": "blcl -re --exclude /security.pdf ./_book"
+        "test": "blcl -re --exclude /security.pdf ./_book",
+        "spellcheck": "mdspell --en-us --ignore-numbers --ignore-acronyms '**/*.md' '!**/node_modules/**/*.md'"
     },
     "dependencies": {
         "cross-var": "^1.1.0",
@@ -26,6 +27,7 @@
         "html-escape": "^2.0.0"
     },
     "devDependencies": {
-        "broken-link-checker-local": "^0.2.0"
+        "broken-link-checker-local": "^0.2.0",
+        "markdown-spellcheck": "^1.3.1"
     }
 }

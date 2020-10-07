@@ -30,7 +30,7 @@ Finally, if at all in doubt (or you just want help doing the above), ask in #sec
 - If you are signing up for a service that you would continue to use even if you were no longer employed at Lullabot, use your personal email address.
 - If you are signing up for a service that will not contain or provide access to Lullabot data, nor be used by others at Lullabot or Lullabot clients, use your personal email address.
 
-If a service supports multiple email addresses per account, it’s OK (and even recommended) to use one “account” with multiple “identities”. Github is the most notable example of this, though services that are built on top of Github likely use the same model. For example, instead of creating a new account, add your Lullabot email address to your existing account. Use the built-in tools to associate work and personal email addresses with the right organizations and projects.
+If a service supports multiple email addresses per account, it’s OK (and even recommended) to use one “account” with multiple “identities”. GitHub is the most notable example of this, though services that are built on top of GitHub likely use the same model. For example, instead of creating a new account, add your Lullabot email address to your existing account. Use the built-in tools to associate work and personal email addresses with the right organizations and projects.
 
 Some clients will create email addresses for you. Where possible, use your Lullabot email address instead of a client email address. This is especially important for VPN recovery, where client email may not be accessible outside of the VPN. Consider redirecting your client email to your Lullabot email if it’s supported by the client.
 
