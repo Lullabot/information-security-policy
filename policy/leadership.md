@@ -15,7 +15,7 @@ This policy applies to Lullabot management.
 
 The current members of the Security team include:
 
-- [Ben Chavet, Senior Systems Administrator](https://www.lullabot.com/about/ben-chavet)
+- [Ben Chavet, Senior Systems Architect](https://www.lullabot.com/about/ben-chavet)
 - [Brian Skowron, President](https://www.lullabot.com/about/brian-skowron)
 - [Dave Reid, Senior Developer](https://www.lullabot.com/about/dave-reid)
 - [Ezequiel Vázquez, Senior Developer](https://www.lullabot.com/about/ezequiel-vazquez)
