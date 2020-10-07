@@ -22,11 +22,11 @@ With each device, validate:
   * Only use Trusted Places for automatic unlocks for devices you don't share and at very trusted locations like home. Avoid using Trusted Devices like Bluetooth pairings since it's just as easy to steal a phone and a smartwatch or headset.
   * If your device supports biometrics like TouchID, consider setting a timeout to require a password. iOS doesn't support this for the lock screen, but 1Password does under Settings > Advanced > Security > Require Master Password (1 Hour).
   * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Touch ID & Passcode" in Settings.
-- [ ] All remote accounts use 2FA where supported, including Dropbox, Google, Slack, and Github.
+- [ ] All remote accounts use 2FA where supported, including Dropbox, Google, Slack, and GitHub.
 - [ ] New Android phones like the Nexus 6 should support encryption by default. Due to major performance and compatibility issues with older devices, we omit existing Android devices from required encryption. Check encryption support before buying a new phone.
 - [ ] All computer and mobile systems should be patched and up to date.
 - [ ] All devices should have "Find" and "Remote Wipe" capabilities.
-- [ ] Rooted Android phones and Jailbroken iPhones should be treated with care.
+- [ ] Rooted Android phones and jailbroken iPhones should be treated with care.
 
 After you've finished reading the above, run through these fun scenarios to make sure you're all set!
 
@@ -44,6 +44,6 @@ Make sure you'd be safe in the following circumstances:
 
 - [ ] I place catnip on my laptop keyboard because I love my cat. My screen lock prevents Kitty from viewing or changing sensitive information.
 - [ ] A client puts very important credentials in a Word document I download. I'm not worried about securely erasing the file because my hard drive is encrypted.
-- [ ] Sally has asked me to log in to Github on her laptop. I'm able to access my password vault using nothing but the internet and things I know in my head. After Sally is done, I manually log out of all accounts I logged in to.
+- [ ] Sally has asked me to log in to GitHub on her laptop. I'm able to access my password vault using nothing but the internet and things I know in my head. After Sally is done, I manually log out of all accounts I logged in to.
 - [ ] I need to move a copy of the Daily Report database at a Lullabot Retreat where the internet is totally broken. I can use my USB drive because I've encrypted the drive using FileVault or BitLocker.
 - [ ] I switch from iOS to Windows Phone because it sounds like fun. I'm able to recreate all of my 2FA tokens by using pre-printed recovery codes or SMS messages.

@@ -15,7 +15,7 @@ What happens if your device is lost or stolen? The best scenario is where you ca
 
 To prevent problems:
 
-- Make sure all computers and phones have [ecryption](../physical/hard-drive-encryption.md) enabled.
+- Make sure all computers and phones have [encryption](../physical/hard-drive-encryption.md) enabled.
 - Create secure [pins and passwords](../physical/locking.md) for device screen locks.
 - Enable Find My Phone|Computer features, where available. For Apple devices, at least, this includes options to remotely wipe a lost or stolen device.
 - Consider adding contact information to your lock screen to make it easier for someone who finds your device to return it.
@@ -25,7 +25,7 @@ Also make sure that you have strong passwords for any accounts that can remotely
 
 ### Android Devices
 
-[Android Device Manager](https://www.google.ca/android/devicemanager) is the easiest way to find and manage Android devices. Your phone manufacturer (Samsung, Motorola, etc) may also have device recovery software you can use. ADM lets you locate, ring, and erase devices. You can also set up a new lockscreen code.
+[Android Device Manager](https://www.google.ca/android/devicemanager) is the easiest way to find and manage Android devices. Your phone manufacturer (Samsung, Motorola, etc) may also have device recovery software you can use. ADM lets you locate, ring, and erase devices. You can also set up a new lock screen code.
 
 It's also a good idea to put contact information on your phone's lock screen. In Android 5, it's under Settings -> Security -> Owner info, and is available in older Android versions as well. Make sure your contact info isn't only accessible on your phone!
 
@@ -55,7 +55,7 @@ Finding your lost device is the first step to figuring out how much you need to 
 
 #### Is there a realistic security issue, or just a lost device?
 
-The first step is to figure out if it's reasonably possible for someone to get access to accounts and data from the lost device. Laptop drives are accessible if they aren't encrypted. Encrypted devices are accessible if they aren't locked. If a laptop is stolen and we can't know if it was locked, we should assume the contents are open to the world, as all it takes is a (cheap) USB device to keep it awake. If someone isn't sure, they should reach out to the hivemind for advice. A smart attacker will also keep LastPass or 1Password unlocked.
+The first step is to figure out if it's reasonably possible for someone to get access to accounts and data from the lost device. Laptop drives are accessible if they aren't encrypted. Encrypted devices are accessible if they aren't locked. If a laptop is stolen and we can't know if it was locked, we should assume the contents are open to the world, as all it takes is a (cheap) USB device to keep it awake. If someone isn't sure, they should reach out to the hive-mind for advice. A smart attacker will also keep LastPass or 1Password unlocked.
 
 #### You lost a device that was encrypted and locked or off:
 
@@ -63,7 +63,7 @@ You probably don't need to do anything security-wise other than letting the team
 
 #### You lost a device that might have been unlocked, but you store passwords in a password manager that was known to be locked:
 
-You don't need to reset passwords or credentials except for anything that might be in plain text. If you have apps that don't use the OS X keychain, you might need to reset those credentials. Windows and Linux apps commonly store passwords in cleartext (or mildly obfuscated) on disk. API tokens should be reset, like those used by Composer for GitHub access or those stored in settings.php in client sites.
+You don't need to reset passwords or credentials except for anything that might be in plain text. If you have apps that don't use the OS X keychain, you might need to reset those credentials. Windows and Linux apps commonly store passwords in clear-text (or mildly obfuscated) on disk. API tokens should be reset, like those used by Composer for GitHub access or those stored in settings.php in client sites.
 
 If you get your device back, assume it's been compromised with a keylogger. Wipe it and restore it from a known-good backup. This includes ignoring any potential cloud backups made since you lost the device.
 
@@ -87,7 +87,7 @@ High-profile services to have an admin team member immediately reset or log out 
 
 Services individuals need to reset or log out on their own once the above is done:
 
-* Github
+* GitHub
 * Client-specific services (like Jira, Hipchat, etc)
 * Drupal.org
 * Twitter, Facebook, etc

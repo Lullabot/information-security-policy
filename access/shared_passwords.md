@@ -31,12 +31,12 @@ LastPass Enterprise has many advantages for managing shared passwords:
 Users of other password managers probably want to make a few adjustments if they want to continue using their own password manager for their personal accounts:
 
 - Consider using separate browsers for work and personal.
-- Consider using web-access to lastpass instead of the extension.
+- Consider using web-access to LastPass instead of the extension.
 - May be able to configure LastPass to not ask about saving passwords.
 
 ### Recommendations for users
 
-Don’t put non-shared passwords in your Lullabot vault, create a personal account and link it to the shared acccount.
+Don’t put non-shared passwords in your Lullabot vault, create a personal account and link it to the shared account.
 
 - This is even LastPass’s official recommendation.
 - There is a policy where we can officially recommend/require this.

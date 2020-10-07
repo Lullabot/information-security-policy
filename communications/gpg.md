@@ -10,8 +10,8 @@ PGP (Pretty Good Privacy) is a system that lets people communicate with each oth
 
 What are the limitations of PGP?
 
-* Many email programs don't support any encryption systems at all, and some that do only support the centrialized [S/MIME standard](https://en.wikipedia.org/wiki/S/MIME). Most desktop email clients have plugins to add PGP support, but mobile devices usually don't support plugins in their apps.
-* Using any sort of encryption or signing is difficult in webmail. GMail can't search the contents of encrypted emails since GMail doesn't have your decryption keys. There are browser plugins to add PGP support to GMail on the web, but GMail on Android and iOS don't support those plugins.
+* Many email programs don't support any encryption systems at all, and some that do only support the centralized [S/MIME standard](https://en.wikipedia.org/wiki/S/MIME). Most desktop email clients have plugins to add PGP support, but mobile devices usually don't support plugins in their apps.
+* Using any sort of encryption or signing is difficult in webmail. Gmail can't search the contents of encrypted emails since Gmail doesn't have your decryption keys. There are browser plugins to add PGP support to Gmail on the web, but Gmail on Android and iOS don't support those plugins.
 * When signing (and not encrypting) emails, recipients can get confused by the signature attachment added to the message. In general, **don't sign emails to clients** unless you know they are aware of PGP.
 * For someone to decrypt a file, they have to be set up with PGP. You can't just call them and give them a password. However, PGP is pretty much the only secure solution for file encryption that works on all operating systems.
 
@@ -31,7 +31,7 @@ To add more email addresses to your key, click **Details**, and then **User IDs*
 
 ### Adding your picture to your key
 
-Adding a picture to your key gives yet another way to help validate your identity. PGP keys are shared as small text files, so you don't want to attach a 10MB JPEG to your key. For Lullabots, you can grab a pre-sized thumbnail from your user account edit form on lullabot.com. ![Photo thumbnail](images/4_picture_thumbnail_2015-05-04_20-32-40.jpg) Save this file, and then drag it in to the "Photos" tab on your key.
+Adding a picture to your key gives yet another way to help validate your identity. PGP keys are shared as small text files, so you don't want to attach a 10MB JPEG to your key. For Lullabot employees and contractors, you can grab a pre-sized thumbnail from your user account edit form on lullabot.com. ![Photo thumbnail](images/4_picture_thumbnail_2015-05-04_20-32-40.jpg) Save this file, and then drag it in to the "Photos" tab on your key.
 
 ### Uploading your public key
 
@@ -61,7 +61,7 @@ If a gaggle of 'bots are getting together in the real world, it's a great chance
 
 ### Signing a key
 
-Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone whose identity you are very confident in. For Lullabots, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](images/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
+Once you have validated a key fingerprint belongs to a person, you can right-click on it and select "Sign". **Uncheck the Signature Expires** checkbox for anyone whose identity you are very confident in. For Lullabot employees and contractors, meeting in person should be enough to select "I have done very careful checking" since HR will have validated identities for employment. For others, check their driver's license or passport. Once the key is signed, upload it to a key server to tell the world about your trust in the identity. ![Signing a key](images/7_key_signing_2015-05-06_16-23-50.jpg) If your key is signed by someone else, you can update your key from the public key servers to add the signature to your local copy of the key.
 
 ### Validating keys
 

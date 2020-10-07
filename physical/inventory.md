@@ -44,4 +44,4 @@ Computers and cell phones that have been replaced, or those which are being sold
 #### Asset Inventory
 Asset inventories shall be conducted periodically. At that time details about computers not already in the asset management system can be added, and computers no longer in service can be removed from the system.
 
-An initial inventory shall be performed to collect an accounting of computers and cell phones purchased prior to the time when this policy was implmented.
+An initial inventory shall be performed to collect an accounting of computers and cell phones purchased prior to the time when this policy was implemented.
