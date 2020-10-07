@@ -1,7 +1,7 @@
 ## PINs, Passcodes and Passwords
 
 ### Policy
-Strong passwords should be used for access to any company accounts and services. We recommend creating passwords with a minimum of 16 characters and a combination of alpabetic, numeric and special characters.
+Strong passwords should be used for access to any company accounts and services. We recommend creating passwords with a minimum of 16 characters and a combination of alphabetic, numeric and special characters.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
