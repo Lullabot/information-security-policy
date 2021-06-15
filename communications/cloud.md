@@ -3,7 +3,7 @@ Lullabot permits the use of public cloud applications, tools and technologies, k
 
 ## What is a cloud service?
 
-We consider a cloud service to be any software as a service application that is hosted by the software vendor. The Google Suite, Dropbox, and Freckle are all cloud services. As a distributed company working with many clients, cloud services make our business possible in the first place.
+We consider a cloud service to be any software as a service application that is hosted by the software vendor. The Google Suite, Dropbox, and Noko are all cloud services. As a distributed company working with many clients, cloud services make our business possible in the first place.
 
 Some applications may not seem like cloud services, but use the cloud for sync and storage. For example, Apple Music is a cloud service, even though it’s only accessed through iTunes and not a web browser.
 
