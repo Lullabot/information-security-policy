@@ -83,7 +83,7 @@ High-profile services to have an admin team member immediately reset or log out 
 * Linode Manager
 * Slack
 * Yammer
-* Freckle
+* Noko
 
 Services individuals need to reset or log out on their own once the above is done:
 
