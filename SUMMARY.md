@@ -8,6 +8,7 @@
    * [Password Managers](access/password_managers.md)
    * [Two Factor Authentication](access/two_factor_authentication.md)
    * [Shared Passwords](access/shared_passwords.md)
+   * [Shared Accounts](access/shared_accounts.md)
 * [Physical Security](physical/physical.md)
    * [Acceptable Use Policy](physical/acceptable_use.md)
    * [Device Lock Screens](physical/locking.md)
