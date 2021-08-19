@@ -8,7 +8,7 @@ This policy applies to all Lullabot employees and contractors.
 
 ### Compliance
 - Individual accounts will be used for all services that support them.
-- If a service does not support multiple accounts, access credentials will be stored in the [shared password manager](access/shared_passwords.md) with access only granted to the users who need it.
+- If a service does not support multiple accounts, access credentials will be stored in the [shared password manager](access/shared_passwords.html) with access only granted to the users who need it.
 - Written confirmation from a client is required if the client requires use of a shared account in a service they manage.
 - When comparing multiple services, services that support individual accounts will be preferred over those that do not.
 - Invitations to services should be sent by email address, and not user name, to avoid [inviting wrong members to a team](https://www.theregister.com/2014/05/20/github_oversharing_snafu_nbc_private_keys/).
