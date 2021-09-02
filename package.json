@@ -22,7 +22,6 @@
     },
     "dependencies": {
         "cross-var": "^1.1.0",
-        "gitbook-cli": "^2.3.2",
         "highlight.js": "^9.15.8",
         "html-escape": "^2.0.0"
     },
