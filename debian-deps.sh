@@ -5,6 +5,11 @@ apt-get update \
   apt-transport-https \
   libgl1-mesa-glx \
   libxdamage1 \
+  libxcomposite1 \
+  libxrandr2 \
+  libfreetype6 \
+  libfontconfig1 \
+  libxi6 \
   libnss3
 
 hash yarn 2>/dev/null || (
