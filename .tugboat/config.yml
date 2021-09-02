@@ -7,7 +7,7 @@ services:
       build:
         # Calibre uses Chrome libraries under the hood, and it refuses to run
         # as root.
-        - chown -Rv www-data:www-data /var/lib/tugobat
+        - chown -Rv www-data:www-data /var/lib/tugboat
         - sudo -u www-data yarn install
         - sudo -u www-data yarn build
         - sudo -u www-data yarn pdf _book/security.pdf
