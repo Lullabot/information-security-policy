@@ -4,11 +4,15 @@ services:
     commands:
       init:
         - ./debian-deps.sh
+        - mkdir -p /var/www
+        - chown www-data:www-data /var/www
       build:
         # Calibre uses Chrome libraries under the hood, and it refuses to run
         # as root.
+        - mkdir -p /var/www
+        - chown www-data:www-data /var/www
         - chown -Rv www-data:www-data /var/lib/tugboat
-        - ln -snf "${TUGBOAT_ROOT}/_book" "${DOCROOT}"
         - sudo -u www-data yarn install
         - sudo -u www-data yarn build
         - sudo -u www-data yarn pdf _book/security.pdf
+        - ln -snf "${TUGBOAT_ROOT}/_book" "${DOCROOT}"
