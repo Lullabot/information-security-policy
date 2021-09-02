@@ -20,6 +20,6 @@ hash yarn 2>/dev/null || (
 )
 
 # From https://calibre-ebook.com/download_linux
-# Calibre is quite old in upstream Debian docker images, so pull latest
-# (but pin because it's not an essential dependency).
-wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin version=5.26.0
+# Calibre is quite old in upstream Debian docker images, so pull in the last
+# known working version as per https://github.com/honkit/honkit/issues/117
+wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin version=3.48.0
