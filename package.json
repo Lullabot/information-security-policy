@@ -4,26 +4,25 @@
         "name": "Lullabot",
         "email": "security@lullabot.com"
     },
-    "config": {
-        "gitbook": "3.2.3"
-    },
     "repository": {
         "type": "git",
         "url": "git@github.com:Lullabot/information-security-policy.git"
     },
     "license": "SEE LICENSE IN LICENSE",
     "scripts": {
-        "install": "cross-var gitbook install --gitbook=$npm_package_config_gitbook",
-        "build": "cross-var gitbook build --gitbook=$npm_package_config_gitbook",
-        "pdf": "cross-var gitbook pdf --gitbook=$npm_package_config_gitbook ./",
-        "serve": "cross-var gitbook serve --gitbook=$npm_package_config_gitbook",
+        "build": "cross-var honkit build",
+        "pdf": "cross-var honkit pdf ./",
+        "serve": "cross-var honkit serve",
         "test": "blcl -re --exclude /security.pdf ./_book",
         "spellcheck": "mdspell --en-us --ignore-numbers --ignore-acronyms '**/*.md' '!**/node_modules/**/*.md'"
     },
     "dependencies": {
         "cross-var": "^1.1.0",
-        "gitbook-cli": "^2.3.2",
+        "gitbook-plugin-collapsible-menu": "^1.0.3",
+        "gitbook-plugin-todo": "^0.1.3",
+        "gitbook-plugin-typekit": "^0.0.2",
         "highlight.js": "^9.15.8",
+        "honkit": "^3.6.20",
         "html-escape": "^2.0.0"
     },
     "devDependencies": {
