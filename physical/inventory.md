@@ -12,7 +12,6 @@ This policy applies to all Lullabot employees and management.
 - The system will track identifying information, including make, model, and serial number.
 - The system will track the location of the item and identify the person who has possession of it.
 - The system will include a classification system to allow each asset to be classified based on its security risk.
-- The system will create labels that can be attached to each asset.
 
 ### Explanation and Implementation
 Lullabot tracks assets and equipment in an inventory tracking system. All computers and cell phones used for Lullabot business will be tracked in this system, regardless of who purchased them or when they were purchased. 
@@ -29,9 +28,6 @@ Assets in the inventory tracking system will be classified into one of the follo
 - Restricted (medium confidentiality level)
 - Internal use (lowest level of confidentiality)
 - Public (everyone can see the information or the asset provides no access to any information)
-
-#### Labeling
-A label will be created for each asset that is tracked in the inventory tracking system. That label should be attached to the asset.
 
 #### Removing Assets From Service
 Computers and cell phones that have been replaced, or those which are being sold to employees, should be properly removed from service.
