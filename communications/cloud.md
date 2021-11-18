@@ -14,7 +14,7 @@ There’s some basics to check when evaluating a new service. For example, when 
 - Their site HTTPs configuration
 - Their policies for data encryption and backup
 - Their policies for who at BambooHR had access to our HR data
-- Their password and password recovery policies (such as, do the limit passwords to 12 characters, or only allow letters and numbers)
+- Their password and password recovery policies (such as, do they limit passwords to 12 characters, or only allow letters and numbers)
 - Their account and data deletion policies
 
 A search for “<servicename> breach” or “<servicename> leak” is also a good test to see if a service has a record of poor security. Instead of just investigating if a given service was breached, investigate how they handled the breach and how their systems were designed. For example, Yahoo has been shown to have an incredibly poor security track record, storing personal data and passwords in a way that make it easy for attackers to exploit.
