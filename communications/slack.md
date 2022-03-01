@@ -10,7 +10,7 @@ This policy applies to all Lullabot employees and management.
 - The person who created the Slack channel will also be responsible for archiving it when no longer needed. 
 - Admin staff will perform a periodic review of Slack channels to identify channels that have no activity as potential candidates for archival, and contact the channel creator to confirm the course of action.
 - If a client or colleague from another organization needs access to a Slack channel:
-  - and they also use Slack at their organization, they will be added through the [Shared Channel](https://slack.com/help/articles/115004151203-Slack-Connect-guide--work-with-external-partners) feature 
+  - and they also use Slack at their organization, they will be added through the [Shared Channel](https://slack.com/help/articles/115004151203-Slack-Connect-guide--work-with-external-partners) feature.
   - or if they do not use Slack as a part of their organization, then they'll be added using the [Guest Account](https://slack.com/help/articles/202518103-Understand-guest-roles-in-Slack) feature.
   - Guest accounts will be set to expire in 12 months, and renewed for additional 6 month periods as needed.
 
