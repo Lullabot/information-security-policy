@@ -9,6 +9,7 @@ This policy applies to all Lullabot employees and management.
 ### Compliance
 - The person who created the Slack channel will also be responsible for archiving it when no longer needed. 
 - Admin staff will perform a periodic review of Slack channels to identify channels that have no activity as potential candidates for archival, and contact the channel creator to confirm the course of action.
+- If a client or colleague from another organization needs access to a Slack channel, and they also use Slack at their organization, they will be added through the [Shared Channel](https://slack.com/help/articles/115004151203-Slack-Connect-guide--work-with-external-partners) feature instead of the [Guest Account](https://slack.com/help/articles/202518103-Understand-guest-roles-in-Slack) feature.
 
 ### Explanation and Implementation
 Slack channels can be created for specific projects and clients. These channels keep a lot of noise out of the general channel and also provide a place to talk specifically about a topic or client. Non-employees may be invited to these channels as well, allowing clients and contractors to communicate about a specific project without allowing them access to the general Lullabot channel. 
