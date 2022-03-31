@@ -41,7 +41,7 @@ There are times when the answers might conflict, and you could make a case for u
 
 ## What if there are both personal and business versions of a cloud service?
 
-Many cloud services used by Lullabot include provisions to store both business and personal information. For instance, there is a Lullabot Dropbox account, but you can also establish a personal Dropbox account and link them together. LastPass separates folders for Lullabot accounts from personal accounts.
+Many cloud services used by Lullabot include provisions to store both business and personal information. For instance, there is a Lullabot Dropbox account, but you can also establish a personal Dropbox account and link them together. Our 1Password Business membership includes a free 1Password Families membership for each employee.
 
 Any time there is an option to separate personal and business data in the cloud, we require employees to respect that separation. Don’t put Lullabot data, or Lullabot client data, into your personal account, nor add personal information into the Lullabot account. Lullabot won’t ever have access to your personal account, so nothing that belongs to the company or its clients should go into it. The test for whether you have separated your personal data properly is to confirm that if you were to unexpectedly lose access to the Lullabot account, you would still retain all your own personal data.
 
