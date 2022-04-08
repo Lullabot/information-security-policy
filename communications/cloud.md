@@ -8,6 +8,8 @@ Some applications may not seem like cloud services, but use the cloud for sync a
 
 ## What needs to be done to introduce a new cloud service at Lullabot?
 
+Read the following, and then fill out [the service request form](https://forms.gle/aPZnrCoEhfhB67ck8).
+
 If a new cloud service is purchased individually on PEX, and it does not require integration or access to Lullabot data stored in other services, no specific approval is required. Examples of services like this include:
 
 
