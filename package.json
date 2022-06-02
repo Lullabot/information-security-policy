@@ -10,7 +10,7 @@
     },
     "license": "SEE LICENSE IN LICENSE",
     "scripts": {
-        "build": "cross-var honkit build",
+        "build": "cross-var honkit build && echo 'security.lullabot.com' > ./_book/CNAME",
         "pdf": "cross-var honkit pdf ./",
         "serve": "cross-var honkit serve",
         "test": "blcl -re --exclude /security.pdf ./_book",
