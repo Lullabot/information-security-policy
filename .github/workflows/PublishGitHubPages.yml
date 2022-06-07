@@ -16,7 +16,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install Calibre
-        run: wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh
+        run: |
+          wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh
+          rm calibre-tarball.*
 
       - uses: actions/setup-node@v3
         with:
@@ -38,10 +40,13 @@ jobs:
         run: |
           yarn install
           yarn build
-          yarn pdf _book/security.pdf
+          yarn pdf
+          mv book.pdf _book/book.pdf
+          rm _book/.gitignore
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_book
+          exclude_assets: '.github,build.sh,CONTRIBUTING.md,debian-deps.sh,Dockerfile,package.json,yarn.lock'
