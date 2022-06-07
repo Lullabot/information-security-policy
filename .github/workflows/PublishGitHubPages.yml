@@ -41,7 +41,7 @@ jobs:
           yarn install
           yarn build
           yarn pdf
-          mv book.pdf _book/book.pdf
+          mv book.pdf _book/security.pdf
           rm _book/.gitignore
 
       - name: Deploy
