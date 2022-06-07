@@ -20,7 +20,7 @@ jobs:
       - name: Install Calibre
         run: |
           wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh
-          rm -y calibre-tarball.*
+          rm calibre-tarball.*
 
       - uses: actions/setup-node@v3
         with:
