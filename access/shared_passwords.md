@@ -10,7 +10,6 @@ This policy applies to all Lullabot employees.
 - Shared passwords will be managed using 1Password vaults.
 - Separate vaults will be created for groups of passwords that should allow access to the same group of people. Permission will then be set at the group level.
 - Shared passwords will be changed whenever employees leave Lullabot, or if there is any reason to be concerned that shared passwords may have been compromised.
-- 
 ### Explanation and Implementation
 
 1Password has many advantages for managing shared passwords:
