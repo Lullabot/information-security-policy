@@ -28,6 +28,7 @@ jobs:
             libxrandr2 \
             libfreetype6 \
             libfontconfig1 \
+            libopengl0 \
             libxi6 \
             libnss3
           wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin version=6.0.0
