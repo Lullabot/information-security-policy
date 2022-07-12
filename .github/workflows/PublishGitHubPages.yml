@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - fix-pages-build
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
@@ -55,9 +56,10 @@ jobs:
           mv book.pdf _book/security.pdf
           rm _book/.gitignore
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_book
-          exclude_assets: '.github,build.sh,CONTRIBUTING.md,debian-deps.sh,Dockerfile,package.json,yarn.lock'
+#      - name: Deploy
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: ./_book
+#          exclude_assets: '.github,build.sh,CONTRIBUTING.md,debian-deps.sh,Dockerfile,package.json,yarn.lock'
+#
