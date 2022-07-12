@@ -22,6 +22,7 @@ jobs:
           && sudo apt-get install -y \
             apt-transport-https \
             libgl1-mesa-glx \
+            libegl-mesa0 \
             libxdamage1 \
             libxcomposite1 \
             libxrandr2 \
