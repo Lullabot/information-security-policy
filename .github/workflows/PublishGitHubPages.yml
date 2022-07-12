@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - fix-pages-build
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
@@ -16,39 +15,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Calibre
-        run: |
-          sudo ./install-calibre.sh
-
-      - uses: actions/setup-node@v3
+      - name: Download built book
+        uses: actions/download-artifact@v3
         with:
-          # Be sure to keep this in sync with .tugboat/config.yml.
-          node-version: 16
+          name: book
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Confirm artifacts
+        run: ls -R
 
-      - uses: actions/cache@v3
-        id: yarn-cache
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Build
-        run: |
-          yarn install
-          yarn build
-          yarn pdf
-          mv book.pdf _book/security.pdf
-          rm _book/.gitignore
-
-#      - name: Deploy
-#        uses: peaceiris/actions-gh-pages@v3
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          publish_dir: ./_book
-#          exclude_assets: '.github,build.sh,CONTRIBUTING.md,debian-deps.sh,Dockerfile,package.json,yarn.lock'
-#
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_book
+          exclude_assets: '.github,build.sh,CONTRIBUTING.md,install-calibre.sh,Dockerfile,package.json,yarn.lock'
