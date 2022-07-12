@@ -44,5 +44,5 @@ jobs:
       - name: Archive build results
         uses: actions/upload-artifact@v3
         with:
-          name: book
+          name: _book
           path: _book
