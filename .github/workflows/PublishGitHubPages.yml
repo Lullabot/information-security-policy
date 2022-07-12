@@ -18,21 +18,7 @@ jobs:
 
       - name: Install Calibre
         run: |
-          sudo apt-get update \
-          && sudo apt-get install -y \
-            apt-transport-https \
-            libgl1-mesa-glx \
-            libegl1 \
-            libxdamage1 \
-            libxcomposite1 \
-            libxrandr2 \
-            libfreetype6 \
-            libfontconfig1 \
-            libopengl0 \
-            libxi6 \
-            libnss3
-          wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin version=6.0.0
-          rm calibre-tarball.*
+          sudo ./debian-deps.sh
 
       - uses: actions/setup-node@v3
         with:

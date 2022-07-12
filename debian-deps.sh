@@ -1,16 +1,25 @@
 #!/bin/bash -e
 
 apt-get update \
-  && apt-get install -y \
+&& apt-get install -y \
   apt-transport-https \
+  curl \
+  gnupg \
   libgl1-mesa-glx \
+  libegl1 \
   libxdamage1 \
   libxcomposite1 \
   libxrandr2 \
   libfreetype6 \
   libfontconfig1 \
+  libopengl0 \
   libxi6 \
-  libnss3
+  libnss3 \
+  python \
+  wget
+
+wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin version=6.0.0
+rm calibre-tarball.*
 
 hash yarn 2>/dev/null || (
   curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
@@ -18,10 +27,3 @@ hash yarn 2>/dev/null || (
   curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
   apt-get install -y nodejs yarn
 )
-
-# From https://calibre-ebook.com/download_linux
-# Calibre is quite old in upstream Debian docker images, so pull in the last
-# known working version as per https://github.com/honkit/honkit/issues/117
-mkdir -p /usr/local/calibre \
-     && tar xvf ./calibre-tarball.3.48.0.txz -C /usr/local/calibre \
-     && /usr/local/calibre/calibre_postinstall
