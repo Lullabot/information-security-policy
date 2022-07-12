@@ -18,7 +18,7 @@ jobs:
 
       - name: Install Calibre
         run: |
-          sudo ./debian-deps.sh
+          sudo ./install-calibre.sh
 
       - uses: actions/setup-node@v3
         with:
