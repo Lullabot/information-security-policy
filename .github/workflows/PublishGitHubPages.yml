@@ -17,6 +17,17 @@ jobs:
 
       - name: Install Calibre
         run: |
+          apt-get update \
+          && apt-get install -y \
+            apt-transport-https \
+            libgl1-mesa-glx \
+            libxdamage1 \
+            libxcomposite1 \
+            libxrandr2 \
+            libfreetype6 \
+            libfontconfig1 \
+            libxi6 \
+            libnss3
           wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh
           rm calibre-tarball.*
 
