@@ -11,13 +11,14 @@ RUN apt-get install -y nodejs yarn
 
 # Allow this step to run in parallel to installing calibre
 FROM node as knitter
-COPY --chown=node:node . /home/node/app
+COPY --chown=node:node package.json yarn.lock /home/node/app/
 RUN yarn install
 
 FROM node
 COPY install-calibre.sh .
 RUN ./install-calibre.sh
-COPY --from=knitter /home/node/app /home/node/app
+COPY --chown=node:node . /home/node/app
+COPY --from=knitter --chown=node:node /home/node/app/node_modules /home/node/app/node_modules
 USER node
 RUN yarn build
 RUN yarn pdf _book/security.pdf
