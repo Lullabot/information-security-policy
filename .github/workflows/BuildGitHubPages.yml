@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           # Be sure to keep this in sync with .tugboat/config.yml.
-          node-version: 16
+          node-version: 18
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
