@@ -53,8 +53,6 @@ jobs:
     if: github.ref == 'refs/heads/fix-pages-build'
 
     steps:
-      - uses: actions/checkout@v2
-
       - name: Download built book
         uses: actions/download-artifact@v3
         with:
