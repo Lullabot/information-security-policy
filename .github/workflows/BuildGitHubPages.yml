@@ -14,6 +14,7 @@ jobs:
 
       - name: Install Calibre
         run: |
+          sudo ./install-apt-deps.sh
           sudo ./install-calibre.sh
 
       - uses: actions/setup-node@v3
