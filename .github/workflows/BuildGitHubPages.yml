@@ -46,3 +46,26 @@ jobs:
         with:
           name: _book
           path: _book
+
+  Publish-GitHub-Pages:
+    runs-on: ubuntu-20.04
+    needs: [Build-GitHub-Pages]
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Download built book
+        uses: actions/download-artifact@v3
+        with:
+          name: book
+
+      - name: Confirm artifacts
+        run: ls -R
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_book
+          exclude_assets: '.github,build.sh,CONTRIBUTING.md,install-calibre.sh,Dockerfile,package.json,yarn.lock'
