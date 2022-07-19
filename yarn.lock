@@ -1029,7 +1029,7 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-broken-link-checker-local@^0.2.0:
+broken-link-checker-local@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/broken-link-checker-local/-/broken-link-checker-local-0.2.1.tgz#68931770c12176d4608afac9f2208f43b8ace2e7"
   integrity sha512-DjGl26BFV5BaWabs18CqJY/RgpzDzdwTWWdA/+WpvxEy9UWt/MvxPcKnu1UzHb6QDE9PJJSjChzN9Ssg9AZ/Cg==
