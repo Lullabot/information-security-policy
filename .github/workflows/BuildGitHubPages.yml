@@ -34,9 +34,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Build
+      - name: Install dependencies
         run: |
           yarn install
+
+      - name: Test
+        run: |
+          yarn test
+          yarn spellcheck
+
+      - name: Build
+        run: |
           yarn build
           yarn pdf
           mv book.pdf _book/security.pdf
