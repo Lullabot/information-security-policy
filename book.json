@@ -7,6 +7,9 @@
         }
     },
     "plugins": ["-sharing", "typekit@0.0.2", "collapsible-menu", "todo"],
+    "styles": {
+        "website": "_styles/website.css"
+    },
     "pluginsConfig": {
         "typekit" : {
             "kitID": "ceq6qcn"
