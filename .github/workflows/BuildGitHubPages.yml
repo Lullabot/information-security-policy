@@ -1,27 +1,24 @@
-name: "Publish to GitHub Pages"
+name: "Build GitHub Pages"
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
 
 jobs:
-  Publish-GitHub-Pages:
-    runs-on: ubuntu-latest
+  Build-GitHub-Pages:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
 
       - name: Install Calibre
         run: |
-          wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh
-          rm calibre-tarball.*
+          sudo ./install-calibre.sh
 
       - uses: actions/setup-node@v3
         with:
+          # Be sure to keep this in sync with .tugboat/config.yml.
           node-version: 16
 
       - name: Get yarn cache directory path
@@ -44,9 +41,29 @@ jobs:
           mv book.pdf _book/security.pdf
           rm _book/.gitignore
 
+      - name: Archive build results
+        uses: actions/upload-artifact@v3
+        with:
+          name: _book
+          path: _book
+
+  Publish-GitHub-Pages:
+    runs-on: ubuntu-20.04
+    needs: [Build-GitHub-Pages]
+    if: github.ref == 'refs/heads/fix-pages-build'
+
+    steps:
+      - name: Download built book
+        uses: actions/download-artifact@v3
+        with:
+          name: _book
+
+      - name: Confirm artifacts
+        run: ls -R
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_book
-          exclude_assets: '.github,build.sh,CONTRIBUTING.md,debian-deps.sh,Dockerfile,package.json,yarn.lock'
+          publish_dir: .
+          exclude_assets: '.github,build.sh,CONTRIBUTING.md,install-calibre.sh,Dockerfile,package.json,yarn.lock,renovate.json,.tugboat,.gitignore'
