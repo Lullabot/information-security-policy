@@ -50,7 +50,7 @@ jobs:
   Publish-GitHub-Pages:
     runs-on: ubuntu-20.04
     needs: [Build-GitHub-Pages]
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/fix-pages-build'
 
     steps:
       - uses: actions/checkout@v2
