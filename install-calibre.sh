@@ -3,11 +3,11 @@
 # Dependencies gathered by running `docker run --rm -it ubuntu:20.04 bash` and
 # then running `apt update && apt install calibre` and looking at the list of
 # packages.
+# libopengl0 is needed specifically for tugboat as it's debian.
 apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   fonts-liberation \
   imagemagick \
-  # libopengl0 is needed specifically for tugboat as it's debian
   libopengl0 \
   libjpeg-turbo-progs \
   libjs-mathjax \
