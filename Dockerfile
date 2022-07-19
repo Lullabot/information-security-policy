@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 COPY --chown=node:node . /home/node/app
 WORKDIR /home/node/app
