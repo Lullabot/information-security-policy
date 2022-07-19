@@ -1029,7 +1029,7 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-broken-link-checker-local@^0.2.0:
+broken-link-checker-local@0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/broken-link-checker-local/-/broken-link-checker-local-0.2.1.tgz#68931770c12176d4608afac9f2208f43b8ace2e7"
   integrity sha512-DjGl26BFV5BaWabs18CqJY/RgpzDzdwTWWdA/+WpvxEy9UWt/MvxPcKnu1UzHb6QDE9PJJSjChzN9Ssg9AZ/Cg==
@@ -1444,10 +1444,10 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cross-var@^1.1.0:
+cross-var@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/cross-var/-/cross-var-1.1.0.tgz#f0f0d4bb235d95138d1a539842d290f00db71cd6"
-  integrity sha1-8PDUuyNdlRONGlOYQtKQ8A23HNY=
+  integrity sha512-wIcFax9RNm5ayuORUeJ5MLxPbfh8XdZhhUpKutIszU46Fs9UIhEdPJ7+YguM+7FxEj+68hSQVyathVsIu84SiA==
   dependencies:
     babel-preset-es2015 "^6.18.0"
     babel-preset-stage-0 "^6.16.0"
@@ -2098,10 +2098,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gitbook-plugin-collapsible-menu@^1.0.3:
+gitbook-plugin-collapsible-menu@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-collapsible-menu/-/gitbook-plugin-collapsible-menu-1.0.3.tgz#6d2765168baaa6599e02d15d78a8a67cc810828b"
-  integrity sha1-bSdlFouqplmeAtFdeKimfMgQgos=
+  integrity sha512-jpzqLLMh9MVCcuZU3AggxqwQDTwd6MXe69Gmjl5isvJaHvS4i/qZujcdTIB6IJrOm6itUjF55IIKX6fgg2Ex9w==
 
 gitbook-plugin-fontsettings@^2.0.0:
   version "2.0.0"
@@ -2127,18 +2127,18 @@ gitbook-plugin-search@*, gitbook-plugin-search@^2.2.1:
   resolved "https://registry.yarnpkg.com/gitbook-plugin-search/-/gitbook-plugin-search-2.2.1.tgz#6d25b5a776990fa98fdfdfa37de331f78e0f6b13"
   integrity sha512-oP9jhaKFUVPo756G9ywuuI43YdkZClSjfpFzNKe/a/Rcn3oVsrAM/PjdQ+dt65KfZVo3iW1LY4WdiZnNqzRP8g==
 
-gitbook-plugin-todo@^0.1.3:
+gitbook-plugin-todo@0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-todo/-/gitbook-plugin-todo-0.1.3.tgz#e40910b51c27dd5549562ef45548c441529e605f"
-  integrity sha1-5AkQtRwn3VVJVi70VUjEQVKeYF8=
+  integrity sha512-hO01J/2fNRPRjcF2TSSnXck6fJ5f8a2Yp9q8V/vTVM+aQ+bVI9FefHfZF7A4WVBXRJ+qh5tA0gFP8yKlU6OYBQ==
   dependencies:
     cheerio "^0.19.0"
     underscore "^1.8.3"
 
-gitbook-plugin-typekit@^0.0.2:
+gitbook-plugin-typekit@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-typekit/-/gitbook-plugin-typekit-0.0.2.tgz#4ecfa46b1126af908abf84290087a6df2968d881"
-  integrity sha1-Ts+kaxEmr5CKv4QpAIem3ylo2IE=
+  integrity sha512-nJQBs/tUpd6p2+JwCYQWFUj/5wTqeqC4BEBLfUnydIVSoXgpxX30hSjiCaRB90l/4lmJu/QdsJ2aPtESjUAVTg==
 
 github-slugid@^1.0.1:
   version "1.0.1"
@@ -2272,15 +2272,15 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+highlight.js@11.6.0:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.6.0.tgz#a50e9da05763f1bb0c1322c8f4f755242cff3f5a"
+  integrity sha512-ig1eqDzJaB0pqEvlPVIpSSyMaO92bH1N2rJpLMN/nX396wTpDA4Eq0uK+7I/2XG17pFaaKE0kjV/XPeGt7Evjw==
+
 highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
-
-highlight.js@^11.0.0:
-  version "11.6.0"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.6.0.tgz#a50e9da05763f1bb0c1322c8f4f755242cff3f5a"
-  integrity sha512-ig1eqDzJaB0pqEvlPVIpSSyMaO92bH1N2rJpLMN/nX396wTpDA4Eq0uK+7I/2XG17pFaaKE0kjV/XPeGt7Evjw==
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -2290,7 +2290,7 @@ home-or-tmp@^2.0.0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.1"
 
-honkit@^3.6.20:
+honkit@3.7.3:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/honkit/-/honkit-3.7.3.tgz#aa1374e1fadc651490c2cb927d9760d5eb500af2"
   integrity sha512-WGvBrcPs/QedB7vKTg3jJsHaYPuL6S+b+ySyLVM/5L/wVP3KRAUu3y/j9whCzSVR+2aYO51OVH09F9l33RES0Q==
@@ -2359,10 +2359,10 @@ html-entities@1.2.0:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.0.tgz#41948caf85ce82fed36e4e6a0ed371a6664379e2"
   integrity sha512-0md7tlUUyb0BEQGsZzbqty1CgV6RESOoxdivt94AScqhBhYsPCCQCOaGvur/RospMjYpPJ7iFe3zw4Bu4SVA8g==
 
-html-escape@^2.0.0:
+html-escape@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/html-escape/-/html-escape-2.0.0.tgz#60c8ddd465edf0cae02af9e99fdf5f883b09be49"
-  integrity sha1-YMjd1GXt8MrgKvnpn99fiDsJvkk=
+  integrity sha512-BYh0wceM2Vm4/Q8TNfnKaHXs4DCv2DuYVS87DR40elSvFc+8a6B9mE9ej+8nCOkdqPx7puEx9+hm+GoJ3f9PzA==
 
 htmlparser2@^3.9.1:
   version "3.10.1"
@@ -2950,7 +2950,7 @@ map-age-cleaner@^0.1.1:
   dependencies:
     p-defer "^1.0.0"
 
-markdown-spellcheck@^1.3.1:
+markdown-spellcheck@1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/markdown-spellcheck/-/markdown-spellcheck-1.3.1.tgz#e901b04631e759ad8903470db3261013c2712602"
   integrity sha512-9uyovbDg3Kh2H89VDtqOkXKS9wuRgpLvOHXzPYWMR71tHQZWt2CAf28EIpXNhkFqqoEjXYAx+fXLuKufApYHRQ==
