@@ -15,6 +15,7 @@ apt-get update \
   libopengl0 \
   libxi6 \
   libnss3 \
+  libxtst6 \
   python \
   wget
 
