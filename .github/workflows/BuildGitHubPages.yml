@@ -58,7 +58,7 @@ jobs:
       - name: Download built book
         uses: actions/download-artifact@v3
         with:
-          name: book
+          name: _book
 
       - name: Confirm artifacts
         run: ls -R
