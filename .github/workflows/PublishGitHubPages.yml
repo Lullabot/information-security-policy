@@ -12,6 +12,7 @@ concurrency:
 jobs:
   Publish-GitHub-Pages:
     runs-on: ubuntu-20.04
+    needs: [Build-GitHub-Pages]
     steps:
       - uses: actions/checkout@v2
 
