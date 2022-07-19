@@ -7,6 +7,8 @@ apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   fonts-liberation \
   imagemagick \
+  # libopengl0 is needed specifically for tugboat as it's debian
+  libopengl0 \
   libjpeg-turbo-progs \
   libjs-mathjax \
   libjxr-tools \
