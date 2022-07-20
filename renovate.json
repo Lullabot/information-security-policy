@@ -3,5 +3,8 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "replace"
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
