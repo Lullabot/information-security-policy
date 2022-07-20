@@ -12,10 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Calibre
+      - name: Install apt dependencies
         run: |
           sudo ./install-apt-deps.sh
-          sudo ./install-calibre.sh
 
       - uses: actions/setup-node@v3
         with:
@@ -34,10 +33,23 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Build
+      - name: Install dependencies
         run: |
           yarn install
+
+      - name: Test
+        run: |
+          # Disabled until we figure out why blcl fails in github actions
+          # yarn test
+          yarn spellcheck
+
+      - name: Build Website
+        run: |
           yarn build
+
+      - name: Build PDF
+        run: |
+          sudo ./install-calibre.sh
           yarn pdf
           mv book.pdf _book/security.pdf
           rm _book/.gitignore

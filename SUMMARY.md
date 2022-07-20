@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Lullabot Information Security Policy](README.md)
 * [Leadership and Review](policy/leadership.md)
 * [Access Control](access/access_control.md)
    * [Virtual Private Networks (VPNs)](access/lullabot_vpn.md)

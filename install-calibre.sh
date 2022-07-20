@@ -47,4 +47,3 @@ apt-get update \
   wget
 
 wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin version=6.0.0
-rm calibre-tarball.*
