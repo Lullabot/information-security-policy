@@ -19,7 +19,7 @@
     "dependencies": {
         "cross-var": "^1.1.0",
         "gitbook-plugin-collapsible-menu": "^1.0.3",
-        "gitbook-plugin-todo": "git+https://github.com/Lullabot/gitbook-plugin-todo.git#d4bfcac28faf840e3af4865c0971229dda792ea4",
+        "gitbook-plugin-todo": "git+https://github.com/Lullabot/gitbook-plugin-todo.git#ccc4e349a5ba3f990e8f162bef4c727c126bdf54",
         "gitbook-plugin-typekit": "^0.0.2",
         "highlight.js": "^11.6.0",
         "honkit": "^3.7.5",
