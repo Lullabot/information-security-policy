@@ -13,7 +13,7 @@
         "build": "cross-var honkit build && echo 'security.lullabot.com' > ./_book/CNAME",
         "pdf": "cross-var honkit pdf ./",
         "serve": "cross-var honkit serve",
-        "test": "blcl -re --exclude /security.pdf ./_book",
+        "test": "linkinator --skip '.*\\.pdf' --recurse ./_book",
         "spellcheck": "mdspell --en-us --ignore-numbers --ignore-acronyms '**/*.md' '!**/node_modules/**/*.md'"
     },
     "dependencies": {
@@ -26,7 +26,7 @@
         "html-escape": "^2.0.0"
     },
     "devDependencies": {
-        "broken-link-checker-local": "^0.2.1",
+        "linkinator": "^4.0.2",
         "markdown-spellcheck": "^1.3.1"
     }
 }

@@ -39,8 +39,7 @@ jobs:
 
       - name: Test
         run: |
-          # Disabled until we figure out why blcl fails in github actions
-          # yarn test
+          yarn test
           yarn spellcheck
 
       - name: Build Website
