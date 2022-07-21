@@ -37,14 +37,17 @@ jobs:
         run: |
           yarn install
 
-      - name: Test
+      - name: Check spelling
         run: |
-          yarn test
           yarn spellcheck
 
       - name: Build Website
         run: |
           yarn build
+
+      - name: Test
+        run: |
+          yarn test
 
       - name: Build PDF
         run: |
