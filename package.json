@@ -14,7 +14,7 @@
         "pdf": "cross-var honkit pdf ./",
         "serve": "cross-var honkit serve",
         "test": "blcl -re --exclude /security.pdf ./_book",
-        "spellcheck": "spellchecker --dictionaries dictionary.txt -files '**/*.md' '!**/node_modules/**/*.md'"
+        "spellcheck": "spellchecker --dictionaries dictionary.txt --files '**/*.md' '!**/node_modules/**/*.md'"
     },
     "dependencies": {
         "cross-var": "^1.1.0",
