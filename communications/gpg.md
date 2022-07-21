@@ -1,6 +1,6 @@
 # Using PGP/GPG for Secure Communications
 
-*The original program, Pretty Good Privacy, eventually became a standard called OpenPGP. GNU PGP, or "GPG", is the most widely used PGP implementation, but for simplicity this document refers to to "PGP".*
+*The original program, Pretty Good Privacy, eventually became a standard called OpenPGP. GNU PGP, or "GPG", is the most widely used PGP implementation, but for simplicity this document refers to "PGP".*
 
 PGP (Pretty Good Privacy) is a system that lets people communicate with each other securely online. PGP lets you **sign** emails and files so others can be sure they haven't been modified and are actually from you. You can also use **PGP** to encrypt emails and files so only the intended recipients can view them. Why would you want a PGP key?
 
