@@ -37,15 +37,17 @@ jobs:
         run: |
           yarn install
 
-      - name: Test
+      - name: Check spelling
         run: |
-          # Disabled until we figure out why blcl fails in github actions
-          # yarn test
           yarn spellcheck
 
       - name: Build Website
         run: |
           yarn build
+
+      - name: Test
+        run: |
+          yarn test
 
       - name: Build PDF
         run: |
