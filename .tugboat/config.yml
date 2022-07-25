@@ -24,13 +24,13 @@ services:
     urls:
       - url: /
         visualdiff:
-        threshold: 100
+          threshold: 100
       - url: /appendix/device-checklist.html
         visualdiff:
-        threshold: 100
+          threshold: 100
       - url: /appendix/iso-27001.html
         visualdiff:
-        threshold: 100
+          threshold: 100
       - url: /access/lullabot_vpn.html
         visualdiff:
-        threshold: 100
+          threshold: 100
