@@ -22,7 +22,15 @@ services:
         - sudo -u www-data yarn pdf _book/security.pdf
         - ln -snf "${TUGBOAT_ROOT}/_book" "${DOCROOT}"
     urls:
-      - /
-      - /appendix/device-checklist.html
-      - /appendix/iso-27001.html
-      - /access/lullabot_vpn.html
+      - url: /
+        visualdiff:
+        threshold: 100
+      - url: /appendix/device-checklist.html
+        visualdiff:
+        threshold: 100
+      - url: /appendix/iso-27001.html
+        visualdiff:
+        threshold: 100
+      - url: /access/lullabot_vpn.html
+        visualdiff:
+        threshold: 100
