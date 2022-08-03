@@ -27,6 +27,6 @@
     },
     "devDependencies": {
         "linkinator": "^4.0.2",
-        "spellchecker-cli": "^6.0.1"
+        "spellchecker-cli": "^6.0.2"
     }
 }
