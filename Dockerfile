@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 as node
+FROM ubuntu:22.04 as node
 
 RUN adduser node
 WORKDIR /home/node/app
