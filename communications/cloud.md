@@ -12,7 +12,6 @@ Read the following, and then fill out [the service request form](https://forms.g
 
 If a new cloud service is purchased individually on PEX, and it does not require integration or access to Lullabot data stored in other services, no specific approval is required. Examples of services like this include:
 
-
 - Evernote
 - Arq Cloud Backup
 - Microsoft Office 365
@@ -20,7 +19,6 @@ If a new cloud service is purchased individually on PEX, and it does not require
 Be wary of applications that use your Lullabot account to access key personal data like email, especially if they are free or are low cost.
 
 Apps that integrate with services used by the Lullabot team or interact with Lullabot customers should be discussed with the relevant directors and also need review by the security committee. Since these services are used by multiple team members, and not individuals, they typically are charged to a Lullabot expense card or are invoiced. Examples of services like this include:
-
 
 - Geekbot, as it requires integration with our Slack instance.
 - Drift, as it interacts with Lullabot customers and gathers their personal information.
@@ -41,6 +39,10 @@ Some clients will create email addresses for you. Where possible, use your Lulla
 
 There are times when the answers might conflict, and you could make a case for using either email address. When in doubt communicate with your manager or the security team for instructions.
 
+## How should I invite users to a Cloud service?
+
+Many services can identify accounts with either a user name or an email address. If a service offers both (like GitHub), add accounts with person's email address rather than their username. That way, a typo in the invite is less likely to add someone completely unknown, and is more likely to be scoped to just accounts at the company you are working with.
+
 ## What if there are both personal and business versions of a cloud service?
 
 Many cloud services used by Lullabot include provisions to store both business and personal information. For instance, there is a Lullabot Dropbox account, but you can also establish a personal Dropbox account and link them together. Our 1Password Business membership includes a free 1Password Families membership for each employee.
@@ -48,7 +50,6 @@ Many cloud services used by Lullabot include provisions to store both business a
 Any time there is an option to separate personal and business data in the cloud, we require employees to respect that separation. Don’t put Lullabot data, or Lullabot client data, into your personal account, nor add personal information into the Lullabot account. Lullabot won’t ever have access to your personal account, so nothing that belongs to the company or its clients should go into it. The test for whether you have separated your personal data properly is to confirm that if you were to unexpectedly lose access to the Lullabot account, you would still retain all your own personal data.
 
 Some services, like iCloud, provide no easy way to separate business and personal data. Since company data is involved, we require that you use best security practices to protect all the data stored in these systems. These best practices include storing the data in encrypted format, and using encryption when transferring data by using HTTPS and the VPN as appropriate.
-
 
 ## How do I know it’s safe to use a cloud service?
 
