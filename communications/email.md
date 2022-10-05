@@ -38,7 +38,7 @@ Dropbox is a secure way to share some types of information, but be aware of the 
 - Use Dropbox's [file sharing protocol](https://www.dropbox.com/help/topics/sharing_files_and_folders) to control access to files and folders that need to be shared, and to share them securely.
 - Dropbox links may be accessible by anyone who has the link, so use the "share" process rather than copy/pasting Dropbox links in email.
 - Note that Dropbox allows things to be shared ‘read-only’. Use the principle of minimum required access and only offer write access if required. 
-- Consider encrypting the files before uploading them to Dropbox.
+- Consider encrypting the files before uploading them to Dropbox. Dropbox does not provide meaningful encryption of files by default.
 - For clients and external vendors without their own solutions, [Dropbox File Requests](https://help.dropbox.com/files-folders/share/create-file-request) can be used to ask for files.
 
 Everyone should be aware that email they receive may not originate from the source it purports to come from. A common threat is phishing, an attempt to obtain sensitive information such as usernames, passwords, and credit card details by masquerading as a trustworthy entity. All email requests for sensitive information should be verified independently, not by using links or phone numbers included in the email, but instead using previously-vetted contact information to call or contact the person to confirm the request.
