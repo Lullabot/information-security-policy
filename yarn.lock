@@ -2060,10 +2060,10 @@ home-or-tmp@^2.0.0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.1"
 
-honkit@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/honkit/-/honkit-4.0.3.tgz#bc8ca768e63ea36d79285c2ec649141017fe7d03"
-  integrity sha512-m7V97Jvkv/K50n51nCgbDiRU+F3Lzbdv1ur9ZOoVcLs6DEqJA/kVZNMB/ybc3xLyG+aE+8l0XOs0Rw+AffEy+g==
+honkit@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/honkit/-/honkit-4.0.4.tgz#9b1aa11ed050ec306780c3eb39257512b6e1619e"
+  integrity sha512-quKzP5kGGp3/Ey1+h9kISMa/NBmED7rSuaD8whdniGK/7OUJCEJg/0fKwZgLZLMAIS+AIowhxoV+gvQ30S1NFQ==
   dependencies:
     "@honkit/asciidoc" "^4.0.1"
     "@honkit/honkit-plugin-highlight" "^4.0.0"
