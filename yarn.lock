@@ -3871,10 +3871,10 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.12.tgz#69077835abe2710b65f03969898b6637b505a779"
   integrity sha512-rr+VVSXtRhO4OHbXUiAF7xW3Bo9DuuF6C5jH+q/x15j2jniycgKbxU09Hr0WqlSLUs4i4ltHGXqTe7VHclYWyA==
 
-spellchecker-cli@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-6.0.2.tgz#54ec663a62df7cb9edf2dc173d94c101b4ed0208"
-  integrity sha512-DxCi0OlY9bATeLfrax/tmBrRoT4JVPa1nlXJWLPQrbzZjQjqzFF0k9De7YY8Ws7dSJVMwn5MVh4SkzheCTsAUA==
+spellchecker-cli@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-6.1.0.tgz#b4c2ec643253f20cc52458b58cf437081ea646e5"
+  integrity sha512-jwGgORGmopP7Gv8bFWsh8Pw6K442tbxtCA+tHJ10jCw/PEkd3xguyVMwipTtN+6ZQ8qsZbvHgTos9EkM7sHEBA==
   dependencies:
     chalk "^2.4.2"
     command-line-args "^5.1.1"
