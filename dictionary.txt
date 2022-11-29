@@ -98,6 +98,7 @@ https
 i.e.
 iCloud
 iOS
+iPadOS
 iPhones
 jailbroken
 keychain
