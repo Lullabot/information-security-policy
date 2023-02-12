@@ -6,6 +6,7 @@
 2FA
 ASDFXYZ
 Acknowledgement
+AdGuard
 Arq
 Authenticator
 Authy
@@ -60,6 +61,7 @@ NoScript
 NodeJS
 Noko
 OpenPGP
+OpenVPN
 PEX
 Passcode
 Passcodes
@@ -73,6 +75,7 @@ Skowron
 Synology
 TouchID
 TrueCrypt
+Tunnelblick
 Uncheck
 VPN
 VPN-enabled
@@ -81,6 +84,7 @@ VPS
 Vázquez
 Veracrypt
 Verisign
+adblocker
 backdoors
 biometrics
 checkbox

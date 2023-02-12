@@ -15,7 +15,7 @@ With each device, validate:
 - [ ] All operating systems and browsers should be patched and up to date.
 - [ ] Confirm VPN app (Tunnelblick or OpenVPN) is setup and the team member is aware of the "split tunnel" option.
 - [ ] Confirm 1Password is installed with browser extensions.
-- [ ] Confirm an adblocker (uBlock origin, Adguard) is installed in the default browser.
+- [ ] Confirm an adblocker (uBlock origin, AdGuard) is installed in the default browser.
 
 ## Workstations
 
@@ -34,7 +34,7 @@ With each device, validate:
 
 - [ ] All mobile devices have at least a 6 digit PIN and screen timeout set.
   * Android devices should not use a pattern-style lock.
-  * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touc)h ID &amp; Passcode" in Settings.
+  * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touch) ID &amp; Passcode" in Settings.
 - [ ] Confirm "Find My" or equivalent is enabled.
 - [ ] Rooted Android phones and jailbroken iPhones should be treated with care.
 
