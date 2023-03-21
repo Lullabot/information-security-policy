@@ -1,34 +1,48 @@
 # Device Checklist
 
-Before starting, gather a list of all devices to audit:
+Before starting, gather a list of all devices to audit that are used for Lullabot work:
 
 * Computers
 * Phones
 * Tablets
 * NAS devices and servers
-* Removable media archives
 * Any remote / VPS hosted servers you use in your work
 
 With each device, validate:
 
-- [ ] All computers have a complex password with a screen lock timeout.
-- [ ] All computer hard drives are encrypted. Include backup Mac Minis, Time Machine backups, and so on. Note that TrueCrypt is no longer considered secure.
-- [ ] New Windows computers should have Windows 7 or 8 professional for BitLocker support, or Windows 10. Home editions of Windows should be upgraded.
-- [ ] All data that doesn't exist in a cloud service like Dropbox should exist on your computer and an off-site cloud backup. A local backup is really useful for quick restores or Time Machine, but might not be needed if you have a really fast uncapped internet connection.
-- [ ] Backups support versioning.
-- [ ] At least one backup destination should be "immutable", where existing backups can't be modified. This protects us from CryptoLocker style scams.
+- [ ] All computers have a complex password with a screen lock timeout set to no more than 10 minutes.
+- [ ] All computer hard drives are encrypted with FileVault, Bitlocker, or equivalent.
+- [ ] All operating systems and browsers should be patched and up to date.
+- [ ] Confirm VPN app (Tunnelblick or OpenVPN) is setup and the team member is aware of the "split tunnel" option.
+- [ ] Confirm 1Password is installed with browser extensions.
+- [ ] Confirm an adblocker (uBlock origin, AdGuard) is installed in the default browser.
+
+## Workstations
+
+- [ ] Confirm "Find My" or equivalent is enabled.
+- [ ] Confirm firewall is enabled.
+- [ ] Confirm no guest accounts are enabled.
+- [ ] Confirm that if remote access is enabled (SSH, file sharing) that the implications are understood.
+
+## Backups
+
+- [ ] Computers have a backup system in place for quick recovery after a hardware failure.
+- [ ] Backups support versioning and have protections against ransomware style scams.
 - [ ] All backups are encrypted. Cloud services use a private key that only you know.
-- [ ] All mobile devices have a PIN and screen timeout set.
-  * Only use Trusted Places for automatic unlocks for devices you don't share and at very trusted locations like home. Avoid using Trusted Devices like Bluetooth pairings since it's just as easy to steal a phone and a smartwatch or headset.
-  * If your device supports biometrics like TouchID, consider setting a timeout to require a password. iOS doesn't support this for the lock screen, but 1Password does under Settings > Advanced > Security > Require Master Password (1 Hour).
-  * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Touch ID & Passcode" in Settings.
-- [ ] All remote accounts use 2FA where supported, including Dropbox, Google, Slack, and GitHub.
-- [ ] New Android phones like the Nexus 6 should support encryption by default. Due to major performance and compatibility issues with older devices, we omit existing Android devices from required encryption. Check encryption support before buying a new phone.
-- [ ] All computer and mobile systems should be patched and up to date.
-- [ ] All devices should have "Find" and "Remote Wipe" capabilities.
+
+## Mobile Devices
+
+- [ ] All mobile devices have at least a 6 digit PIN and screen timeout set.
+  * Android devices should not use a pattern-style lock.
+  * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touch) ID &amp; Passcode" in Settings.
+- [ ] Confirm "Find My" or equivalent is enabled.
 - [ ] Rooted Android phones and jailbroken iPhones should be treated with care.
 
 After you've finished reading the above, run through these fun scenarios to make sure you're all set!
+
+## Example Scenarios
+
+Try running through these scenarios to see how your security and backup setup stacks up!
 
 ### Backups and Restores
 
@@ -44,6 +58,5 @@ Make sure you'd be safe in the following circumstances:
 
 - [ ] I place catnip on my laptop keyboard because I love my cat. My screen lock prevents Kitty from viewing or changing sensitive information.
 - [ ] A client puts very important credentials in a Word document I download. I'm not worried about securely erasing the file because my hard drive is encrypted.
-- [ ] Sally has asked me to log in to GitHub on her laptop. I'm able to access my password vault using nothing but the internet and things I know in my head. After Sally is done, I manually log out of all accounts I logged in to.
 - [ ] I need to move a copy of the Daily Report database at a Lullabot Retreat where the internet is totally broken. I can use my USB drive because I've encrypted the drive using FileVault or BitLocker.
-- [ ] I switch from iOS to Windows Phone because it sounds like fun. I'm able to recreate all of my 2FA tokens by using pre-printed recovery codes or SMS messages.
+- [ ] I switch from iOS to Android because it sounds like fun. I don't need to migrate my 2FA tokens because they are stored in 1Password.
