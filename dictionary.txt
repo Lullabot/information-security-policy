@@ -85,6 +85,7 @@ Vázquez
 Veracrypt
 Verisign
 adblocker
+adblockers
 backdoors
 biometrics
 checkbox
