@@ -1904,7 +1904,7 @@ home-or-tmp@^2.0.0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.1"
 
-honkit@^4.0.4:
+honkit@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/honkit/-/honkit-4.0.7.tgz#dd1480721f0a4980418465e59a8211a9c5de1a3e"
   integrity sha512-E6+OQ+vrR7Ig2cJyoNwnYtmRQQD/IzPgZJwlv9gmYQ5OIc6DfpcuS32f2Dfwis5AVMa7nwKcpmwO07e+X2JFUw==
