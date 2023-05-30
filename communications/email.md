@@ -35,7 +35,7 @@ Be conscious of the fact that email might be intercepted or viewed by people oth
 
 Dropbox is a secure way to share some types of information, but be aware of the best ways to use it:
 
-- Use Dropbox's [file sharing protocol](https://www.dropbox.com/help/topics/sharing_files_and_folders) to control access to files and folders that need to be shared, and to share them securely.
+- Use Dropbox's [file sharing protocol](https://help.dropbox.com/share) to control access to files and folders that need to be shared, and to share them securely.
 - Dropbox links may be accessible by anyone who has the link, so use the "share" process rather than copy/pasting Dropbox links in email.
 - Note that Dropbox allows things to be shared ‘read-only’. Use the principle of minimum required access and only offer write access if required. 
 - Consider encrypting the files before uploading them to Dropbox. Dropbox does not provide meaningful encryption of files by default.
