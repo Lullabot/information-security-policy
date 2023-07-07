@@ -22,7 +22,7 @@
         "gitbook-plugin-todo": "git+https://github.com/Lullabot/gitbook-plugin-todo.git#d4bfcac28faf840e3af4865c0971229dda792ea4",
         "gitbook-plugin-typekit": "^0.0.2",
         "highlight.js": "^11.8.0",
-        "honkit": "^4.0.7",
+        "honkit": "^4.0.8",
         "html-escape": "^2.0.0"
     },
     "devDependencies": {
