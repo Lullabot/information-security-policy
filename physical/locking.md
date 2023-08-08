@@ -17,7 +17,7 @@ The [password](../access/passwords.md) used to unlock a computer should be a str
 
 Phones often default to a simple 4-digit pin. That is too weak to be effective, so a longer, stronger pin should be used.
 
-On Android, choose a more unpredictable pattern or create a longer PIN (up to 16 digits).
+On Android, do not use a pattern lock and create a longer PIN (up to 16 digits).
 
 On iOS, go beyond the standard four-digit PIN by going into Settings >> Touch ID & Passcode >> Change Passcode. When setting the new passcode you will see a link called "Passcode Options". You can select that to choose either an alphanumeric passcode or a longer numeric passcode.
 
