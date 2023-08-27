@@ -15,9 +15,13 @@ The pins or passwords used to unlock devices deserve special mention. They are l
 
 The [password](../access/passwords.md) used to unlock a computer should be a strong, alphanumeric, password.
 
-Phones often default to a simple 4-digit pin. That is too weak to be effective, so a longer, stronger pin should be used.
+PINs on mobile devices should be at least 6 digits long. Given most devices have some sort of face or fingerprint unlock, consider using a longer PIN for increased security and resistance to shoulder-surfing. If you're worried about remembering a longer PIN, remember that most people can easily remember 7 or 10 digit phone numbers.
 
-On Android, do not use a pattern lock and create a longer PIN (up to 16 digits).
+Some phones default to a simple 4-digit pin. That is too weak to be effective, so a longer, stronger pin should be used.
+
+Use 1Password's "PIN" password type in its password generator to come up with a random, secure PIN.
+
+On Android, do not use a pattern lock and create a longer PIN.
 
 On iOS, go beyond the standard four-digit PIN by going into Settings >> Touch ID & Passcode >> Change Passcode. When setting the new passcode you will see a link called "Passcode Options". You can select that to choose either an alphanumeric passcode or a longer numeric passcode.
 
