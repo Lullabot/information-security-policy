@@ -17,42 +17,42 @@
     asciidoctor-opal-runtime "0.3.3"
     unxhr "1.0.1"
 
-"@honkit/asciidoc@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@honkit/asciidoc/-/asciidoc-5.1.1.tgz#9de6c38b6d87eaed0213ff29ff92cb0f50c68748"
-  integrity sha512-LAIB05QDwldgqvbtxPg0Xs9QbJy/u+jXzG3IRaCAKOACYhJf4MR3QyA6u41YYFSt2DgcpDpkfyi2f3K10R8C6A==
+"@honkit/asciidoc@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@honkit/asciidoc/-/asciidoc-5.1.4.tgz#4d6cf798e57d52c9ed00419a6d72184c7fbd27eb"
+  integrity sha512-wWgUpuQPa7W/RY3ikAXqpTWIR/oYkM6iywZDPfnyPOHQWUVi7p73/VMf9MTj0+yl83qwjy8TiMoSJIAxxmju6Q==
   dependencies:
-    "@honkit/html" "^5.1.1"
+    "@honkit/html" "^5.1.4"
     asciidoctor "^2.2.0"
     lodash "^4.13.1"
 
-"@honkit/honkit-plugin-highlight@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-highlight/-/honkit-plugin-highlight-5.1.1.tgz#7bac8724f2e3a7b74b3c6dcfc759e518f0288fe7"
-  integrity sha512-s7bSlcwQybXDw8RSTX4I/425Po5wqfKlqAyfRw489B9V1XjUo3JPvIXpunuT6jVY1Xx566hDb18wRZOInJjtNQ==
+"@honkit/honkit-plugin-highlight@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-highlight/-/honkit-plugin-highlight-5.1.4.tgz#b669f22a645a78d77efd5515517a2590cc4afaa8"
+  integrity sha512-niLPmr7/QigJ2FHXpa3yFwWnjG+v7iFi5sfLS9UFKaE10mSpObuh989sGfAhalNCnxPKERfZp0xy8gOuLJ1baQ==
   dependencies:
     highlight.js "^11.8.0"
 
-"@honkit/honkit-plugin-theme-default@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-theme-default/-/honkit-plugin-theme-default-5.1.1.tgz#6eef69f82893b3bbe28eafc14e2446bef251e1cd"
-  integrity sha512-pL8nC+pNFA/42LKTk8oUum8A3JXLg6QetHK+t8OvICLtZvKCu9pZB8EZ1rUfulHbAj5glmCo0dNkmkZPYleM2w==
+"@honkit/honkit-plugin-theme-default@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-theme-default/-/honkit-plugin-theme-default-5.1.4.tgz#ad3c033e50c7edccbec79d381e3506057dc4bc28"
+  integrity sha512-aqxcKu28TULnEPSqO2xwGXGbbT4iBZGBisTzIKC4OVa3nYUF8XSORyreUtMJp+S2GAMTPteFzRbbhG628oN3Uw==
 
-"@honkit/html@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@honkit/html/-/html-5.1.1.tgz#35392d06663fd3de8a08738ed641d73dad64b0e0"
-  integrity sha512-n0loeol96znQgCjdJxT1w//dqqjQvZ4Ev1X88tZTzc6DxKFBR7OFhfoy0sUcFY7Uj/btKlR9M4mPz+3DfWEGUw==
+"@honkit/html@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@honkit/html/-/html-5.1.4.tgz#46102be603c975cfa137ed00b9928e29e6ba2a13"
+  integrity sha512-CJbvqFnaAMeRbozzSyr+ybPkO2iPt5slfhkAhujCrNwrLqamt+VOpcq2zpG3GJQ0PxcNUVg5DPzQwYMVTA/c9w==
   dependencies:
     cheerio "^1.0.0-rc.12"
     lodash "^4.13.1"
     q "^1.1.2"
 
-"@honkit/markdown-legacy@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@honkit/markdown-legacy/-/markdown-legacy-5.1.1.tgz#00986bedb10c57bb7e2cf4bfd509342697ad3fbe"
-  integrity sha512-2JsEOy+Ch3344BcNPTK3+KGgCapFC+oEHTJt+SDD/tw/kXSnirCKaf9eWrF7CY9z7Az3SlAFXvcZ7CZsYLzF8Q==
+"@honkit/markdown-legacy@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@honkit/markdown-legacy/-/markdown-legacy-5.1.4.tgz#08edaadf70c72c0519cbb7b19bd5246913890640"
+  integrity sha512-gpZrN4tcSMAm6MTbVxnqrCYQoSSMTrCDc6Uea97ry0Whmzgef1lfow5g1kAl82ZVbovQGA1Fxa0xzVFc4z2kfQ==
   dependencies:
-    "@honkit/html" "^5.1.1"
+    "@honkit/html" "^5.1.4"
     kramed "0.5.6"
     lodash "^4.13.1"
 
@@ -1909,15 +1909,15 @@ home-or-tmp@^2.0.0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.1"
 
-honkit@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/honkit/-/honkit-5.1.1.tgz#a79789eeed6a213e23a1052a70ae34d79667a5b1"
-  integrity sha512-dacSCX0bXL4TF7yT4nQ9ZSTofpFhxrljm4sonrnwxPP1RV36mmQVfFagKfImZvGYxr+HR4wDfVnaSjWExTISWQ==
+honkit@^5.1.4:
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/honkit/-/honkit-5.1.4.tgz#440770f1873c8be844d92876b836cb67b08b1b5b"
+  integrity sha512-dsRbdcT4xdjTJbNN4vd0whG3uPeypQusWyCn1sI2N5xEweZBb3qLuqcwGPkzGjxeKoYzyhUFCKmpcOARKYq79w==
   dependencies:
-    "@honkit/asciidoc" "^5.1.1"
-    "@honkit/honkit-plugin-highlight" "^5.1.1"
-    "@honkit/honkit-plugin-theme-default" "^5.1.1"
-    "@honkit/markdown-legacy" "^5.1.1"
+    "@honkit/asciidoc" "^5.1.4"
+    "@honkit/honkit-plugin-highlight" "^5.1.4"
+    "@honkit/honkit-plugin-theme-default" "^5.1.4"
+    "@honkit/markdown-legacy" "^5.1.4"
     bash-color "^0.0.4"
     cheerio "^1.0.0-rc.12"
     chokidar "^3.3.0"
