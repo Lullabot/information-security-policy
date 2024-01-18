@@ -25,7 +25,7 @@ Also make sure that you have strong passwords for any accounts that can remotely
 
 ### Android Devices
 
-[Android Device Manager](https://www.google.ca/android/devicemanager) is the easiest way to find and manage Android devices. Your phone manufacturer (Samsung, Motorola, etc) may also have device recovery software you can use. ADM lets you locate, ring, and erase devices. You can also set up a new lock screen code.
+[Android Device Manager](https://www.google.com/android/find/) is the easiest way to find and manage Android devices. Your phone manufacturer (Samsung, Motorola, etc) may also have device recovery software you can use. ADM lets you locate, ring, and erase devices. You can also set up a new lock screen code.
 
 It's also a good idea to put contact information on your phone's lock screen. In Android 5, it's under Settings -> Security -> Owner info, and is available in older Android versions as well. Make sure your contact info isn't only accessible on your phone!
 
