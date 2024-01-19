@@ -73,6 +73,7 @@ SSL
 Sansbury
 Skowron
 Synology
+Theys
 TouchID
 TrueCrypt
 Tunnelblick
@@ -136,4 +137,3 @@ versioning
 webmail
 wifi
 www.gitbook.com
-Theys
