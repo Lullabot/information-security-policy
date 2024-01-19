@@ -73,6 +73,7 @@ SSL
 Sansbury
 Skowron
 Synology
+Theys
 TouchID
 TrueCrypt
 Tunnelblick
