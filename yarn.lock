@@ -3450,10 +3450,10 @@ source-map@^0.5.6, source-map@^0.5.7:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==
 
-spellchecker-cli@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-6.1.1.tgz#65066a11f23dc5e6c6318e59936c0d897152be28"
-  integrity sha512-blA0aWuGoMn3TSHHiyB3u1E3bJI94r2Zz1FX0HhW5jOZXw3dMO1wXSvzlYnrdMIMPoKMZPxeqwFlBR3qsgZd/g==
+spellchecker-cli@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-6.2.0.tgz#9fb3d1a07c331c1e39dcbce9015044dfa968cc32"
+  integrity sha512-oWYwNYp2TVAhwUQ1D5FVLGrSkKjBht37X1UVFzbx9RwzkrXPrOq2tynUbxxx78LrTLtBro63UxuELK80QeTPoA==
   dependencies:
     chalk "^2.4.2"
     command-line-args "^5.1.1"
