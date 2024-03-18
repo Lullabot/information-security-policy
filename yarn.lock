@@ -9,10 +9,10 @@
   dependencies:
     yargs "16.2.0"
 
-"@asciidoctor/core@2.2.6":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@asciidoctor/core/-/core-2.2.6.tgz#a59a9e8ab48ac0a615d5a3200214d3071291c5d5"
-  integrity sha512-TmB2K5UfpDpSbCNBBntXzKHcAk2EA3/P68jmWvmJvglVUdkO9V6kTAuXVe12+h6C4GK0ndwuCrHHtEVcL5t6pQ==
+"@asciidoctor/core@2.2.7":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@asciidoctor/core/-/core-2.2.7.tgz#8c4cdd67b719230149c66808675e3936d5ca7bf0"
+  integrity sha512-63cfnV606vXNUnh/zcuUi5e3tY5qTzaYY5pGP4p9sRk8CcCmX4Z8OfU0BkfM8/k2Y7Cz/jZqxL+vzHjrLQa8tw==
   dependencies:
     asciidoctor-opal-runtime "0.3.3"
     unxhr "1.0.1"
@@ -237,12 +237,12 @@ asciidoctor-opal-runtime@0.3.3:
     unxhr "1.0.1"
 
 asciidoctor@^2.2.0:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/asciidoctor/-/asciidoctor-2.2.6.tgz#43b5fec8ab91ed2d8d1815c75067cfa29da2e568"
-  integrity sha512-EXG3+F2pO21B+COfQmV/WgEgGiy7nG/mJiS/o5DXpaT2q82FRZWPVkbMZrpDvpu4pjXe5c754RbZR9Vz0L0Vtw==
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/asciidoctor/-/asciidoctor-2.2.7.tgz#f26b413ec2f82865abdb860ad3d63bacb564aa16"
+  integrity sha512-n8wj8HDTBjn+gXlWxPjMqbIa0qlqIP0TrbDebOniC9fygNnogztBBcEFqyfNZD8UF0krOnbfsnihJvFVRA8NfQ==
   dependencies:
     "@asciidoctor/cli" "3.5.0"
-    "@asciidoctor/core" "2.2.6"
+    "@asciidoctor/core" "2.2.7"
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -944,9 +944,9 @@ bash-color@^0.0.4:
   integrity sha512-ZNB4525U7BxT6v9C8LEtywyCgB4Pjnm7/bh+ru/Z9Ecxvg3fDjaJ6z305z9a61orQdbB1zqYHh5JbUqx4s4K0g==
 
 binary-extensions@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
-  integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.3.0.tgz#f6e14a97858d327252200242d4ccfe522c445522"
+  integrity sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==
 
 body@^5.1.0:
   version "5.1.0"
