@@ -24,4 +24,4 @@ Using the VPN connection also makes all of your internet traffic appear to be co
 
 Finally, your VPN connection bypasses any local network restrictions. For example, it is not uncommon for public wifi hotspots to block services. By connecting to the VPN, you will automatically bypass any of these network-level restrictions. It is highly encouraged to use the VPN any time you are using public wifi at a coffee shop, airport, hotel, etc. This is especially true if you are using the same computer or other device that you use for work. If in doubt, err on the side of caution and use the VPN.
 
-[Instructions on how to connect to Lullabot's VPN are on Dropbox](https://www.dropbox.com/work/Lullabot/VPN).
+[Instructions on how to connect to Lullabot's VPN are on Dropbox](https://www.dropbox.com/scl/fo/eaf1pjsjm2z636i5u3hmm/h?rlkey=ggj8bsqwlzp6ee72chhc2gv8u&dl=0).
