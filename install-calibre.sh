@@ -44,6 +44,7 @@ apt-get update \
   python3-routes \
   python3-zeroconf \
   xdg-utils \
+  xz-utils \
   wget
 
 wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin version=6.0.0
