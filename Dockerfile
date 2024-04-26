@@ -1,5 +1,6 @@
 FROM ubuntu:24.04 as node
 
+RUN apt-get update && apt-get install -y adduser
 RUN adduser node
 WORKDIR /home/node/app
 COPY install-apt-deps.sh .
