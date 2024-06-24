@@ -17,6 +17,7 @@ The current members of the Security team include:
 
 - [Andrew Berry, Director of Technology](https://www.lullabot.com/about/andrew-berry)
 - [Brian Skowron, President](https://www.lullabot.com/about/brian-skowron)
+- [Cathy Theys, Support Team Manager](https://www.lullabot.com/about/cathy-theys)
 - [Ezequiel Vázquez, Senior Developer](https://www.lullabot.com/about/ezequiel-vazquez)
 - [Sally Young, Senior DevOps Engineer](https://www.lullabot.com/about/sally-young)
 - [Tim McDorman, Administrative Manager](https://www.lullabot.com/about/tim-mcdorman)

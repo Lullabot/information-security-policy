@@ -26,7 +26,7 @@
         "html-escape": "^2.0.0"
     },
     "devDependencies": {
-        "linkinator": "^6.0.2",
-        "spellchecker-cli": "^6.1.1"
+        "linkinator": "^6.0.5",
+        "spellchecker-cli": "^6.2.0"
     }
 }
