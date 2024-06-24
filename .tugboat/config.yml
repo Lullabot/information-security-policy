@@ -11,6 +11,7 @@ services:
         - apt-get install -y nodejs yarn
         - mkdir -p /var/www
         - chown www-data:www-data /var/www
+        - git config --global --add safe.directory /var/lib/tugboat
       build:
         # Calibre uses Chrome libraries under the hood, and it refuses to run
         # as root.
