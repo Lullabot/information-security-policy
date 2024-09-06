@@ -35,7 +35,7 @@ We consider a cloud service or SaaS to be any software application hosted by the
 
 4. **Security History**:
    - Has the company had any notable security breaches?
-   - Check sources like Hacker News and Google News for reported incidents.
+   - Check sources like Google News and Hacker News for reported incidents.
 
 ### Decision Tree for Evaluation
 
