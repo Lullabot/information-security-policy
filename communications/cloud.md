@@ -20,7 +20,7 @@ We consider a cloud service or SaaS to be any software application hosted by the
 ### Key Questions to Ask
 
 1. **Company Location**:
-   - Is the company based in the US or an allied country?
+   - Is the company based in the United States or an allied country?
    - Be cautious of companies based in countries like China, Syria, Saudi Arabia, or Russia.
 
 2. **Data Handling**:
