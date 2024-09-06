@@ -72,17 +72,26 @@ When possible, invite users using their email address rather than username to re
 
 Where possible, clients should be the account owners of cloud services in client engagements. The security committee can provide feedback, but the client should be primarily responsible for security reviews.
 
-## Approved Services Examples
-
-- NotebookLM (part of Lullabot.com account)
-- ChatGPT (avoid divulging sensitive information)
-- Claude.ai (same guidelines as ChatGPT)
-
 ## Introducing New Services at Lullabot
 
 1. For individual purchases on PEX without integration or access to Lullabot data, no specific approval is required.
 2. Apps integrating with Lullabot team services or interacting with customers need review by the security committee and relevant directors.
 3. Fill out [the service request form](https://forms.gle/aPZnrCoEhfhB67ck8) for new service requests.
+
+## Examples of Services Needing Evaluation by the Security Team
+
+- NotebookLM (part of Lullabot.com account)
+- ChatGPT (avoid divulging sensitive information)
+- Claude.ai (same guidelines as ChatGPT)
+- Notion (Lullabot's primary note-taking app)
+- Google Workspace (Gmail, Docs, Drive, etc.)
+- Zoom
+- Slack
+- Dropbox
+- iCloud
+- Microsoft 365
+- HubSpot
+- Zendesk
 
 ## Conclusion
 
