@@ -11,7 +11,7 @@ This policy applies to all Lullabot employees and contractors.
 ### Compliance
 
 1. Since employees may travel and work outside of their home offices, their devices will be VPN-enabled. This will make it easy to use the VPN when they are working from any untrustworthy location.
-2. Critical infrastructure assets will be available only to neccesary employees via the Lullabot VPN.
+2. Critical infrastructure assets will be available only to necessary employees via the Lullabot VPN.
 
 ### Explanation and Implementation
 
