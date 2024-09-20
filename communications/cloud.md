@@ -1,4 +1,4 @@
-# Security in the Cloud and SaaS Evaluation Guidelines
+# Security in the Cloud and Software As A Service Evaluation Guidelines
 
 ## Introduction
 
