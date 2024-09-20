@@ -30,7 +30,7 @@ We consider a cloud service or SaaS to be any software application hosted by the
    - How do they handle accidental input of sensitive information?
 
 3. **Permissions**:
-   - What integrations does the service require (e.g., calendars, email, file storage)?
+   - What third-party integration does the service require (e.g., calendars, email, file storage)?
    - If it requires more than basic login information, involve the security team for review.
 
 4. **Security History**:
