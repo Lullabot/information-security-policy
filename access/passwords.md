@@ -10,7 +10,7 @@ This policy applies to all Lullabot employees and contractors.
 All employees and contractors are expected to create strong passwords for access to all Lullabot and client accounts.
 
 ### Explanation and Implementation
-The first layer of defense that we have for our online accounts is the PIN, passcode, or password. As such, it is extremely important to use good, unique passwords, and keep them well protected. A good password consists is hard for people to guess and machines to brute-force. Contrary to popular belief, the inclusion of numbers, characters, or mixed case does not matter nearly as much as the length of the password itself.
+The first layer of defense that we have for our online accounts is the PIN, passcode, or password. As such, it is extremely important to use good, unique passwords, and keep them well protected. A good password is difficult for people to guess and machines to brute-force. Contrary to popular belief, the inclusion of numbers, characters, or mixed case does not matter nearly as much as the length of the password itself.
 
 Because the human brain is not capable of remembering long random passwords, Lullabot provides access to a [Password Manager](../access/password_managers.md).
 
