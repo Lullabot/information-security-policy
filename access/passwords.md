@@ -1,7 +1,7 @@
 ## PINs, Passcodes and Passwords
 
 ### Policy
-Strong passwords should be used for access to any company accounts and services. We recommend creating most passwords with a password manager using the "Random Password" option with a minimum of 16 characters. Passwords that must be memorized should be a series of several random words, generated using a password manager's "Memorable Password" option.
+Strong passwords should be used for access to any company accounts and services. Passwords that must be memorized should be a series of several random words, generated using a password manager's "Memorable Password" option. Passwords that are not memorized must be stored with a password manager using the "Random Password" option with a minimum of 16 characters.
 
 ### Scope
 This policy applies to all Lullabot employees and contractors.
