@@ -22,11 +22,11 @@
         "gitbook-plugin-todo": "git+https://github.com/Lullabot/gitbook-plugin-todo.git#d4bfcac28faf840e3af4865c0971229dda792ea4",
         "gitbook-plugin-typekit": "^0.0.2",
         "highlight.js": "^11.10.0",
-        "honkit": "^5.1.4",
+        "honkit": "^6.0.1",
         "html-escape": "^2.0.0"
     },
     "devDependencies": {
-        "linkinator": "^6.1.1",
+        "linkinator": "^6.1.2",
         "spellchecker-cli": "^6.2.0"
     }
 }

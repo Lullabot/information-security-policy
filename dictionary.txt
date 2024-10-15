@@ -16,6 +16,7 @@ BambooHR
 BitLocker
 Bootcamp
 Carbonite
+ChatGPT
 Chavet
 CircleCI
 ClamAV
@@ -40,6 +41,7 @@ HTTPS
 HTTPs
 Hackpad
 Hipchat
+HubSpot
 IoT
 Jira
 Keychain
@@ -58,11 +60,13 @@ MacOS
 McDorman
 NAS
 NoScript
+NotebookLM
 NodeJS
 Noko
 OpenPGP
 OpenVPN
 PEX
+PII
 Passcode
 Passcodes
 Passwordless
@@ -70,6 +74,7 @@ SAML
 SMS
 SSID
 SSL
+SaaS
 Sansbury
 Skowron
 Synology
@@ -85,9 +90,11 @@ VPS
 Vázquez
 Veracrypt
 Verisign
+Zendesk
 adblocker
 adblockers
 backdoors
+biometric
 biometrics
 checkbox
 cryptographic
