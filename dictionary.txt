@@ -94,6 +94,7 @@ Zendesk
 adblocker
 adblockers
 backdoors
+biometric
 biometrics
 checkbox
 cryptographic
