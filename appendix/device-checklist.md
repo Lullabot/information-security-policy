@@ -13,7 +13,7 @@ With each device, validate:
 - [ ] All computers have a complex password with a screen lock timeout set to no more than 10 minutes.
 - [ ] All computer hard drives are encrypted with FileVault, Bitlocker, or equivalent.
 - [ ] All operating systems and browsers should be patched and up to date.
-- [ ] Confirm VPN app (Tunnelblick or OpenVPN) is setup and the team member is aware of the "split tunnel" option.
+- [ ] Confirm VPN app (Proton VPN) is setup and the team member is aware of the "split tunnel" option.
 - [ ] Confirm 1Password is installed with browser extensions.
 - [ ] Confirm an adblocker (uBlock origin, AdGuard) is installed in the default browser.
 
