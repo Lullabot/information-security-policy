@@ -1285,9 +1285,9 @@ cross-spawn@^5.0.1:
     which "^1.2.9"
 
 cross-spawn@^7.0.0:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.5.tgz#910aac880ff5243da96b728bc6521a5f6c2f2f82"
-  integrity sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.6.tgz#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
+  integrity sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -2006,14 +2006,14 @@ hast-util-from-html@^2.0.0:
     vfile-message "^4.0.0"
 
 hast-util-from-parse5@^8.0.0:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/hast-util-from-parse5/-/hast-util-from-parse5-8.0.1.tgz#654a5676a41211e14ee80d1b1758c399a0327651"
-  integrity sha512-Er/Iixbc7IEa7r/XLtuG52zoqn/b3Xng/w6aZQ0xGVxzhw5xUFxcRqdPzP6yFi/4HBYRaifaI5fQ1RH8n0ZeOQ==
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/hast-util-from-parse5/-/hast-util-from-parse5-8.0.2.tgz#29b42758ba96535fd6021f0f533c000886c0f00f"
+  integrity sha512-SfMzfdAi/zAoZ1KkFEyyeXBn7u/ShQrfd675ZEE9M3qj+PMFX05xubzRyF76CCSJu8au9jgVxDV1+okFvgZU4A==
   dependencies:
     "@types/hast" "^3.0.0"
     "@types/unist" "^3.0.0"
     devlop "^1.0.0"
-    hastscript "^8.0.0"
+    hastscript "^9.0.0"
     property-information "^6.0.0"
     vfile "^6.0.0"
     vfile-location "^5.0.0"
@@ -2107,10 +2107,10 @@ hast-util-whitespace@^3.0.0:
   dependencies:
     "@types/hast" "^3.0.0"
 
-hastscript@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-8.0.0.tgz#4ef795ec8dee867101b9f23cc830d4baf4fd781a"
-  integrity sha512-dMOtzCEd3ABUeSIISmrETiKuyydk1w0pa+gE/uormcTpSYuaNJPbX1NU3JLyscSLjwAQM8bWMhhIlnCqnRvDTw==
+hastscript@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-9.0.0.tgz#2b76b9aa3cba8bf6d5280869f6f6f7165c230763"
+  integrity sha512-jzaLBGavEDKHrc5EfFImKN7nZKKBdSLIdGvCwDZ9TfzbF2ffXiov8CKE445L2Z1Ek2t/m4SKQ2j6Ipv7NyUolw==
   dependencies:
     "@types/hast" "^3.0.0"
     comma-separated-tokens "^2.0.0"
