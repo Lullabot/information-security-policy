@@ -25,4 +25,4 @@ On Android, do not use a pattern lock and create a longer PIN.
 
 On iOS, go beyond the standard four-digit PIN by going into Settings >> Touch ID & Passcode >> Change Passcode. When setting the new passcode you will see a link called "Passcode Options". You can select that to choose either an alphanumeric passcode or a longer numeric passcode.
 
-In addition, devices should be configured to lock automatically after a short period of inactivity, and they should be locked manually any time the owner walks away from them.
+In addition, devices should be configured to lock automatically after a short period (no longer than 10 minutes) of inactivity, and they should be locked manually any time the owner walks away from them.
