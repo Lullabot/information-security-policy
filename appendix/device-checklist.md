@@ -63,4 +63,4 @@ Make sure you'd be safe in the following circumstances:
 - [ ] I place catnip on my laptop keyboard because I love my cat. My screen lock prevents Kitty from viewing or changing sensitive information.
 - [ ] A client puts very important credentials in a Word document I download. I'm not worried about securely erasing the file because my hard drive is encrypted.
 - [ ] I need to move a copy of the Daily Report at a Lullabot Retreat where the internet is totally broken. I can use my USB drive because I've encrypted the drive using FileVault or BitLocker.
-- [ ] I switch from iOS to Android because it sounds like fun. I don't need to migrate my 2FA tokens because they are stored in 1Password.
+- [ ] I switch from iOS to Android because it sounds like fun. I don't need to migrate my [2FA](https://security.lullabot.com/access/two_factor_authentication.html) tokens because they are stored in 1Password.
