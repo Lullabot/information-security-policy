@@ -10,32 +10,32 @@ Before starting, gather a list of all devices to audit that are used for Lullabo
 
 With each device, validate:
 
-- [ ] Confirm all mobile devices have a [screen timeout set to no more than 10 minutes](https://security.lullabot.com/physical/locking.html).
+- [ ] Confirm all mobile devices have a [screen timeout set to no more than 10 minutes](physical/locking.md).
 - [ ] Confirm "Find My" or equivalent is enabled.
 - [ ] All operating systems should be up to date.
 - [ ] All browsers should be up to date.
-- [ ] Confirm [1Password](https://security.lullabot.com/access/password_managers.html) is installed, with browser extensions.
+- [ ] Confirm [1Password](access/password_managers.md) is installed, with browser extensions.
 - [ ] Confirm an adblocker (uBlock origin lite, AdGuard) is installed in the default browser.
 
 ## Computers
 
-- [ ] All computers have a [complex password](https://security.lullabot.com/access/passwords.html), at least 16 characters long. If you add your passwords to 1password, 1password will tell you the strenght of the password; try to get "excellent" strength. Do NOT use guessable patterns like: family names, birthdays, the word “lullabot”, etc.
-- [ ] All computer [hard drives are encrypted](https://security.lullabot.com/physical/hard-drive-encryption.html) with FileVault, Bitlocker, or equivalent.
+- [ ] All computers have a [complex password](access/passwords.md), at least 16 characters long. If you add your passwords to 1password, 1password will tell you the strenght of the password; try to get "excellent" strength. Do NOT use guessable patterns like: family names, birthdays, the word “lullabot”, etc.
+- [ ] All computer [hard drives are encrypted](physical/hard-drive-encryption.md) with FileVault, Bitlocker, or equivalent.
 - [ ] Confirm firewall is enabled. Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm no guest accounts are enabled.
 - [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm automatic updates are enabled.
-- [ ] Confirm [VPN](https://security.lullabot.com/access/lullabot_vpn.html) app [(Proton VPN) is setup](https://lb.cm/vpn).
+- [ ] Confirm [VPN](access/lullabot_vpn.md) app [(Proton VPN) is setup](https://lb.cm/vpn).
 
 ## Backups
 
-- [ ] If computers have a [backup system](https://security.lullabot.com/physical/backups.html) in place, backups should be encrypted.
+- [ ] If computers have a [backup system](physical/backups.md) in place, backups should be encrypted.
 - [ ] Optional, but nice to have: backups support versioning to protection against ransomware style scams.
 - [ ] If using cloud services, use a private key that only you know. (Store it in 1password.)
 
 ## Mobile Devices
 
-- [ ] Confirm all mobile devices have at least a [6 digit PIN and screen timeout set](https://security.lullabot.com/physical/locking.html).
+- [ ] Confirm all mobile devices have at least a [6 digit PIN and screen timeout set](physical/locking.md).
   * Android devices should not use a pattern-style lock.
   * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touch) ID &amp; Passcode" in Settings.
 - [ ] If applicable, Rooted Android phones and jailbroken iPhones should be treated with care.
@@ -63,4 +63,4 @@ Make sure you'd be safe in the following circumstances:
 - [ ] I place catnip on my laptop keyboard because I love my cat. My screen lock prevents Kitty from viewing or changing sensitive information.
 - [ ] A client puts very important credentials in a Word document I download. I'm not worried about securely erasing the file because my hard drive is encrypted.
 - [ ] I need to move a copy of the Daily Report at a Lullabot Retreat where the internet is totally broken. I can use my USB drive because I've encrypted the drive using FileVault or BitLocker.
-- [ ] I switch from iOS to Android because it sounds like fun. I don't need to migrate my [2FA](https://security.lullabot.com/access/two_factor_authentication.html) tokens because they are stored in 1Password.
+- [ ] I switch from iOS to Android because it sounds like fun. I don't need to migrate my [2FA](access/two_factor_authentication.md) tokens because they are stored in 1Password.
