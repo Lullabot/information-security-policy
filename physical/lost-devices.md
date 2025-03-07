@@ -69,28 +69,27 @@ If you get your device back, assume it's been compromised with a keylogger. Wipe
 
 #### You lost a device without encryption (a Windows laptop, a Time Machine backup drive, an Android phone)
 
-Post to Yammer to let the team know you lost a device. The team should take this as a note to be on guard for suspicious activity. If you lost *all* your devices, call 1-877-LULLABOT or your manager.
+Post to Slack in #bot-support or email team@lullabot.com to let the team know you lost a device. The team should take this as a note to be on guard for suspicious activity. If you lost *all* your devices, call 1-877-LULLABOT or your manager.
 
-Get on a phone or video call with a member of the admin team to confirm the lost device. **Managers and the admin team should not accept text communication as proof that they are communicating with an employee**. Confirm with them what accounts you need them to reset. They should be able to reset passwords quickly for Lullabot-managed accounts like Google Apps and the Daily Report. If warranted, the admin team should send an email to team@lullabot.com alerting the company about the lost device.
+Get on a phone or video call with a member of the admin team to confirm the lost device. **Managers and the admin team should not accept text communication as proof that they are communicating with an employee**. Confirm with them what accounts you need them to reset. They should be able to reset passwords quickly for Lullabot-managed accounts like Google Apps and LDAP. If warranted, the admin team should send an email to team@lullabot.com alerting the company about the lost device.
 
 After regaining access to your Lullabot email address, use it to reset passwords for accounts to log out all active sessions. Some services will let you log in, list, and kill active sessions, saving you from having to reset your password.
 
 High-profile services to have an admin team member immediately reset or log out all sessions if you can't do it yourself:
 
 * Google
-* Daily Report / LDAP
+* LDAP (https://auth.lullabot.com/)
 * Bamboo HR
 * Linode Manager
 * Slack
-* Yammer
 * Noko
 
 Services individuals need to reset or log out on their own once the above is done:
 
 * GitHub
-* Client-specific services (like Jira, Hipchat, etc)
+* Client-specific services (like Jira, Teams, etc)
 * Drupal.org
-* Twitter, Facebook, etc
+* LinkedIn, Facebook, Twitter/BlueSky/Mastadon, etc
 
 Commonly forgotten items:
 
