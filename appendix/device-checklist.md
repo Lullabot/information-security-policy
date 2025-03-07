@@ -21,9 +21,9 @@ With each device, validate:
 
 - [ ] All computers have a [complex password](https://security.lullabot.com/access/passwords.html), at least 16 characters long. If you add your passwords to 1password, 1password will tell you the strenght of the password; try to get "excellent" strength. Do NOT use guessable patterns like: family names, birthdays, the word “lullabot”, etc.
 - [ ] All computer [hard drives are encrypted](https://security.lullabot.com/physical/hard-drive-encryption.html) with FileVault, Bitlocker, or equivalent.
-- [ ] Confirm firewall is enabled. Document work tasks that require disabling firewall; share with security@lullabot.com.
+- [ ] Confirm firewall is enabled. Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm no guest accounts are enabled.
-- [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require disabling firewall; share with security@lullabot.com.
+- [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm automatic updates are enabled.
 - [ ] Confirm [VPN](https://lb.cm/vpn) app (Proton VPN) is setup.
 
@@ -41,6 +41,8 @@ With each device, validate:
 - [ ] If applicable, Rooted Android phones and jailbroken iPhones should be treated with care.
 
 After you've finished reading the above, run through these fun scenarios to make sure you're all set!
+
+Please send any questions to [security@lullabot.com](mailto:security@lullabot.com).
 
 ## Example Scenarios
 
