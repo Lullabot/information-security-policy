@@ -15,11 +15,11 @@ This policy applies to Lullabot management.
 
 The current members of the Security team include:
 
-- [Andrew Berry, Director of Technology](https://www.lullabot.com/about/andrew-berry)
+- [Andrew Berry, VP of Technology](https://www.lullabot.com/about/andrew-berry)
 - [Brian Skowron, President](https://www.lullabot.com/about/brian-skowron)
 - [Cathy Theys, Support Team Manager](https://www.lullabot.com/about/cathy-theys)
-- [Ezequiel Vázquez, Senior Developer](https://www.lullabot.com/about/ezequiel-vazquez)
+- [Ezequiel Vázquez, Tugboat Senior DevOps Engineer](https://www.lullabot.com/about/ezequiel-vazquez)
 - [Sally Young, Senior DevOps Engineer](https://www.lullabot.com/about/sally-young)
 - [Tim McDorman, Administrative Manager](https://www.lullabot.com/about/tim-mcdorman)
 
-This team is currently meeting weekly to discuss and assess security concerns. The team can be contacted at any time by sending an email to [security@lullabot.com](mailto:security@lullabot.com).
+This team is currently meeting every other week to discuss and assess security concerns. The team can be contacted at any time by sending an email to [security@lullabot.com](mailto:security@lullabot.com).
