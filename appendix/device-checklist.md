@@ -25,7 +25,7 @@ With each device, validate:
 - [ ] Confirm no guest accounts are enabled.
 - [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm automatic updates are enabled.
-- [ ] Confirm [VPN](https://lb.cm/vpn) app (Proton VPN) is setup.
+- [ ] Confirm [VPN](https://security.lullabot.com/access/lullabot_vpn.html) app [(Proton VPN) is setup](https://lb.cm/vpn).
 
 ## Backups
 
