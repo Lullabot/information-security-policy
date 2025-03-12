@@ -27,10 +27,9 @@ This policy applies to all Lullabot employees.
 - 1Password supports a variety of 2FA options.
 - 
 Users of other password managers probably want to make a few adjustments if they want to continue using their own password manager for their personal accounts:
-
-- Consider using separate browsers for work and personal.
-- Consider using web-access to 1Password instead of the extension.
-- May be able to configure 1Password to not ask about saving passwords.
+  - Consider using separate browsers for work and personal.
+  - Consider using web-access to 1Password instead of the extension.
+  - May be able to configure 1Password to not ask about saving passwords.
 
 ### Recommendations for users
 
