@@ -553,25 +553,24 @@
 <p>You don't need to reset passwords or credentials except for anything that might be in plain text. If you have apps that don't use the OS X keychain, you might need to reset those credentials. Windows and Linux apps commonly store passwords in clear-text (or mildly obfuscated) on disk. API tokens should be reset, like those used by Composer for GitHub access or those stored in settings.php in client sites.</p>
 <p>If you get your device back, assume it's been compromised with a keylogger. Wipe it and restore it from a known-good backup. This includes ignoring any potential cloud backups made since you lost the device.</p>
 <h4 id="you-lost-a-device-without-encryption-a-windows-laptop-a-time-machine-backup-drive-an-android-phone">You lost a device without encryption (a Windows laptop, a Time Machine backup drive, an Android phone)</h4>
-<p>Post to Yammer to let the team know you lost a device. The team should take this as a note to be on guard for suspicious activity. If you lost <em>all</em> your devices, call 1-877-LULLABOT or your manager.</p>
-<p>Get on a phone or video call with a member of the admin team to confirm the lost device. <strong>Managers and the admin team should not accept text communication as proof that they are communicating with an employee</strong>. Confirm with them what accounts you need them to reset. They should be able to reset passwords quickly for Lullabot-managed accounts like Google Apps and the Daily Report. If warranted, the admin team should send an email to team@lullabot.com alerting the company about the lost device.</p>
+<p>Post to Slack in #bot-support or email team@lullabot.com to let the team know you lost a device. The team should take this as a note to be on guard for suspicious activity. If you lost <em>all</em> your devices, call 1-877-LULLABOT or your manager.</p>
+<p>Get on a phone or video call with a member of the admin team to confirm the lost device. <strong>Managers and the admin team should not accept text communication as proof that they are communicating with an employee</strong>. Confirm with them what accounts you need them to reset. They should be able to reset passwords quickly for Lullabot-managed accounts like Google Apps and LDAP. If warranted, the admin team should send an email to team@lullabot.com alerting the company about the lost device.</p>
 <p>After regaining access to your Lullabot email address, use it to reset passwords for accounts to log out all active sessions. Some services will let you log in, list, and kill active sessions, saving you from having to reset your password.</p>
 <p>High-profile services to have an admin team member immediately reset or log out all sessions if you can't do it yourself:</p>
 <ul>
 <li>Google</li>
-<li>Daily Report / LDAP</li>
+<li>LDAP (<a href="https://auth.lullabot.com/" target="_blank">https://auth.lullabot.com/</a>)</li>
 <li>Bamboo HR</li>
 <li>Linode Manager</li>
 <li>Slack</li>
-<li>Yammer</li>
 <li>Noko</li>
 </ul>
 <p>Services individuals need to reset or log out on their own once the above is done:</p>
 <ul>
 <li>GitHub</li>
-<li>Client-specific services (like Jira, Hipchat, etc)</li>
+<li>Client-specific services (like Jira, Teams, etc)</li>
 <li>Drupal.org</li>
-<li>Twitter, Facebook, etc</li>
+<li>LinkedIn, Facebook, Twitter/BlueSky/Mastadon, etc</li>
 </ul>
 <p>Commonly forgotten items:</p>
 <ul>
@@ -624,7 +623,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Lost or Stolen Devices","level":"1.4.5","depth":2,"next":{"title":"Malware and Viruses","level":"1.4.6","depth":2,"path":"physical/malware.md","ref":"physical/malware.md","articles":[]},"previous":{"title":"Backups","level":"1.4.4","depth":2,"path":"physical/backups.md","ref":"physical/backups.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","typekit@0.0.2","collapsible-menu","todo"],"styles":{"website":"_styles/website.css"},"pluginsConfig":{"typekit":{"kitID":"ceq6qcn"},"collapsible-menu":{},"todo":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Policy","links":{"sidebar":{"Download":"/security.pdf","GitHub":"https://github.com/Lullabot/information-security-policy"}},"gitbook":"*"},"file":{"path":"physical/lost-devices.md","mtime":"2025-03-12T17:47:23.262Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-03-12T17:47:46.527Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Lost or Stolen Devices","level":"1.4.5","depth":2,"next":{"title":"Malware and Viruses","level":"1.4.6","depth":2,"path":"physical/malware.md","ref":"physical/malware.md","articles":[]},"previous":{"title":"Backups","level":"1.4.4","depth":2,"path":"physical/backups.md","ref":"physical/backups.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","typekit@0.0.2","collapsible-menu","todo"],"styles":{"website":"_styles/website.css"},"pluginsConfig":{"typekit":{"kitID":"ceq6qcn"},"collapsible-menu":{},"todo":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Policy","links":{"sidebar":{"Download":"/security.pdf","GitHub":"https://github.com/Lullabot/information-security-policy"}},"gitbook":"*"},"file":{"path":"physical/lost-devices.md","mtime":"2025-03-12T17:57:46.481Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-03-12T17:58:06.897Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
