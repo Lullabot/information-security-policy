@@ -10,22 +10,22 @@ Before starting, gather a list of all devices to audit that are used for Lullabo
 
 With each device, validate:
 
-- [ ] Confirm all computers and mobile devices have a [screen timeout set to no more than 10 minutes](physical/locking.md).
-- [ ] Confirm "Find My" or equivalent is enabled if the team member wants it on.
-- [ ] All operating systems should be up to date.
-- [ ] Browsers that you use should be up to date.
-- [ ] Confirm [1Password](access/password_managers.md) is installed, with browser extensions.
-- [ ] Confirm an adblocker (uBlock origin lite, AdGuard) is installed in the default browser.
+- [ ] All computers and mobile devices have a [screen timeout set to no more than 10 minutes](physical/locking.md).
+- [ ] "Find My" or equivalent is enabled, if the team member wants it on.
+- [ ] All operating systems are up to date.
+- [ ] Browsers that you use are up to date.
+- [ ] [1Password](access/password_managers.md) is installed, with browser extensions.
+- [ ] An adblocker (uBlock origin lite, AdGuard) is installed in the default browser.
 
 ## Computers
 
 - [ ] All computers have a [complex password](access/passwords.md), at least 16 characters long. If you add your passwords to 1Password, 1Password will tell you the strength of the password; try to get "excellent" strength. Do NOT use guessable patterns like: family names, birthdays, the word “lullabot”, etc.
 - [ ] All computer [hard drives are encrypted](physical/hard-drive-encryption.md) with FileVault, BitLocker, or equivalent.
-- [ ] Confirm firewall is enabled. When needed, allow apps through the firewall without disabling it. Document work tasks that require customizing the firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
-- [ ] Confirm no guest accounts are enabled.
-- [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require remote access; share with [security@lullabot.com](mailto:security@lullabot.com).
-- [ ] Confirm automatic updates are enabled.
-- [ ] Confirm [VPN](access/lullabot_vpn.md) app [(Proton VPN) is setup](https://lb.cm/vpn).
+- [ ] Firewall is enabled. When needed, allow apps through the firewall without disabling it. Document work tasks that require customizing the firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
+- [ ] No guest accounts are enabled.
+- [ ] No remote access is enabled (SSH, file sharing). Document work tasks that require remote access; share with [security@lullabot.com](mailto:security@lullabot.com).
+- [ ] Automatic updates are enabled.
+- [ ] [VPN](access/lullabot_vpn.md) app [(Proton VPN) is setup](https://lb.cm/vpn).
 
 ## Backups
 
@@ -35,7 +35,7 @@ With each device, validate:
 
 ## Mobile Devices
 
-- [ ] Confirm all mobile devices have at least a [6 digit PIN and screen timeout set](physical/locking.md).
+- [ ] All mobile devices have at least a [6 digit PIN and screen timeout set](physical/locking.md).
   * Android devices should not use a pattern-style lock.
   * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touch) ID &amp; Passcode" in Settings.
 - [ ] If applicable, Rooted Android phones and jailbroken iPhones should be treated with care.
