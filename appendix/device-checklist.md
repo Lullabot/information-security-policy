@@ -38,7 +38,7 @@ With each device, validate:
 - [ ] All mobile devices have at least a [6 digit PIN and screen timeout set](physical/locking.md).
   * Android devices should not use a pattern-style lock.
   * If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touch) ID &amp; Passcode" in Settings.
-- [ ] If applicable, Rooted Android phones and jailbroken iPhones should be treated with care.
+- [ ] If applicable, rooted Android phones and jailbroken iPhones should be treated with care.
 
 After you've finished reading the above, run through these fun scenarios to make sure you're all set!
 
