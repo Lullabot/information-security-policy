@@ -24,7 +24,7 @@ Two-factor authentication is significantly more secure than single-factor (usern
 You should be sure you have some way to recover access to your account if your phone is lost or destroyed. Most Lullabot-run accounts can be reset by an admin, but it can be problematic for personal accounts or smaller services without group or company features. One way to think about it is to think about how you would recover from a (local) disaster like a fire or flood. If you lost every piece of technology you owned, could you recover your accounts? Some strategies include:
 
 * Google lets you specify multiple recovery phone numbers. Set up SMS fallbacks to your own phone or to another trusted person. You can always get a new phone or SIM card for your own number. PINs sent to other numbers won't compromise your accounts unless they also know your logins and passwords.
-* Print out 2FA recovery codes and store them securely outside of your house. 
+* Print out 2FA recovery codes and store them securely. 
 * Store recovery codes in the notes field in 1Password if it's accessible from multiple devices. However, if you choose to optionally enable 2FA for 1Password itself, store a hard copy of the recovery codes securely.
 * Determine if the service will let you recover an account with proper government ID. For example, Linode will do this, while GitHub will not.
 * Determine if an account can be reset by an account admin - Google Apps accounts can do this, while GitHub and others can not.
