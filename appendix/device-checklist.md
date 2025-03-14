@@ -10,10 +10,10 @@ Before starting, gather a list of all devices to audit that are used for Lullabo
 
 With each device, validate:
 
-- [ ] Confirm all mobile devices have a [screen timeout set to no more than 10 minutes](physical/locking.md).
+- [ ] Confirm all devices have a [screen timeout set to no more than 10 minutes](physical/locking.md).
 - [ ] Confirm "Find My" or equivalent is enabled if the team member wants it on.
 - [ ] All operating systems should be up to date.
-- [ ] All browsers should be up to date.
+- [ ] Browsers that you use should be up to date.
 - [ ] Confirm [1Password](access/password_managers.md) is installed, with browser extensions.
 - [ ] Confirm an adblocker (uBlock origin lite, AdGuard) is installed in the default browser.
 
