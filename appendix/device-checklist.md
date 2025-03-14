@@ -21,7 +21,7 @@ With each device, validate:
 
 - [ ] All computers have a [complex password](access/passwords.md), at least 16 characters long. If you add your passwords to 1Password, 1Password will tell you the strength of the password; try to get "excellent" strength. Do NOT use guessable patterns like: family names, birthdays, the word “lullabot”, etc.
 - [ ] All computer [hard drives are encrypted](physical/hard-drive-encryption.md) with FileVault, BitLocker, or equivalent.
-- [ ] Confirm firewall is enabled. Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
+- [ ] Confirm firewall is enabled. When needed, allow apps through the firewall without disabling it. Document work tasks that require customizing the firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm no guest accounts are enabled.
 - [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm automatic updates are enabled.
