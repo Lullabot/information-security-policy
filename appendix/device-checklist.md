@@ -23,7 +23,7 @@ With each device, validate:
 - [ ] All computer [hard drives are encrypted](physical/hard-drive-encryption.md) with FileVault, BitLocker, or equivalent.
 - [ ] Confirm firewall is enabled. When needed, allow apps through the firewall without disabling it. Document work tasks that require customizing the firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm no guest accounts are enabled.
-- [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require disabling firewall; share with [security@lullabot.com](mailto:security@lullabot.com).
+- [ ] Confirm no remote access is enabled (SSH, file sharing). Document work tasks that require remote access; share with [security@lullabot.com](mailto:security@lullabot.com).
 - [ ] Confirm automatic updates are enabled.
 - [ ] Confirm [VPN](access/lullabot_vpn.md) app [(Proton VPN) is setup](https://lb.cm/vpn).
 
