@@ -523,25 +523,28 @@
 </ul>
 <p>With each device, validate:</p>
 <ul>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All computers have a complex password with a screen lock timeout set to no more than 10 minutes.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All computer hard drives are encrypted with FileVault, Bitlocker, or equivalent.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All operating systems and browsers should be patched and up to date.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm VPN app (Tunnelblick or OpenVPN) is setup and the team member is aware of the "split tunnel" option.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm 1Password is installed with browser extensions.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm an adblocker (uBlock origin, AdGuard) is installed in the default browser.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All computers and mobile devices have a screen timeout set to no more than 10 minutes.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> "Find My" or equivalent is enabled, if the team member wants it on.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All operating systems are up to date.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Browsers that you use are up to date.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> 1Password is installed, with browser extensions.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> An adblocker (uBlock origin lite, AdGuard) is installed in the default browser.</li>
 </ul>
-<h2 id="workstations">Workstations</h2>
+<h2 id="computers">Computers</h2>
 <ul>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm "Find My" or equivalent is enabled.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm firewall is enabled.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm no guest accounts are enabled.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm that if remote access is enabled (SSH, file sharing) that the implications are understood.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All computers have a complex password, at least 16 characters long. If you add your passwords to 1Password, 1Password will tell you the strength of the password; try to get "excellent" strength. Do NOT use guessable patterns like: family names, birthdays, the word “lullabot”, etc.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All computer hard drives are encrypted with FileVault, BitLocker, or equivalent.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Firewall is enabled. When needed, allow apps through the firewall without disabling it. Document work tasks that require customizing the firewall; share with security@lullabot.com.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> No guest accounts are enabled.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> No remote access is enabled (SSH, file sharing). Document work tasks that require remote access; share with security@lullabot.com.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Automatic updates are enabled.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> VPN app (Proton VPN) is setup.</li>
 </ul>
 <h2 id="backups">Backups</h2>
 <ul>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Computers have a backup system in place for quick recovery after a hardware failure.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Backups support versioning and have protections against ransomware style scams.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> All backups are encrypted. Cloud services use a private key that only you know.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> If computers have a backup system in place, backups should be encrypted.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Optional, but nice to have: backups support versioning to protection against ransomware style scams.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> If using cloud services for backups, use a private key that only you know. (Store it in 1Password.)</li>
 </ul>
 <h2 id="mobile-devices">Mobile Devices</h2>
 <ul>
@@ -550,10 +553,10 @@ Android devices should not use a pattern-style lock.
 If supported, set your device to wipe all data after a certain number of failed unlock attempts. On iOS, this is under "Face (or Touch) ID &amp; Passcode" in Settings.
 
 </li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Confirm "Find My" or equivalent is enabled.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> Rooted Android phones and jailbroken iPhones should be treated with care.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> If applicable, rooted Android phones and jailbroken iPhones should be treated with care.</li>
 </ul>
 <p>After you've finished reading the above, run through these fun scenarios to make sure you're all set!</p>
+<p>Please send any questions to <a href="mailto:security@lullabot.com" target="_blank">security@lullabot.com</a>.</p>
 <h2 id="example-scenarios">Example Scenarios</h2>
 <p>Try running through these scenarios to see how your security and backup setup stacks up!</p>
 <h3 id="backups-and-restores">Backups and Restores</h3>
@@ -568,7 +571,7 @@ If supported, set your device to wipe all data after a certain number of failed 
 <ul>
 <li style="list-style: none"><input type="checkbox" disabled="disabled"></input> I place catnip on my laptop keyboard because I love my cat. My screen lock prevents Kitty from viewing or changing sensitive information.</li>
 <li style="list-style: none"><input type="checkbox" disabled="disabled"></input> A client puts very important credentials in a Word document I download. I'm not worried about securely erasing the file because my hard drive is encrypted.</li>
-<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> I need to move a copy of the Daily Report database at a Lullabot Retreat where the internet is totally broken. I can use my USB drive because I've encrypted the drive using FileVault or BitLocker.</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"></input> I need to move a copy of the Daily Report at a Lullabot Retreat where the internet is totally broken. I can use my USB drive because I've encrypted the drive using FileVault or BitLocker.</li>
 <li style="list-style: none"><input type="checkbox" disabled="disabled"></input> I switch from iOS to Android because it sounds like fun. I don't need to migrate my 2FA tokens because they are stored in 1Password.</li>
 </ul>
 </body></html>
@@ -614,7 +617,7 @@ If supported, set your device to wipe all data after a certain number of failed 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Device Checklist","level":"1.6.2","depth":2,"next":{"title":"ISO 27001 Cross-Reference","level":"1.6.3","depth":2,"path":"appendix/iso-27001.md","ref":"appendix/iso-27001.md","articles":[]},"previous":{"title":"Security Scams and Hacks","level":"1.6.1","depth":2,"path":"appendix/links.md","ref":"appendix/links.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","typekit@0.0.2","collapsible-menu","todo"],"styles":{"website":"_styles/website.css"},"pluginsConfig":{"typekit":{"kitID":"ceq6qcn"},"collapsible-menu":{},"todo":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Policy","links":{"sidebar":{"Download":"/security.pdf","GitHub":"https://github.com/Lullabot/information-security-policy"}},"gitbook":"*"},"file":{"path":"appendix/device-checklist.md","mtime":"2025-03-24T05:50:37.092Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-03-24T05:51:05.374Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Device Checklist","level":"1.6.2","depth":2,"next":{"title":"ISO 27001 Cross-Reference","level":"1.6.3","depth":2,"path":"appendix/iso-27001.md","ref":"appendix/iso-27001.md","articles":[]},"previous":{"title":"Security Scams and Hacks","level":"1.6.1","depth":2,"path":"appendix/links.md","ref":"appendix/links.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","typekit@0.0.2","collapsible-menu","todo"],"styles":{"website":"_styles/website.css"},"pluginsConfig":{"typekit":{"kitID":"ceq6qcn"},"collapsible-menu":{},"todo":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Policy","links":{"sidebar":{"Download":"/security.pdf","GitHub":"https://github.com/Lullabot/information-security-policy"}},"gitbook":"*"},"file":{"path":"appendix/device-checklist.md","mtime":"2025-04-01T14:09:22.037Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2025-04-01T14:09:50.550Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
