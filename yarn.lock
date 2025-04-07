@@ -2962,9 +2962,9 @@ mime@^2.4.6:
   integrity sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==
 
 mime@^4.0.0:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-4.0.6.tgz#ca83bec0bcf2a02353d0e02da99be05603d04839"
-  integrity sha512-4rGt7rvQHBbaSOF9POGkk1ocRP16Md1x36Xma8sz8h8/vfCUI2OtEIeCqe4Ofes853x4xDoPiFLIT47J5fI/7A==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-4.0.7.tgz#0b7a98b08c63bd3c10251e797d67840c9bde9f13"
+  integrity sha512-2OfDPL+e03E0LrXaGYOtTFIYhiuzep94NSsuhrNULq+stylcJedcHdzHtz0atMUuGwJfFYs0YL5xeC/Ca2x0eQ==
 
 minimatch@^3.0.4, minimatch@^3.1.1:
   version "3.1.2"
@@ -3419,9 +3419,9 @@ rehype-parse@^9.0.0:
     unified "^11.0.0"
 
 rehype-retext@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/rehype-retext/-/rehype-retext-5.0.0.tgz#93278df90428b5ee523b17da5bd6b8d167ddfb6a"
-  integrity sha512-amCBMrCItZzu2tLIfL+m0S8mE6+nwD+H88hesbxCgZ9AdMZ42aGPqunMh+bbkb/v1kY3bwppSnfPMDmxIz42Nw==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/rehype-retext/-/rehype-retext-5.0.1.tgz#977088501d6eea321ed987b0bac002c239d677ee"
+  integrity sha512-YJqcKZJh/sYCfLd89yzuWo5GI5TzELr0N/OLHac6fDzKmp5Yk8pj8ePU2HFgmtk5O7GmGVuYXJo35YIrGtyL0g==
   dependencies:
     "@types/hast" "^3.0.0"
     "@types/nlcst" "^2.0.0"
