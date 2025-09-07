@@ -17,47 +17,45 @@
     asciidoctor-opal-runtime "0.3.3"
     unxhr "1.0.1"
 
-"@honkit/asciidoc@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@honkit/asciidoc/-/asciidoc-6.0.3.tgz#3289990120108941d94cf3ad8ff3be4a35856079"
-  integrity sha512-osSk/ZwnbtbKB+LzLY/4PSGwS7jQ3QLrkgzB1B4DP6s0UiZ4CsPpvySrhOoJ+o0uTCx+8L+vwXUUST6m4nLjsA==
+"@honkit/asciidoc@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@honkit/asciidoc/-/asciidoc-6.0.4.tgz#7b75bab3da03716316edbc0cbceaecc982c0ebc4"
+  integrity sha512-8Bk5nZ2A/X23+jbwsP5KiFiHwK4fk+O9RjhF5wWiLMRg/rZyOb85JVWW28c6PM8JYgrNzhqPDu8oKQihohR3rQ==
   dependencies:
-    "@honkit/html" "6.0.3"
+    "@honkit/html" "6.0.4"
     asciidoctor "^2.2.8"
-    lodash "^4.17.21"
 
-"@honkit/honkit-plugin-fontsettings@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-fontsettings/-/honkit-plugin-fontsettings-6.0.3.tgz#a670df90d681ada8f807790a5043e9861642d158"
-  integrity sha512-y7StaIbHFYYqL6QYbu7sZbjfX9rjmF9fwCkH+cCUvDqIoVzFrQq6huN6s+UT1q90ezvuM+Ou/rkVMqOe0qDjlA==
+"@honkit/honkit-plugin-fontsettings@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-fontsettings/-/honkit-plugin-fontsettings-6.0.4.tgz#5e9a5814fbd260f693af5e10fd6f15306e7091b9"
+  integrity sha512-/qVObEO3kjYUoR05/sDHpXGVM6HvmZMT3piMnjfI/3ZW6hAfcXy/vDwREGvuJ2DwiNUDA7YpYcIojQ5ttOsAAA==
 
-"@honkit/honkit-plugin-highlight@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-highlight/-/honkit-plugin-highlight-6.0.3.tgz#e95572d46672415bb6bbc3862d33facc166dd5a3"
-  integrity sha512-qlFZVW9FmOCNWv1g/eo9potsJXZrY5WPt0+09URAZlVLs5SyQm5Povb157+BJoCNTsvRZOHsRLTVLqY4L/CoFQ==
+"@honkit/honkit-plugin-highlight@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-highlight/-/honkit-plugin-highlight-6.0.4.tgz#d03f522c576d8107622e8e5b8e89e04d88a473a0"
+  integrity sha512-lR4D8SfUSMzBLwox4yJuaSI3+d6ckzoe91LF0HBIknNV2kkn8C6WVvoKymYA+zd0JOJA7g3/uMr+60ANyhFevw==
   dependencies:
     highlight.js "^11.10.0"
 
-"@honkit/honkit-plugin-theme-default@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-theme-default/-/honkit-plugin-theme-default-6.0.3.tgz#1b72a51e786f0c3902549828e90ea96cd758fe24"
-  integrity sha512-xMmjn+ezW99akVCFyY03HoYyN7QOT4Sf54ItpsCvdvx3cg91v/2D3ojrqDeUbj1cUNAjelhOIt6OozGDpPJitA==
+"@honkit/honkit-plugin-theme-default@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-theme-default/-/honkit-plugin-theme-default-6.0.4.tgz#ea47150da310953fcd4575bce0cf80dd8773cd81"
+  integrity sha512-DzXHErNw3YySn9+8PQkrTt2uEaYU3mWKxTHEG3E6A5LVn1abzm6MdrM9w5SlGskCipOhm6oyQi++rQU0Eary7w==
 
-"@honkit/html@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@honkit/html/-/html-6.0.3.tgz#466b9d9a34e17efc39597024aad93de5b4d273cf"
-  integrity sha512-MUC9mnLoc4mpaGqyZjy1oWQwc/YMjhgdYShCPAPi9nLYJYt4UG1/TkqEegF/dZpRUE2HLz/INfYZmusxF3Gkeg==
+"@honkit/html@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@honkit/html/-/html-6.0.4.tgz#226efefdc5f2497722a0d6a42195a46a1f8a5b1b"
+  integrity sha512-iQuXPugHWEHUGiIm3P3KDN5MkMrg6GzalnQdf1coUgIhHrCqORRmxbeDzgYi7clSjkcj/STPx8Jj4YaAE7fKqA==
   dependencies:
     cheerio "^1.0.0"
     lodash "^4.17.21"
-    q "^1.5.1"
 
-"@honkit/markdown-legacy@6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@honkit/markdown-legacy/-/markdown-legacy-6.0.3.tgz#a1d53db64e4357311107aa0e845e5f7cb3639c32"
-  integrity sha512-1SkNsiIbMI3FyJy6F8DWE4u+Bzq0pe3vQeO9jD1SjBSH1fAG/of5iw9AXOUJOaf2tK/TL8m/nIuqWBvaG5hM+Q==
+"@honkit/markdown-legacy@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@honkit/markdown-legacy/-/markdown-legacy-6.0.4.tgz#a27a18caf2ad0a525eeaa5c7467fde8242b54a9b"
+  integrity sha512-hX9XjeZe7c3/odRZuuAf/0NqoXcfvy5SLKy0vsL3JMmT3fB2x3Kc1kpRiuntOUfbMGQaj/viDvRuffFAmBQ2+w==
   dependencies:
-    "@honkit/html" "6.0.3"
+    "@honkit/html" "6.0.4"
     kramed "0.5.6"
     lodash "^4.17.21"
 
@@ -2143,17 +2141,17 @@ home-or-tmp@^2.0.0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.1"
 
-honkit@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/honkit/-/honkit-6.0.3.tgz#feffd6ca05963e456ab52b8ed40852b4ddcad517"
-  integrity sha512-r2QDOMT2LXRm43nbyiDo0H+cgrH0PBOV7QHxPcLY1yRjnf8C1qYf4/hK/yF8Z6UPPOysQkea+yv8Eh1pBF5kqw==
+honkit@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/honkit/-/honkit-6.0.4.tgz#bc8ddead6b35410ae27c7937170da4a4a28d94e4"
+  integrity sha512-SBFo1xY0lMs0UCVub0Fq91Wx9AUhCSJaf+oplc03opPfoynY4Ut5AYy8ZOQuFx7102/PfETak6hnbs/4oe4nEQ==
   dependencies:
-    "@honkit/asciidoc" "6.0.3"
-    "@honkit/honkit-plugin-fontsettings" "6.0.3"
-    "@honkit/honkit-plugin-highlight" "6.0.3"
-    "@honkit/honkit-plugin-theme-default" "6.0.3"
-    "@honkit/html" "6.0.3"
-    "@honkit/markdown-legacy" "6.0.3"
+    "@honkit/asciidoc" "6.0.4"
+    "@honkit/honkit-plugin-fontsettings" "6.0.4"
+    "@honkit/honkit-plugin-highlight" "6.0.4"
+    "@honkit/honkit-plugin-theme-default" "6.0.4"
+    "@honkit/html" "6.0.4"
+    "@honkit/markdown-legacy" "6.0.4"
     bash-color "^0.0.4"
     cheerio "^1.0.0"
     chokidar "^3.6.0"
@@ -2196,7 +2194,7 @@ honkit@^6.0.3:
     semver "^7.6.3"
     send "^0.17.2"
     tiny-lr "^1.1.1"
-    tmp "0.0.28"
+    tmp "0.2.4"
     urijs "^1.19.11"
 
 html-entities@1.2.0:
@@ -3179,7 +3177,7 @@ os-homedir@^1.0.0:
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
   integrity sha512-B5JU3cabzk8c67mRRd3ECmROafjYMXbuzlwtqdM8IbS8ktlTix8aFGb2bAGKrSRIlnfKwovGUUr72JUPyOb6kQ==
 
-os-tmpdir@^1.0.1, os-tmpdir@~1.0.1:
+os-tmpdir@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
@@ -4007,12 +4005,10 @@ tiny-lr@^1.1.1:
     object-assign "^4.1.0"
     qs "^6.4.0"
 
-tmp@0.0.28:
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.28.tgz#172735b7f614ea7af39664fa84cf0de4e515d120"
-  integrity sha512-c2mmfiBmND6SOVxzogm1oda0OJ1HZVIk/5n26N59dDTh80MUeavpiCls4PGAdkX1PFkKokLpcf7prSjCeXLsJg==
-  dependencies:
-    os-tmpdir "~1.0.1"
+tmp@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.2.4.tgz#c6db987a2ccc97f812f17137b36af2b6521b0d13"
+  integrity sha512-UdiSoX6ypifLmrfQ/XfiawN6hkjSBpCjhKxxZcWlUUmoXLaCKQU0bx4HF/tdDK2uzRuchf1txGvrWBzYREssoQ==
 
 to-fast-properties@^1.0.3:
   version "1.0.3"
