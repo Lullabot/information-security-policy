@@ -53,7 +53,7 @@ jobs:
           rm _book/.gitignore
 
       - name: Archive build results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: _book
           path: _book
@@ -65,7 +65,7 @@ jobs:
 
     steps:
       - name: Download built book
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: _book
 
