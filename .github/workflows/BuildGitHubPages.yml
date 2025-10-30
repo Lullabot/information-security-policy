@@ -16,7 +16,7 @@ jobs:
         run: |
           sudo ./install-apt-deps.sh
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           # Be sure to keep this in sync with .tugboat/config.yml.
           node-version: 24.11.0
