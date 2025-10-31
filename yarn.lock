@@ -1880,6 +1880,11 @@ gitbook-plugin-typekit@^0.0.2:
   resolved "https://registry.yarnpkg.com/gitbook-plugin-typekit/-/gitbook-plugin-typekit-0.0.2.tgz#4ecfa46b1126af908abf84290087a6df2968d881"
   integrity sha512-nJQBs/tUpd6p2+JwCYQWFUj/5wTqeqC4BEBLfUnydIVSoXgpxX30hSjiCaRB90l/4lmJu/QdsJ2aPtESjUAVTg==
 
+github-slugger@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-2.0.0.tgz#52cf2f9279a21eb6c59dd385b410f0c0adda8f1a"
+  integrity sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==
+
 github-slugid@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/github-slugid/-/github-slugid-1.0.1.tgz#bccdd0815bfad69d8a359fa4fd65947d606ec3c0"
@@ -2481,16 +2486,17 @@ kramed@0.5.6:
   resolved "https://registry.yarnpkg.com/kramed/-/kramed-0.5.6.tgz#5c37979bcbb59cbb7a8d231049409298857b5162"
   integrity sha512-V4qwQAp8HPQPU6Ph9Q4bc+P+nKQWEGlWYLRDkK7n+CPaMi8/VRm9/R710tRmag4whLsnKR91CO9Ras/Rnff9bw==
 
-linkinator@^7.4.0:
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/linkinator/-/linkinator-7.4.0.tgz#14698d83771be22e57410020748919f588c1661e"
-  integrity sha512-fqYSwjO023N5dUYCf1jXaCGw2MsaKeskqoSj/tdjLmx2/2rOYnd/NcLvevnvYTK2V2GSqR0sx0WdNZI2ueVtww==
+linkinator@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/linkinator/-/linkinator-7.4.1.tgz#40225a87caf4e3b2329d297429ffeff3eccc7e16"
+  integrity sha512-bj6wx9a9YPgl6LXofmJW/uSBMmPS9dzR+aYbEjpj4BKmpWF9pVB6zSmVju0GJDVm9VCG7+XjA2DEVW4kmxLaKQ==
   dependencies:
     chalk "^5.0.0"
     escape-html "^1.0.3"
     glob "^10.3.10"
     htmlparser2 "^10.0.0"
     marked "^16.0.0"
+    marked-gfm-heading-id "^4.1.2"
     meow "^14.0.0"
     mime "^4.0.0"
     server-destroy "^1.0.1"
@@ -2565,6 +2571,13 @@ make-dir@^3.1.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+marked-gfm-heading-id@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/marked-gfm-heading-id/-/marked-gfm-heading-id-4.1.2.tgz#65c5e28bce7581206a2073e4d2df8e02daceb2fb"
+  integrity sha512-EQ1WiEGHJh0C8viU+hbXbhHyWTDgEia2i96fiSemm2wdYER6YBw/9QI5TB6YFTqFfmMOxBFXPcPJtlgD0fVV2w==
+  dependencies:
+    github-slugger "^2.0.0"
 
 marked@^16.0.0:
   version "16.4.1"
