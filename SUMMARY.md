@@ -18,6 +18,7 @@
    * [Malware and Viruses](physical/malware.md)
    * [Device Maintenance](physical/device.md)
 * [Communications](communications/communications.md)
+   * [Data Classification](communications/data_classification.md)
    * [Email Security](communications/email.md)
    * [Security in the Cloud](communications/cloud.md)
    * [Client Email Groups](communications/email_groups.md)
