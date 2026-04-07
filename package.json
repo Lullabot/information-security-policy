@@ -10,14 +10,13 @@
     },
     "license": "SEE LICENSE IN LICENSE",
     "scripts": {
-        "build": "cross-var honkit build && echo 'security.lullabot.com' > ./_book/CNAME",
-        "pdf": "cross-var honkit pdf ./",
-        "serve": "cross-var honkit serve",
+        "build": "honkit build && echo 'security.lullabot.com' > ./_book/CNAME",
+        "pdf": "honkit pdf ./",
+        "serve": "honkit serve",
         "test": "linkinator --skip '.*\\.pdf' --recurse ./_book",
         "spellcheck": "spellchecker --dictionaries dictionary.txt --files '**/*.md' '!**/node_modules/**/*.md'"
     },
     "dependencies": {
-        "cross-var": "^1.1.0",
         "gitbook-plugin-collapsible-menu": "^1.0.3",
         "gitbook-plugin-todo": "git+https://github.com/Lullabot/gitbook-plugin-todo.git#d4bfcac28faf840e3af4865c0971229dda792ea4",
         "gitbook-plugin-typekit": "^0.0.2",
