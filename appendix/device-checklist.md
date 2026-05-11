@@ -31,7 +31,7 @@ With each device, validate:
 
 - [ ] If computers have a [backup system](physical/backups.md) in place, backups should be encrypted.
 - [ ] Optional, but nice to have: backups support versioning to protection against ransomware style scams.
-- [ ] Optional, but nice to have: backup local only info, like files for local AI tools; or cli dot files.
+- [ ] Optional, but nice to have: backup local only info, like files for local AI tools; or command line dot files.
 - [ ] If using cloud services for backups, use a private key that only you know. (Store it in 1Password.)
 
 ## Mobile Devices
