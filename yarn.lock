@@ -17,45 +17,45 @@
     asciidoctor-opal-runtime "0.3.4"
     unxhr "~1.2"
 
-"@honkit/asciidoc@6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@honkit/asciidoc/-/asciidoc-6.1.7.tgz#f5051d01574ea800e3e3f90f62cb6c5d9679e16a"
-  integrity sha512-2wn9h6FqxtB6uR2aadh10HPGK34F8ucGmV9WMx+rkAO1irTmKzo0Kllo8QWqNVJ6gOE2nhM1e2HmRX5Qj8jZvQ==
+"@honkit/asciidoc@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@honkit/asciidoc/-/asciidoc-6.2.0.tgz#83ad12683136f50210799d12510882e3c0c6919a"
+  integrity sha512-vPF/yi6xu6oY6i94gP3lCNEA6VqbT5qfYI5Lx5m4GyP6fGzx0mNviL0stzYw9GPYv7S+T2zcq0NkpLiljuGGSQ==
   dependencies:
-    "@honkit/html" "6.1.7"
+    "@honkit/html" "6.2.0"
     asciidoctor "^2.2.8"
 
-"@honkit/honkit-plugin-fontsettings@6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-fontsettings/-/honkit-plugin-fontsettings-6.1.7.tgz#31fa777d707ecba8186bc1d461c737866a9ccd44"
-  integrity sha512-pP0apyv3hI0GJ2sS5EFrE/NPlCYnSO/HXF10FElDZ6tCv7bj4lmJ87TZ5+18Y5gE4hhIRE1SAgtAWtia1LABoA==
+"@honkit/honkit-plugin-fontsettings@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-fontsettings/-/honkit-plugin-fontsettings-6.2.0.tgz#cfc3140bd68a0660650d53711db2d1b8de8e98f6"
+  integrity sha512-J0R2xq/igj5Jnnvp/W/ht2SXbRJMPJQU7xvIOevpZbJ8KptoMQ/UABwP/DJiVlbT7BER3oK3D/gkRFYshT2m7g==
 
-"@honkit/honkit-plugin-highlight@6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-highlight/-/honkit-plugin-highlight-6.1.7.tgz#bb0b5bb03905eebe3287bd22cf7dc5b0dc71c2a3"
-  integrity sha512-W675g59J2Ur+9LnP109n8yQt2XNiO8nTO/BWAEmSBmDxxZLttZGwWxOVQzgvgeEszqiC/4dWLveggOJJdmpNzw==
+"@honkit/honkit-plugin-highlight@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-highlight/-/honkit-plugin-highlight-6.2.0.tgz#8fcc1d41db5db4e8517bf34fa67c551a21f31af7"
+  integrity sha512-ugGIOuFw+ReQ/NEJOFUtigY8KeaxYnjhgBOdewS+cxjfKzHC+aO7LZsz0ygADDhe4WCdQjJ6byd/nakg1s1YrA==
   dependencies:
     highlight.js "^11.10.0"
 
-"@honkit/honkit-plugin-theme-default@6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-theme-default/-/honkit-plugin-theme-default-6.1.7.tgz#61810049f03cbaa3924fcba21dccce7fa43273c9"
-  integrity sha512-KunA3b46QdLZxqTw5Is2/H2YyzNg2AYSeOhUkF5dz+b6nRCYQNScU4u+ZLe7mfmaAd8HX9+mtTwng1qIIrf5xA==
+"@honkit/honkit-plugin-theme-default@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@honkit/honkit-plugin-theme-default/-/honkit-plugin-theme-default-6.2.0.tgz#a4f4d56f30570f01cc5dfa5d8cee0ff4bf514f34"
+  integrity sha512-AM4cQq6qhvgEYEtszpTJxMVLLit7/jy9ndzYxLnJRXftC0ZC1QRkW7gL+Ic7yzfUfWbEkiApgPg1CgtpfMlIwQ==
 
-"@honkit/html@6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@honkit/html/-/html-6.1.7.tgz#254c45bf0e52b8c18791a6b63ce78ebcadff05d4"
-  integrity sha512-aHM2FgybyLbO+DxpMrYK1jt8pzv9npcZzlfxiBjuyrgGKPuwHmfp4xC2W2KOidfR7ZgEVSo858cur3NDjt99Zg==
+"@honkit/html@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@honkit/html/-/html-6.2.0.tgz#9a07663dd1d9dcf55256e85cb1a5691e01d1950e"
+  integrity sha512-fpJhmRKAxktY3dKg1WZt5H/tys2FT0JKvnRTMPq8LxQg8sF3V1IIyJi5cJViFwXQNjQ/fg6yxHJpoqmFqzhZaA==
   dependencies:
-    cheerio "~1.0.0"
+    cheerio "^1.0.0"
     lodash "^4.17.23"
 
-"@honkit/markdown-legacy@6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@honkit/markdown-legacy/-/markdown-legacy-6.1.7.tgz#055e6f3cccae715afcf25cce57275fe6cabfe947"
-  integrity sha512-LLPi7emPv2YaotRfb3IwKC3egQ9nZ4S0E9PV4IurGjfVpSq8dgEXyDMo3Bvgz7pAv/ylo8GN0IAyNVRQtfg4TA==
+"@honkit/markdown-legacy@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@honkit/markdown-legacy/-/markdown-legacy-6.2.0.tgz#492e95c27eb0b4e2bc60cca83816838060e0d8ab"
+  integrity sha512-JjF2pBGtq2gXrArYt83iRd3NmhL7xK25FGjx4J0rpj/3/gSov92XwXHEQH32YF7wW5vGKSXtYjBH73XXZoZ6+Q==
   dependencies:
-    "@honkit/html" "6.1.7"
+    "@honkit/html" "6.2.0"
     kramed "0.5.6"
     lodash "^4.17.23"
 
@@ -400,7 +400,7 @@ cheerio@1.0.0-rc.10:
     parse5-htmlparser2-tree-adapter "^6.0.1"
     tslib "^2.2.0"
 
-cheerio@^1.0.0-rc.12:
+cheerio@^1.0.0, cheerio@^1.0.0-rc.12:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.2.0.tgz#f23b777c49021ead7475dcf3390d3535a7f896d6"
   integrity sha512-WDrybc/gKFpTYQutKIK6UvfcuxijIZfMfXaYm8NMsPQxSYvf+13fXUJ4rztGGbJcBQ/GF55gvrZ0Bc0bj/mqvg==
@@ -415,23 +415,6 @@ cheerio@^1.0.0-rc.12:
     parse5-htmlparser2-tree-adapter "^7.1.0"
     parse5-parser-stream "^7.1.2"
     undici "^7.19.0"
-    whatwg-mimetype "^4.0.0"
-
-cheerio@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0.tgz#1ede4895a82f26e8af71009f961a9b8cb60d6a81"
-  integrity sha512-quS9HgjQpdaXOvsZz82Oz7uxtXiy6UIsIQcpBj7HRw2M63Skasm9qlDocAM7jNuaxdhpPU7c4kJN+gA5MCu4ww==
-  dependencies:
-    cheerio-select "^2.1.0"
-    dom-serializer "^2.0.0"
-    domhandler "^5.0.3"
-    domutils "^3.1.0"
-    encoding-sniffer "^0.2.0"
-    htmlparser2 "^9.1.0"
-    parse5 "^7.1.2"
-    parse5-htmlparser2-tree-adapter "^7.0.0"
-    parse5-parser-stream "^7.1.2"
-    undici "^6.19.5"
     whatwg-mimetype "^4.0.0"
 
 chokidar@^3.6.0:
@@ -563,6 +546,11 @@ css-what@^6.0.1, css-what@^6.1.0:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-6.2.2.tgz#cdcc8f9b6977719fdfbd1de7aec24abf756b9dea"
   integrity sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==
+
+dayjs@^1.11.13:
+  version "1.11.20"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.20.tgz#88d919fd639dc991415da5f4cb6f1b6650811938"
+  integrity sha512-YbwwqR/uYpeoP4pu043q+LTDLFBLApUP6VxRihdfNTqu4ubqMlGDLd6ErXhEgsyvY0K6nCs7nggYumAN+9uEuQ==
 
 debug@2.6.9:
   version "2.6.9"
@@ -715,7 +703,7 @@ domutils@^2.4.2, domutils@^2.5.2, domutils@^2.8.0:
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
 
-domutils@^3.0.1, domutils@^3.1.0, domutils@^3.2.2:
+domutils@^3.0.1, domutils@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-3.2.2.tgz#edbfe2b668b0c1d97c24baf0f1062b132221bc78"
   integrity sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==
@@ -763,7 +751,7 @@ encodeurl@~2.0.0:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-2.0.0.tgz#7b8ea898077d7e409d3ac45474ea38eaf0857a58"
   integrity sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==
 
-encoding-sniffer@^0.2.0, encoding-sniffer@^0.2.1:
+encoding-sniffer@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/encoding-sniffer/-/encoding-sniffer-0.2.1.tgz#396ec97ac22ce5a037ba44af1992ac9d46a7b819"
   integrity sha512-5gvq20T6vfpekVtqrYQsSCFZ1wEg5+wW0/QaZMWkFr6BqD3NfKs0rLCx4rrVlSWJeZb5NBJgVLswK/w2MWU+Gw==
@@ -781,7 +769,7 @@ entities@^2.0.0:
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==
 
-entities@^4.2.0, entities@^4.5.0:
+entities@^4.2.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
@@ -1269,24 +1257,25 @@ highlight.js@^11.10.0, highlight.js@^11.11.1:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.11.1.tgz#fca06fa0e5aeecf6c4d437239135fabc15213585"
   integrity sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==
 
-honkit@^6.1.7:
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/honkit/-/honkit-6.1.7.tgz#3263aa1b7857cc8a239c30cd75cf2f5520a826aa"
-  integrity sha512-/o3mojU4wYckkcguTlaCfwJiDPGGx+ndl9MKGCfcVj9sDkrwb3TYdEqI40muE9WTHAWu2JFdd8ymUkixEyPNiQ==
+honkit@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/honkit/-/honkit-6.2.0.tgz#158af7ca6a2d69650a39b91a45917c1f6ec8c64e"
+  integrity sha512-wLenN6ZaLvLlbTnRhg6vw5jFcp3Eiy6kbefL1L6xfRARF8u1bOY12ZfGLQvBSlFdFseMhcdbjmrcuNaGMTc1rw==
   dependencies:
-    "@honkit/asciidoc" "6.1.7"
-    "@honkit/honkit-plugin-fontsettings" "6.1.7"
-    "@honkit/honkit-plugin-highlight" "6.1.7"
-    "@honkit/honkit-plugin-theme-default" "6.1.7"
-    "@honkit/html" "6.1.7"
-    "@honkit/markdown-legacy" "6.1.7"
+    "@honkit/asciidoc" "6.2.0"
+    "@honkit/honkit-plugin-fontsettings" "6.2.0"
+    "@honkit/honkit-plugin-highlight" "6.2.0"
+    "@honkit/honkit-plugin-theme-default" "6.2.0"
+    "@honkit/html" "6.2.0"
+    "@honkit/markdown-legacy" "6.2.0"
     bash-color "^0.0.4"
-    cheerio "~1.0.0"
+    cheerio "^1.0.0"
     chokidar "^3.6.0"
     commander "^5.1.0"
     cp "^0.2.0"
     cpr "^3.0.1"
     crc "^3.8.0"
+    dayjs "^1.11.13"
     destroy "^1.2.0"
     direction "^0.1.5"
     dom-serializer "^0.1.1"
@@ -1304,26 +1293,22 @@ honkit@^6.1.7:
     ignore "^5.3.2"
     immutable "^3.8.3"
     is "^3.3.0"
-    js-yaml "^3.14.2"
+    js-yaml "^4.1.0"
     json-schema-defaults "^0.1.1"
     jsonschema "1.1.0"
     juice "^8.1.0"
     lru_map "^0.4.1"
     memoize-one "^5.2.1"
     mkdirp "^1.0.4"
-    moment "^2.30.1"
     nunjucks "^3.2.4"
     nunjucks-do "^1.0.0"
-    object-path "^0.11.8"
     omit-keys "^0.1.0"
     open "^7.4.2"
-    q "^1.5.1"
     resolve "^1.22.8"
     semver "^7.6.3"
     send "^0.19.2"
     tiny-lr "^1.1.1"
     tmp "0.2.4"
-    urijs "^1.19.11"
 
 html-entities@1.2.0:
   version "1.2.0"
@@ -1369,16 +1354,6 @@ htmlparser2@^6.1.0:
     domhandler "^4.0.0"
     domutils "^2.5.2"
     entities "^2.0.0"
-
-htmlparser2@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-9.1.0.tgz#cdb498d8a75a51f739b61d3f718136c369bc8c23"
-  integrity sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==
-  dependencies:
-    domelementtype "^2.3.0"
-    domhandler "^5.0.3"
-    domutils "^3.1.0"
-    entities "^4.5.0"
 
 http-errors@~2.0.1:
   version "2.0.1"
@@ -1521,7 +1496,7 @@ isobject@^0.2.0:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-0.2.0.tgz#a3432192f39b910b5f02cc989487836ec70aa85e"
   integrity sha512-VaWq6XYAsbvM0wf4dyBO7WH9D7GosB7ZZlqrawI9BBiTMINBeCyqSKBa35m870MY3O4aM31pYyZi9DfGrYMJrQ==
 
-js-yaml@^3.10.0, js-yaml@^3.14.2:
+js-yaml@^3.10.0:
   version "3.14.2"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.2.tgz#77485ce1dd7f33c061fd1b16ecea23b55fcb04b0"
   integrity sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==
@@ -1529,7 +1504,7 @@ js-yaml@^3.10.0, js-yaml@^3.14.2:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-js-yaml@^4.1.1:
+js-yaml@^4.1.0, js-yaml@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.1.tgz#854c292467705b699476e1a2decc0c8a3458806b"
   integrity sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==
@@ -2055,11 +2030,6 @@ mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-moment@^2.30.1:
-  version "2.30.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
-  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -2176,11 +2146,6 @@ object-inspect@^1.13.3, object-inspect@^1.13.4:
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.4.tgz#8375265e21bc20d0fa582c22e1b13485d6e00213"
   integrity sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==
 
-object-path@^0.11.8:
-  version "0.11.8"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.8.tgz#ed002c02bbdd0070b78a27455e8ae01fc14d4742"
-  integrity sha512-YJjNZrlXJFM42wTBn6zgOJVar9KFJvzx6sTWDte8sWZF//cnjl0BxHNpfZx+ZffXX63A9q0b1zsFiBX4g4X5KA==
-
 omit-keys@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/omit-keys/-/omit-keys-0.1.0.tgz#e14ec5ca09cd4ae07fc39e8ca35939738449bec8"
@@ -2238,7 +2203,7 @@ parse5-htmlparser2-tree-adapter@^6.0.1:
   dependencies:
     parse5 "^6.0.1"
 
-parse5-htmlparser2-tree-adapter@^7.0.0, parse5-htmlparser2-tree-adapter@^7.1.0:
+parse5-htmlparser2-tree-adapter@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-7.1.0.tgz#b5a806548ed893a43e24ccb42fbb78069311e81b"
   integrity sha512-ruw5xyKs6lrpo9x9rCZqZZnIUntICjQAd0Wsmp396Ul9lN/h+ifgVV1x1gZHi8euej6wTfpqX8j+BFQxF0NS/g==
@@ -2258,7 +2223,7 @@ parse5@^6.0.1:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
-parse5@^7.0.0, parse5@^7.1.2, parse5@^7.3.0:
+parse5@^7.0.0, parse5@^7.3.0:
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-7.3.0.tgz#d7e224fa72399c7a175099f45fc2ad024b05ec05"
   integrity sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==
@@ -2299,11 +2264,6 @@ property-information@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-7.1.0.tgz#b622e8646e02b580205415586b40804d3e8bfd5d"
   integrity sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==
-
-q@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-  integrity sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==
 
 qs@^6.4.0:
   version "6.15.1"
@@ -2874,11 +2834,6 @@ underscore@^1.8.3:
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.8.tgz#a93a21186c049dbf0e847496dba72b7bd8c1e92b"
   integrity sha512-DXtD3ZtEQzc7M8m4cXotyHR+FAS18C64asBYY5vqZexfYryNNnDc02W4hKg3rdQuqOYas1jkseX0+nZXjTXnvQ==
 
-undici@^6.19.5:
-  version "6.25.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-6.25.0.tgz#8c4efb8c998dc187fc1cfb5dde1ef19a211849fb"
-  integrity sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==
-
 undici@^7.16.0, undici@^7.19.0:
   version "7.25.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-7.25.0.tgz#7d72fc429a0421769ca2966fd07cac875c85b781"
@@ -2969,11 +2924,6 @@ unxhr@~1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/unxhr/-/unxhr-1.2.0.tgz#44d391cb882c268a2909cd258a9a4f1941a6cf57"
   integrity sha512-6cGpm8NFXPD9QbSNx0cD2giy7teZ6xOkCUH3U89WKVkL9N9rBrWjlCwhR94Re18ZlAop4MOc3WU1M3Hv/bgpIw==
-
-urijs@^1.19.11:
-  version "1.19.11"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.11.tgz#204b0d6b605ae80bea54bea39280cdb7c9f923cc"
-  integrity sha512-HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ==
 
 valid-data-url@^3.0.0:
   version "3.0.1"
