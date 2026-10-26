@@ -21,6 +21,7 @@
    * [Data Classification](communications/data_classification.md)
    * [Email Security](communications/email.md)
    * [Security in the Cloud](communications/cloud.md)
+   * [Claude at Lullabot](communications/claude.md)
    * [Client Email Groups](communications/email_groups.md)
    * [Slack Channels](communications/slack.md)
    * [Using PGP/GPG for Secure Communications](communications/gpg.md)
