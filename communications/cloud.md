@@ -83,7 +83,7 @@ Where possible, clients should be the account owners of cloud services in client
 - NotebookLM (part of Lullabot.com account)
 - ChatGPT (avoid divulging sensitive information)
 - Claude.ai (same guidelines as ChatGPT)
-- Notion (Lullabot's primary note-taking app)
+- Notion
 - Google Workspace (Gmail, Docs, Drive, etc.)
 - Zoom
 - Slack
