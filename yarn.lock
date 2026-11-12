@@ -2656,10 +2656,10 @@ space-separated-tokens@^2.0.0:
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
 
-spellchecker-cli@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-7.0.4.tgz#6a80a417c0c63fcc3de73861bf0e453177e0f40f"
-  integrity sha512-iwvY4ifoWu+WM8vVSoveGL6Tepzm8ZnMt5PctB4NOK3Kz9xulaiKpjBrd/n/xQLqChZ/3cE4pyTop522B+2TmA==
+spellchecker-cli@^7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-7.0.6.tgz#0af4bec4126907eef366dcfacecf3d1de6b5809f"
+  integrity sha512-nAI1DUtN93TIEo0aq++/m+8Cs2qwNTYcKmNAqRJNOaHNUd1XMaYSNEZxptyQ/MZ8VWTSLQvjvNz61l1+fR5u7Q==
   dependencies:
     chalk "^5.6.2"
     command-line-args "^6.0.1"
@@ -2689,7 +2689,7 @@ spellchecker-cli@^7.0.4:
     retext-spell "^6.1.0"
     retext-syntax-mentions "^4.0.0"
     retext-syntax-urls "^4.0.0"
-    toml "^5.0.0"
+    toml "^5.0.1"
     unist-util-visit "^5.1.0"
     vfile "^6.0.3"
     vfile-reporter "^8.1.1"
@@ -2818,7 +2818,7 @@ toidentifier@~1.0.1:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
 
-toml@^5.0.0:
+toml@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/toml/-/toml-5.0.1.tgz#67ca011810a2dd8741c2cede1027ee2084b73d67"
   integrity sha512-EqYNA/YvUNndrA2B3O2ojzLQoTQrBxeZ9UIjQwk8t10oe6n7dwclBwd9IdZQTOKwe6vWX+AXtl6IntXRbepdxQ==
